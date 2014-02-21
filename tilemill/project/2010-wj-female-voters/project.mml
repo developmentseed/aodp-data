@@ -1,0 +1,50 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "point",
+      "extent": [
+        61.15444564819336,
+        29.878816604614258,
+        73.34962463378906,
+        38.22785568237305
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af_district_centroids_2009.sqlite",
+        "table": "(select \n \ta.*, \n\tb.District_Name,\n\tfemale_votes, \n\tmale_votes, \n\tfemale_votes + male_votes as tot_votes \nfrom af_district_centroids_2009 as a\nLEFT JOIN (\n\tselect \n\t\tDistrict_Name, \n\t\tcount(Gender) as female_votes \n\tfrom wj_master_data_2010 \n\twhere Gender = 'F' \n\tgroup by District_Name\n) as b on lower(b.District_Name) = lower(a.dist_name)\nJOIN (\n\tselect \n\t\tDistrict_Name, \n\t\tcount(Gender) as male_votes \n\tfrom wj_master_data_2010 as c \n\twhere Gender = 'M' \n\tgroup by District_Name\n) as d on lower(d.District_Name) = lower(a.dist_name)\norder by tot_votes desc)\t",
+        "attachdb": "wj_master_data_2010@../../../2010_wolesi_jirga_election/2010-wj-election.sqlite",
+        "extent": ""
+      },
+      "id": "female",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "female"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp",
+  "name": "2010 WJ Female Voters",
+  "description": ""
+}

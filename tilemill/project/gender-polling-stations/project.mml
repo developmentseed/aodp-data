@@ -1,0 +1,90 @@
+{
+  "bounds": [
+    58.7659,
+    28.8351,
+    76.1243,
+    38.985
+  ],
+  "center": [
+    66.2915,
+    34.7236,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "district",
+    "template_teaser": "District: {{{dist_name}}} {{{dari_dist}}}<br>\nProvince: {{{prov_name}}} {{{dari_prov}}}<br>\n\nPercent Female Only Stations Available: {{{pct_female_text}}} <br>\n\nFemale Only Stations Available: {{{tot_female}}} / {{{tot_MaleFemale}}} <br>\n\nTotal Stations (Male,Female,&Kuchi): {{{tot_mfk}}}",
+    "fields": [
+      "dist_name",
+      "dari_dist",
+      "prov_name",
+      "dari_prov",
+      "pct_female_text",
+      "tot_female",
+      "tot_MaleFemale",
+      "tot_mfk"
+    ]
+  },
+  "minzoom": 5,
+  "maxzoom": 12,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        60.47197723388672,
+        29.377059936523438,
+        74.88956451416016,
+        38.49073791503906
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af_province_boundaries_2009.sqlite",
+        "table": "(select * from af_province_boundaries_2009)",
+        "attachdb": "",
+        "extent": ""
+      },
+      "id": "province",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "province"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        60.47197723388672,
+        29.377059936523438,
+        74.88956451416016,
+        38.49073791503906
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af_district_boundaries_2009.sqlite",
+        "table": "( \nselect *,\n  sum(Total_PS) as tot_mfk,\n\tsum(Female) as tot_female,\n\tsum(Male) as tot_male,\n\tcast(sum(Male) as real) + cast(sum(Female) as real) as tot_MaleFemale,\n\tcast(sum(Female) as real) / (cast(sum(Male) as real) + cast(sum(Female) as real)) as pct_female,\n\tcast(round(cast(sum(Female) as real) / (cast(sum(Male) as real) + cast(sum(Female) as real)) * 100,1) as text) || '%' as pct_female_text \nfrom af_district_boundaries_2009 \nJOIN rosetta on af_district_boundaries_2009.dist_id = rosetta.AGCHO_Dist_ID \nJOIN polling_centers_data_2009 \ton polling_centers_data_2009.District_ID = rosetta.dist_id_2009\n\tgroup by District_ID\n\torder by pct_female asc\n)",
+        "attachdb": "polling_centers_data_2009@../../../2009_president_election/2009-president-election.sqlite",
+        "extent": "",
+        "id": "district",
+        "project": "gender-polling-stations",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "id": "district",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "district"
+    }
+  ],
+  "scale": 1,
+  "metatile": 6,
+  "_basemap": "https://a.tiles.mapbox.com/v3/afghan-open.h8233cfd.jsonp",
+  "name": "2009 Afghanistan Female Only Polling Stations",
+  "description": "",
+  "legend": "",
+  "attribution": ""
+}

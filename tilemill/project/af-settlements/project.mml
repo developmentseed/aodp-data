@@ -1,0 +1,110 @@
+{
+  "bounds": [
+    58.5791,
+    28.7677,
+    76.4209,
+    39.0277
+  ],
+  "center": [
+    66.8848,
+    35.03,
+    5
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "major",
+    "template_teaser": "Village Name: {{{village_na}}} <br>\nDistrict, Province: {{{dist_na_en}}}, {{{prov_na_en}}} <br>\nPopulation: {{{population}}}",
+    "fields": [
+      "village_na",
+      "dist_na_en",
+      "prov_na_en",
+      "population"
+    ]
+  },
+  "minzoom": 5,
+  "maxzoom": 12,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99978348919964,
+        -85.051,
+        180,
+        83.63381093402977
+      ],
+      "id": "af",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "id": "af",
+        "project": "af-settlements",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "af"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        60.84379959106445,
+        29.437599182128906,
+        74.48139953613281,
+        38.46979904174805
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af-settlements-un.sqlite",
+        "table": "(select * from af_settlements_un)",
+        "attachdb": "",
+        "extent": "",
+        "id": "settlements",
+        "project": "af-settlements",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "id": "settlements",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "settlements"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        60.84379959106445,
+        29.437599182128906,
+        74.48139953613281,
+        38.46979904174805
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af-settlements-un.sqlite",
+        "table": "(select * from af_settlements_un order by population desc)",
+        "attachdb": "",
+        "extent": "",
+        "id": "major",
+        "project": "af-settlements",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "id": "major",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "major"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "https://a.tiles.mapbox.com/v3/afghan-open.h63eagad.jsonp",
+  "name": "",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}

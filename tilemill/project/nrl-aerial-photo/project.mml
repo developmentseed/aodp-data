@@ -1,0 +1,56 @@
+{
+  "bounds": [
+    59.0405,
+    28.9793,
+    73.2788,
+    37.8922
+  ],
+  "center": [
+    65.874,
+    33.8704,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "nrl",
+    "template_teaser": "<img src=\"http://afghanistan.cr.usgs.gov{{{browse_url}}}\"> <br>\n\n<a href='http://afghanistan.cr.usgs.gov{{{url}}}.tif.bz2'>Download image</a>",
+    "template_full": "<img src=\"http://afghanistan.cr.usgs.gov{{{browse_url}}}\"> <br>\n\n<a href='http://afghanistan.cr.usgs.gov{{{url}}}.tif.bz2'>Download image</a>"
+  },
+  "minzoom": 5,
+  "maxzoom": 12,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        60.7421875,
+        29.617631912231445,
+        70.899169921875,
+        37.555973052978516
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/usgs_nrl_imagery.sqlite",
+        "table": "(select * from usgs_nrl_imagery) as data",
+        "attachdb": "",
+        "extent": ""
+      },
+      "id": "nrl",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "nrl"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp",
+  "name": "NRL High-res Imagery Footprints 2006-2008",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}

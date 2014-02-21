@@ -1,0 +1,87 @@
+{
+  "bounds": [
+    59.2273,
+    28.8543,
+    75.7508,
+    38.5911
+  ],
+  "center": [
+    66.2915,
+    34.7236,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "province",
+    "template_teaser": "Province: {{{prov_name}}} {{{dari_prov}}} <br>\nPercent Non-Reporting: {{{pct_not_text}}} <br>\n\nNon-Reporting Polling Centers: {{{NonReporting_2009}}} / {{{Total_Centers_2009}}}\n",
+    "fields": [
+      "prov_name",
+      "dari_prov",
+      "pct_not_text",
+      "NonReporting_2009",
+      "Total_Centers_2009"
+    ]
+  },
+  "minzoom": 5,
+  "maxzoom": 12,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        60.47197723388672,
+        29.377059936523438,
+        74.88956451416016,
+        38.49073791503906
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af_province_boundaries_2009.sqlite",
+        "table": "(select *, \ncast(case when pct_NonReporting_2009 = 0 then '0' else pct_NonReporting_2009 end as text)|| '%' as pct_not_text \nfrom af_province_boundaries_2009 JOIN centers_not_reporting_2009 on centers_not_reporting_2009.Province_ID = af_province_boundaries_2009.prov_id)",
+        "attachdb": "centers_not_reporting_2009@../../../2009_president_election/2009-president-election.sqlite",
+        "extent": ""
+      },
+      "id": "province",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "province"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        62.13114929199219,
+        30.80225944519043,
+        71.45621490478516,
+        37.03784942626953
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af_province_centroids_2009.sqlite",
+        "table": "(select *, \ncast(case when pct_NonReporting_2009 = 0 then '0' else pct_NonReporting_2009 end as text)|| '%' as pct_not_text \nfrom af_province_centroids_2009 JOIN centers_not_reporting_2009 on centers_not_reporting_2009.Province_ID = af_province_centroids_2009.prov_id)",
+        "attachdb": "centers_not_reporting_2009@../../../2009_president_election/2009-president-election.sqlite",
+        "extent": "",
+        "id": "not-reporting",
+        "project": "polling-centers-not-reporting",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "id": "not-reporting",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "not-reporting"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "https://a.tiles.mapbox.com/v3/afghan-open.h63eagad.jsonp",
+  "name": "2009 Afghanistan Polling Centers Not Reporting",
+  "description": "",
+  "legend": "",
+  "attribution": ""
+}

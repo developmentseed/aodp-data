@@ -1,0 +1,132 @@
+{
+  "bounds": [
+    59.2273,
+    28.8543,
+    75.7508,
+    38.5911
+  ],
+  "center": [
+    66.2915,
+    34.7236,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "alleg_poly",
+    "template_teaser": "Province: {{{prov_name}}}<br>\nAllegation Rate: {{{alleg_rate_text}}} <br>\nTotal Allegations: {{{Priority_Total}}}\nTotal Polling Centers: {{{Total_Centers_2009}}}\n",
+    "fields": [
+      "prov_name",
+      "alleg_rate_text",
+      "Alleg_Total",
+      "Total_Centers_2009"
+    ]
+  },
+  "minzoom": 5,
+  "maxzoom": 12,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        60.47197723388672,
+        29.377059936523438,
+        74.88956451416016,
+        38.49073791503906
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af_province_boundaries_2009.sqlite",
+        "table": "(\nselect *, \ncast(Priority_Total as real) / cast(Total_Centers_2009 as real) * 10 as alleg_rate, \nround(cast(Priority_Total as real) / cast(Total_Centers_2009 as real) * 10,1) as alleg_rate_text \nfrom af_province_boundaries_2009 \nJOIN ecc_complaints_data_2009 on ecc_complaints_data_2009.Province_number = af_province_boundaries_2009.prov_id\nJOIN centers_not_reporting_2009 on centers_not_reporting_2009.Province_ID = ecc_complaints_data_2009.Province_number\n)",
+        "attachdb": "ecc_complaint_data_2009@../../../2009_president_election/2009-president-election.sqlite",
+        "extent": ""
+      },
+      "id": "alleg_poly",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "alleg_poly"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99978348919964,
+        -85.051,
+        180,
+        83.63381093402977
+      ],
+      "id": "af",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "id": "af",
+        "project": "ecc-polling-irregularities",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "af"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        60.47197723388672,
+        29.377059936523438,
+        74.88956451416016,
+        38.49073791503906
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af_province_boundaries_2009.sqlite",
+        "table": "(select * from af_province_boundaries_2009)",
+        "attachdb": "",
+        "extent": "",
+        "id": "province",
+        "project": "ecc-polling-irregularities",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "id": "province",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "province"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        62.13114929199219,
+        30.80225944519043,
+        71.45621490478516,
+        37.03784942626953
+      ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "../../../af_data/af_province_centroids_2009.sqlite",
+        "table": "(\nselect *, \ncast(Priority_Total as real) / cast(Total_Centers_2009 as real) * 10 as alleg_rate, \nround(cast(Priority_Total as real) / cast(Total_Centers_2009 as real) * 10,1) as alleg_rate_text \nfrom af_province_centroids_2009 \nJOIN ecc_complaints_data_2009 on ecc_complaints_data_2009.Province_number = af_province_centroids_2009.prov_id\nJOIN centers_not_reporting_2009 on centers_not_reporting_2009.Province_ID = ecc_complaints_data_2009.Province_number\n)\n",
+        "attachdb": "ecc_complaint_data_2009@../../../2009_president_election/2009-president-election.sqlite",
+        "extent": "",
+        "id": "polling-irreg",
+        "project": "ecc-polling-irregularities",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "id": "polling-irreg",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "polling-irreg"
+    }
+  ],
+  "scale": 1,
+  "metatile": 4,
+  "_basemap": "https://a.tiles.mapbox.com/v3/afghan-open.map-deujppms.jsonp",
+  "name": "2009 Afghanistan ECC Allegation Rates by Province",
+  "description": "",
+  "legend": "<strong class=\"title\">Alleged Irregularities</strong>\n<div class=\"note\">Case rate reported for every 10 polling centers</div>\n",
+  "attribution": ""
+}
