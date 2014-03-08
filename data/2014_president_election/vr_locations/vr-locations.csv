@@ -1,441 +1,475 @@
-no.;no_province;district;province;prov_id;vrc_code;vrc_name;location;lat;lon
-1;1;Kabul;Kabul;1;101001;Bibi Sarwari Sangari Female High School;Capital;;
-2;2;Kabul;Kabul;1;101002;Chaman Hozuri, Ustad Bitab High School;Capital;;
-3;3;Kabul;Kabul;1;101003;Rokhshana female High School;Capital;;
-4;4;Kabul;Kabul;1;101004;Mastora Ghory School;Capital;34.51255585;69.1792723
-5;5;Kabul;Kabul;1;101005;Zabiullah Shahid High School;Capital;34.52791;69.1519
-6;6;Kabul;Kabul;1;101006;Karti Char Sofi Islam;Capital;34.51106342;69.1258025
-7;7;Kabul;Kabul;1;101007;Charahi Taymani Tajor sultan school;Capital;34.55095566;69.1416364
-8;8;Kabul;Kabul;1;101008;Spin Kali Meer ghulam Mod Ghobar;Capital;34.53128299;69.1021379
-9;9;Kabul;Kabul;1;101009;Dah Dana Mehrabudin School;Capital;34.4708071;69.1404218
-10;10;Kabul;Kabul;1;101010;3rd Macroyan Alfatah school;Capital;34.53777157;69.2015545
-11;11;Kabul;Kabul;1;101011;Qalai Fathoulah Zarghona School;Capital;34.54241246;69.1696778
-12;12;Kabul;Kabul;1;101012;Ahmadsha Baba mena Aysha sadiqa school;Capital;34.5116076;69.3186863
-13;13;Kabul;Kabul;1;101013;Pul Khoshk Homaun shahid school;Capital;34.50863638;69.092831
-14;14;Kabul;Kabul;1;101014;Parachi center of 14 dis;Capital;34.59190306;68.95948
-15;15;Kabul;Kabul;1;101015;Hasi 3 kherkhana Bibi sara school;Capital;34.57714682;69.1567255
-16;16;Kabul;Kabul;1;101016;First Macroyan 16th Nahia Center;Capital;34.53175744;69.2063893
-17;17;Kabul;Kabul;1;101017;sary kotal center of 17 Nahia;Capital;34.58512466;69.0867494
-18;18;Kabul;Kabul;1;101018;Bakhtaryan , Mohammad Ajan school;Capital;34.61215474;69.2820256
-19;19;Kabul;Kabul;1;101033;Haji Sanator Janat Gul Mina High School;Capital;;
-20;20;Dehsabz;Kabul;1;105019;Khoaja Chasht Primary School;District;34.64692627;69.2341387
-21;21;Shakardara;Kabul;1;106020;Shah Mardan school;District;34.68292937;69.0376435
-22;22;Paghman;Kabul;1;102021;Center of Distract of Paghman Parachi;District;34.5911794;68.9579692
-23;23;Chaharasyab;Kabul;1;103022;Centeral of Dis Char Asiab Male Char asiab;District;34.39641239;69.1618376
-24;24;Musayi;Kabul;1;107023;Dah Kala Musahi School;District;34.34;69.18
-25;25;Bagrami;Kabul;1;104024;Bazar bagram Girls school;District;34.49612686;69.2765413
-26;26;Qarabagh;Kabul;1;114025;Qarabagh Bazar school;District;34.84271536;69.1571507
-27;27;Kalakan;Kabul;1;110026;Center of Kalakan Habib ullah shahid school;District;34.78548019;69.1454231
-28;28;Mirbachakot;Kabul;1;108027;Meerbacha khan ;;;
-29;29;Guldara;Kabul;1;111028;Araban School;District;34.74316491;69.045026
-30;30;Khak e Jabbar;Kabul;1;109029;Ghazgay school;District;34.36590253;69.4028622
-31;31;Surobi;Kabul;1;115030;Shahrak primary School;District;34.59072048;69.7524295
-32;32;Estalef;Kabul;1;113031;Center of Distract of Astalif , Astalif School;District;34.83266779;69.0821796
-33;33;Farza;Kabul;1;112032;Farza School, Payan Daa;District;34.79460477;69.0616903
-34;1;Mahmood Raqi H;Kapisa;2;201001;Mahmood Raaqi High school;District;;
-35;2;Nejrab;Kapisa;2;205002;Shirwani ( Center of district );District;35.00077333;69.5828239
-36;3;Kohband;Kapisa;2;203003;Markaz woleswali( center of Dist);District;35.10801839;69.4253443
-37;4;Hisa e Duwum;Kapisa;2;202004;Markaz woleswali( center of Dist);District;35.06827053;69.3233875
-38;5;Tagab;Kapisa;2;206005;Masjed Bazar( next to dist center);District;34.85555117;69.6483656
-39;6;Alasay;Kapisa;2;207006;Markaz woleswali( center of Dist);District;34.89317205;69.7194127
-40;7;Hisa e Awal e;Kapisa;2;204007;Provincial election office;District;35.13459735;69.3063237
-41;1;Charikar;Parwan;3;301001;Municipality Building, Charikar City;District;35.01373537;69.1675545
-42;2;Jabalussaraj;Parwan;3;305002;Jabul Saraj Male High School, District center;District;35.12174734;69.2347258
-43;3;Shinwari;Parwan;3;303003;Tafhem el Quran High School,Shenwari District center;District;35.03881778;69.0056541
-44;4;Bagram;Parwan;3;302004;Shafiq Shahid High School, Bagrami District;District;34.9617156;69.2271192
-45;5;Saydkhel;Parwan;3;304005;Saed Kheil Darul Hefaz,Bazar e Saed kheil;District;35.07033835;69.2505676
-46;6;Salang;Parwan;3;306006;Salang Male High School,District Center Baghie Mayd;District;35.22341661;69.2141667
-47;7;Ghorband;Parwan;3;307007;Hazart Ali High School, Seya gerd District;District;34.99667247;68.8568379
-48;8;Koh e Safi;Parwan;3;308008;Dandar School, Kohe Safi District;District;34.79514904;69.4667654
-49;9;Shekhali;Parwan;3;310009;District Building ,Dashte Guzar District Bazzar;District;34.94542815;68.5452152
-50;10;Surkh e Parsa;Parwan;3;309010;Bazar Lolange Femal High school ,District Center;District;34.92498911;68.6478931
-51;1;Maydanshahr;Wardak;4;401001;IEC Provincial office;Province Cent;34.39483379;68.865845
-52;2;Jalrez;Wardak;4;403002;Maktab bibi ieshah;District;34.46989801;68.6479378
-53;3;Nerkh;Wardak;4;402003;Basi khil maktab kanezat;District;34.37149429;68.7709316
-54;4;Hesa e Awal e;Wardak;4;407004;Bazar Dahan siasang;District;34.50630942;68.2368151
-55;5;Daymirdad;Wardak;4;406005;Meran;District;34.22193555;68.3060077
-56;6;Chak;Wardak;4;404006;Markit bazar pana;District;34.11941408;68.5874477
-57;7;Saydabad;Wardak;4;405007;aman khil lesa ili syed abad;District;33.99630239;68.7102345
-58;8;Markaz e Behs;Wardak;4;409008;Bazar Markaz;District;34.34478822;67.9066806
-59;9;Jaghatu;Wardak;4;408009;Clinic Kalandi;District;33.82138889;68.3977778
-60;1;Pul e Alam;Logar;5;501001;Omari Faroq High School;Province Cent;34.00700155;69.0156698
-61;2;Khoshi;Logar;5;504002;Khoshi school;District;34.01036642;69.2039479
-62;3;Mohammadagh;Logar;5;505003;Central of District;District;34.20201166;69.0840875
-63;4;Barakibarak;Logar;5;502004;Ghazy Aminullah Khan school;District;33.96621803;68.9429536
-64;5;Charkh;Logar;5;503005;Molana Yaqob Charkhy school;District;33.79262138;68.9280866
-65;6;Kharwar;Logar;5;506006;Central school of Kharwar;District;33.66324174;68.9099557
-66;7;Azra;Logar;5;507007;Babar school;District;34.16596465;69.6331455
-67;1;Jalalabad;Nangarhar;6;601001;Faculty of Education;Province Cent;34.42270245;70.4356107
-68;2;Jalalabad;Nangarhar;6;601002;Tribal Affiars Directorate;Province Cent;34.42270245;70.4356107
-69;3;Jalalabad;Nangarhar;6;601003;Joi Haft Teacher Training Institute;Province Cent;34.42270245;70.4356107
-70;4;Jalalabad;Nangarhar;6;601004;Nasrat High School, Torkham Hada;Province Cent;34.42490998;70.4661678
-71;5;Jalalabad;Nangarhar;6;601005;Bi Bi Hawa High School, Rig Sha Mard Khan;Province Cent;34.43469857;70.4579994
-72;6;Behsud;Nangarhar;6;602006;Mohammadi Sahibzada High School, Baland ghar;District;34.45122978;70.5160261
-73;7;Surkhrod;Nangarhar;6;603007;Reyast Kanal, dosaraka;District;34.439997;70.3982148
-74;8;Khogyani;Nangarhar;6;608008;Malik Yar Hotak school,old Bazzar;District;34.26605732;70.1963709
-75;9;Chaparhar;Nangarhar;6;604009;Chaparhar central clinic;District;34.28427684;70.364384
-76;10;Rodat;Nangarhar;6;607010;Ahdad Elemantery School, Hesar Shahi;District;34.25665883;70.5693914
-77;11;Kama;Nangarhar;6;605011;Clinic Sangar Saraie,Sangtrashi;District;34.41173577;70.6403719
-78;12;Kuzkunar;Nangarhar;6;606012;Markez Khewa Clinic;District;34.57149381;70.5830677
-79;13;Dara e Nur;Nangarhar;6;612013;Male School, Qalie Shahi;District;34.64720073;70.5922265
-80;14;Hesarak;Nangarhar;6;621014;Hesarak central High School;District;34.2893136;69.8059327
-81;15;Sherzad;Nangarhar;6;619015;Mama khiel High School;District;34.24694114;69.9689901
-82;16;Pachieragam;Nangarhar;6;611016;Animal Clinic, Landi khiel;District;34.1998765;70.2705612
-83;17;Dehbala;Nangarhar;6;610017;Gotawal high school;District;34.19051431;70.4766286
-84;18;Kot;Nangarhar;6;613018;Kot High school,Jaba village;District;34.19654508;70.6453514
-85;19;Batikot;Nangarhar;6;609019;Bati kot School,Shodeyani;District;34.26849783;70.7409407
-86;20;Goshta;Nangarhar;6;614020;Hameed Momand School, Goshta;District;34.35600085;70.7939808
-87;21;Achin;Nangarhar;6;615021;Kahi High school Sera qala;District;34.12406717;70.7077575
-88;22;Shinwar;Nangarhar;6;616022;Al Fateh High School,Sheergar;District;34.19862197;70.7979949
-89;23;Muhmand Dara;Nangarhar;6;617023;Emil khan High School, Pass Basawol;District;34.24381854;70.8819251
-90;24;Lalpur;Nangarhar;6;618024;Sheer abad High School, Lalpore;District;34.23138889;71.0427778
-91;25;Nazyan;Nangarhar;6;620025;Nasrat Jumat, Landi village;District;34.06364;70.80179
-92;26;Durbaba;Nangarhar;6;622026;Ziarat gul Masjed;District;34.047289;70.930561
-93;1;Mehtarlam;Laghman;7;701001;Rokhan High School Mehtarlam;Province Cent;34.661554;70.209464
-94;2;Badpakh;Laghman;7;706002;Badpakh Agriculture Building;District;34.63034867;69.8767691
-95;3;Alishang;Laghman;7;703003;Meya Abdul Karim high School Alishang;District;34.7901562;70.1037948
-96;4;Qarghayi;Laghman;7;702004;Qarghayee Male High School;District;34.54784526;70.2430419
-97;5;Alingar;Laghman;7;704005;Eng Sheer Mohammad High School Alingar;District;34.8322137;70.3642407
-98;6;Dawlatshah;Laghman;7;705006;Telecomunication office Daulat shah;District;34.95524088;70.0693708
-99;1;Bazarak;Panjsher;8;801001;Bazark School,Bazark Center;Province Cent;35.31158835;69.5147972
-100;2;Shutul;Panjsher;8;803002;Old District building , Markez Dara;District;35.29300792;69.6558589
-101;3;Rukha;Panjsher;8;806003;District Councel Building,Mara deh kalan Village;District;35.19122426;69.2769349
-102;4;Dara;Panjsher;8;804004;Madrasa,Markez Khenje;District;35.44494614;69.7506319
-103;5;Dara;Panjsher;8;808005;Masjed Jamie Sangie khan, Sangi khan Village;District;35.24957691;69.7254878
-104;6;Khenj (Hes e A);Panjsher;8;805006;Provincial concel Building,Markez Anaba;District;35.23067234;69.3697982
-105;7;Onaba(Anawa);Panjsher;8;807007;School Building,Markez Paryan;District;35.6251347;70.014249
-106;8;Paryan;Panjsher;8;802008;40 Bed Clinic, Shast Village;District;35.26015087;69.4634481
-107;1;Pul e khumri;Baghlan;9;901001;Selo Pulikhumri;Province Cent;35.94656487;68.7068703
-108;2;Baghlan e Jadid;Baghlan;9;905002;Opposite of Police center, left Femal School,Sports clu;District;36.17475711;68.7489113
-109;3;Dahana e Ghor;Baghlan;9;902003;In the way of Dahnae Ghory Pulikhumry Doshi,District;District;35.91227684;68.4960663
-110;4;Doshi;Baghlan;9;903004;Doshi;District;35.61;68.6863889
-111;5;Nahrin;Baghlan;9;904005;New City Center, Inside city;District;36.06555556;69.1047222
-112;6;Tala Wa barfak;Baghlan;9;911006;Tala Male High school,Tala Bazar;District;35.38110178;68.2145358
-113;7;Khenjan;Baghlan;9;906007;Next to Hospital , in the way of Kabul to Pulikhumry, K;District;35.60111998;68.9016681
-114;8;Andarab;Baghlan;9;907008;Next to River opposite of Montain, Center City;District;35.63392229;69.2574471
-115;9;Khwajahejran;Baghlan;9;909009;Vorchi Village ,Panjsheri District Center;District;35.99569126;69.2458532
-116;10;Burka;Baghlan;9;910010;East to Baraka Clinic near to District Center;District;36.22069508;69.1512375
-117;11;Pul e Hesar;Baghlan;9;912011;Puli Hisar District Center;District;35.61978273;69.4645073
-118;12;Dehsalah;Baghlan;9;908012;Bazar Deh Salah, Deh Salah School Main Road;District;35.68630856;69.3114901
-119;13;Khost Wa Feren;Baghlan;9;913013;Doabi Femal school ,Doabi Qarghan,Bazar Doabi;District;36.01674255;69.605191
-120;14;Guzargah e Nu;Baghlan;9;914014;Gharoo school, dashte Khasa Village;District;36.20769808;69.5774482
-121;15;Fereng Wa Gha;Baghlan;9;915015;Sawq High School;District;36.11640063;69.6422193
-122;1;Bamyan;Bamyan;10;1001001;Bamyan Center Male High school;Province Cent;34.824022;67.84408
-123;2;Sayghan;Bamyan;10;1003002;Sayghan high School,khudadat khel center;District;35.180377;67.698586
-124;3;Yakawlang;Bamyan;10;1005003;Nek Masjed Yakawlang district;District;34.73758323;66.9752075
-125;4;Panjab;Bamyan;10;1006004;Pushte Telegraph Femal school;District;34.39217826;67.0219375
-126;5;Shibar;Bamyan;10;1002005;District building;District;34.87759573;68.0832447
-127;6;Kahmard;Bamyan;10;1004006;Roye Sank school;District;35.31499699;67.6204392
-128;7;Waras;Bamyan;10;1007007;Waras Center Masjed;District;34.20450663;66.8744809
-129;1;Ghazni;Ghazni;11;1101001;Ghazni city, Directorate of women Affairs;Province Cent;33.54431699;68.4219303
-130;2;Khwajaumari;Ghazni;11;1103002;Toramai High school, near to the Bazzar.;District;33.68939;68.39806
-131;3;Walimuhamma;Ghazni;11;1102003;khogiani district center, district hospital.;District;33.55440179;68.2972303
-132;4;Waghaz;Ghazni;11;1104004;Waghaz Center, High school, near to district departme;District;33.43938087;68.2820238
-133;5;Andar;Ghazni;11;1107005;Miri Bazar, Sultan Shuhabudin High school.;District;33.32052;68.44605
-134;6;Dehyak;Ghazni;11;1105006;Deh Yak Bazar, District Hospital.;District;33.50185748;68.6112581
-135;7;Zanakhan;Ghazni;11;1108007;District Center;District;33.66511258;68.5954227
-136;8;Rashidan;Ghazni;11;1109008;Rashidan District,Health Clinic;District;33.7042201;68.2146127
-137;9;Jaghatu;Ghazni;11;1106009;Gulbabri Valley, District hospital.;District;33.57472222;68.1905556
-138;10;Qarabagh;Ghazni;11;1111010;Qarabagh Bazzar, district hospital.;District;33.19241705;68.1044993
-139;11;Giro;Ghazni;11;1112011;Geero District Center, High school.;District;33.10062883;68.3117429
-140;12;Nawur;Ghazni;11;1110012;Etifaq high school, Du Abi High school, Nawar bazzar.;District;33.89702427;67.8880547
-141;13;Jaghuri;Ghazni;11;1114013;Sang Masha, sultani High school, or district guest hous;District;33.14014773;67.4416022
-142;14;Muqur;Ghazni;11;1115014;Maqur Bazzar, Female High school.;District;32.82327134;67.7684556
-143;15;Abband;Ghazni;11;1113015;District Center;District;33.0000594;67.9739205
-144;16;Ajrestan;Ghazni;11;1118016;Ajrestan Bazar, District Hospital;District;33.51694444;67.1972222
-145;17;Malestan;Ghazni;11;1116017;Muradina bazzar, Male High school,;District;33.29277778;67.1863889
-146;18;Gelan;Ghazni;11;1117018;Janda Bazar, Agriculture Building.;District;32.7266657;67.6373562
-147;19;Nawa;Ghazni;11;1119019;District Center;District;32.32071906;67.8881528
-148;1;Gardez;Paktya;13;1301001;Babrak Khan High School;Province Cent;33.60138889;69.2222222
-149;2;Sayedkaram;Paktya;13;1306002;District Center, Clinic;District;33.69472542;69.3787636
-150;3;Ahmadaba;Paktya;13;1302003;District Center, Clinic;District;33.68071216;69.3289708
-151;4;Zurmat;Paktya;13;1303004;District Center, Clinic;District;33.43677954;69.0300742
-152;5;Shawak;Paktya;13;1304005;District Center, Clinic;District;33.42644997;69.377959
-153;6;Zadran;Paktya;13;1305006;District Center, Clinic;District;33.36785799;69.4372515
-154;7;Lija Ahmad Khe;Paktya;13;1308007;District Center, Clinic;District;33.84403763;69.6334402
-155;8;Alikhel (Jaji);Paktya;13;1307008;District Center, Clinic;District;33.93798467;69.7054093
-156;9;Janikhel;Paktya;13;1309009;District Center, Clinic;District;33.65888614;69.7766237
-157;10;Chamkani;Paktya;13;1310010;Dist Center for M / femal school for F;District;33.80463685;69.8125855
-158;11;Dand wa Patan;Paktya;13;1311011;District Center, Clinic;District;33.8244444;69.9219444
-159;12;Laja Mangal;Paktya;13;1312012;Disctrict Center, Clinic;District;;
-160;13;Mirzaka;Paktya;13;1313013;High School and Clinic;District;;
-161;1;Asadabad;Kunar;15;1501001;Women Affairs Directorate and IEC Kunar PO;Province Center;;
-162;2;Watapur;Kunar;15;1503002;Masjed Qarya , Shamer kut;District;34.9268829;71.091466
-163;3;Narang;Kunar;15;1504003;Narang wahab Adil High School Ghondu;District;34.74889;71.01214
-164;4;Sarkani;Kunar;15;1505004;Sarkani Male High School;District;34.78705998;71.1071972
-165;5;Marawara;Kunar;15;1502005;Khan Ghondi Elemantary school;District;34.88555556;71.1763889
-166;6;Shigal Wa shelt;Kunar;15;1506006;Shegal washeltan,District building;District;34.96705012;71.2745512
-167;7;Dara e Pech;Kunar;15;1507007;Manongai high shool, Pech dara;District;34.98533986;70.9035668
-168;8;Chawkay;Kunar;15;1509008;Jamiat high schol Shaloti;District;34.69972222;70.9275
-169;9;Khaskunar;Kunar;15;1510009;Barazi high school;District;34.64625349;70.8976858
-170;10;Dangam;Kunar;15;1512010;Dangam Clinic;District;34.99194444;71.4191667
-171;11;Barkunar;Kunar;15;1508011;Village Masjed District Building;District;35.03118156;71.3526028
-172;12;Ghaziabad;Kunar;15;1511012;Bargam Clinic;District;35.1468618;71.3930831
-173;13;Chapadara;Kunar;15;1513013;Kandi High School Chapa Dara;District;34.95124034;70.7625455
-174;14;Nurgal;Kunar;15;1514014;Barnorgul Male High school;District;34.61432113;70.7620162
-175;15;Nari;Kunar;15;1515015;Naray Clinic;District;35.22217;71.5239
-176;1;Nurgeram;Nuristan;16;1604002;District center;District;34.9566848;70.3881742
-177;2;Porun;Nuristan;16;1601001;IEC Nuristan Provincial Office;Province Cent;35.3299575;70.8969665
-178;3;Mandol;Nuristan;16;1607003;Mandol PC in distric center;District;35.2839167;70.1725246
-179;4;Duab;Nuristan;16;1605004;Duab high school in District center;District;35.14914832;70.3019914
-180;5;Wama;Nuristan;16;1603005;wama clinic near district center;District;35.11324987;70.7435376
-181;6;Waygal;Nuristan;16;1602006;Meddle schoolWant district center;District;35.19231238;70.9967924
-182;7;Kamdesh;Nuristan;16;1606007;District center;District;35.42316635;71.3299473
-183;8;Barg e Matal;Nuristan;16;1608008;District center;District;35.67290525;71.342886
-184;1;Fayzabad;Badakhshan;17;1701001;IEC Badakhshan Provincial Office;Province Cent;37.11221275;70.5633853
-185;2;Yaftal e Sufla;Badakhshan;17;1704002;District School,Distirct Center;District;37.28263823;70.4152164
-186;3;Argo;Badakhshan;17;1702003;Khermand Shahid high School,Shahre Wahdat District;District;37.05219232;70.4169784
-187;4;Arghanjkhwa;Badakhshan;17;1703004;Tagaap School, Tagaap village;District;37.16790131;70.7711179
-188;5;Kohestan;Badakhshan;17;1708005;Pas Pul School,District Center;District;37.47284748;70.6197273
-189;6;Raghestan;Badakhshan;17;1714006;Masjed Zeraki,District cneter;District;37.59336632;70.5537629
-190;7;Yawan;Badakhshan;17;1709007;Zo School,District Center;District;37.54061746;70.4455947
-191;8;Shahr e Buzorg;Badakhshan;17;1713008;Sedeqi Shaheed High School,District center;District;37.31107212;70.168153
-192;9;Teshkan;Badakhshan;17;1711009;Bazar Teshkan School,District center;District;36.8901352;70.2679929
-193;10;Darayem;Badakhshan;17;1707010;Madina High School, District center;District;36.91090663;70.3688286
-194;11;Khash;Badakhshan;17;1705011;Marof khash school, District center;District;36.98252272;70.7371027
-195;12;Baharak;Badakhshan;17;1706012;Baharistan male High School ,Center district;District;37.00191069;70.90226
-196;13;Shuhada;Badakhshan;17;1712013;Sayed Zainudin Shahed High School,District center;District;37.05815087;71.1014904
-197;14;Shighnan;Badakhshan;17;1719014;Rahmat School,District center;District;37.55717;71.49196
-198;15;Darwaz e Balla;Badakhshan;17;1727015;Khardak Madrasa, District Center;District;38.4094444;71.0386111
-199;16;Kofab;Badakhshan;17;1721016;Qala School,District center;District;38.0400871;70.4771439
-200;17;Khwahan;Badakhshan;17;1720017;Masjed Jamee Sang Aab,Distric center;District;37.884717;70.221788
-201;18;Keshem;Badakhshan;17;1715018;Nawabad Kandumqul School,District Center;District;36.8046103;70.1242534
-202;19;Tagab;Badakhshan;17;1717019;Farman Qali Secondery School,District Centere;District;36.58275122;70.2472297
-203;20;Yamgan;Badakhshan;17;1718020;Masjed Sanawari District Center;District;36.53368034;70.7284112
-204;21;Jorm;Badakhshan;17;1710021;Ghiasi School,Distirct center;District;36.86654024;70.8318298
-205;22;Warduj;Badakhshan;17;1716022;Shakeran School District Center;District;36.90677461;71.0659763
-206;23;Eshkmesh;Badakhshan;17;1723023;Ishkashim High School, District Center;District;36.70879773;71.5741975
-207;24;Darwaz;Badakhshan;17;1722024;Charbagh Madrasa District Center;District;38.444241;70.803059
-208;25;Shaki;Badakhshan;17;1724025;Zharf School,District center;District;38.2425;70.5508333
-209;26;Koran wa Monj;Badakhshan;17;1726026;Pas keran School, District center;District;36.02580151;70.764803
-210;27;Zebak;Badakhshan;17;1725027;Neswan Zebak,Zebak Center;District;36.53122;71.34322
-211;28;Wakhan;Badakhshan;17;1728028;Khandood Wakhan District Center;District;36.94877172;72.3138295
-212;1;Taloqan;Takhar;18;1801001;Abu Osman Taluqani High School;Province Cent;36.72966278;69.5479027
-213;2;Hazarsumuch;Takhar;18;1802002;Hazar smooch high school;District;36.86518187;69.5629038
-214;3;Baharak;Takhar;18;1803003;Abdulqayoombik high school;District;36.82111111;69.4130556
-215;4;Bangi;Takhar;18;1804004;Etihad high school;District;36.66492816;69.3418959
-216;5;Chal;Takhar;18;1805005;khanaqa secondery school;District;36.53057121;69.5505409
-217;6;Namakab;Takhar;18;1806006;Bikhi kotal;District;36.59439838;69.6410896
-218;7;Farkhar;Takhar;18;1808007;Samimi shahid high school;District;36.5818308;69.8551824
-219;8;Kalafgan;Takhar;18;1807008;Abulhasan e kherqani high school;District;36.774088;69.944982
-220;9;Rostaq;Takhar;18;1810009;Hazrat e omer farooq high school;District;37.14111111;69.7975
-221;10;Chahab;Takhar;18;1816010;Male high school;District;37.3974662;69.8088203
-222;11;Yangi Qala;Takhar;18;1817011;Yangi qala high school;District;37.46662471;69.614611
+no;no_prov;district;prov;prov_id;vrc_code;vrc_name;location;lat;lon
+1;1;Kabul;Kabul;01;0101001;Bibi Sarwari Sangari Female High School;Capital
+2;2;Kabul;Kabul;01;0101002;Chaman Hozuri, Ustad Bitab High School;Capital
+3;3;Kabul;Kabul;01;0101003;Rokhshana female High School;Capital
+4;4;Kabul;Kabul;01;0101004;Mastora Ghory School;Capital;34.51255585;69.1792723;
+5;5;Kabul;Kabul;01;0101005;Zabiullah Shahid High School;Capital;34.52791;69.1519;
+6;6;Kabul;Kabul;01;0101006;Karti Char Sofi Islam;Capital;34.51106342;69.1258025;
+7;7;Kabul;Kabul;01;0101007;Charahi Taymani Tajor sultan school;Capital;34.55095566;69.1416364;
+8;8;Kabul;Kabul;01;0101008;Spin Kali Meer ghulam Mod Ghobar;Capital;34.53128299;69.1021379;
+9;9;Kabul;Kabul;01;0101009;Dah Dana Mehrabudin School;Capital;34.4708071;69.1404218;
+10;10;Kabul;Kabul;01;0101010;3rd Macroyan Alfatah school;Capital;34.53777157;69.2015545;
+11;11;Kabul;Kabul;01;0101011;Qalai Fathoulah Zarghona School;Capital;34.54241246;69.1696778;
+12;12;Kabul;Kabul;01;0101012;Ahmadsha Baba mena Aysha sadiqa school;Capital;34.5116076;69.3186863;
+13;13;Kabul;Kabul;01;0101013;Pul Khoshk Homaun shahid school;Capital;34.50863638;69.092831;
+14;14;Kabul;Kabul;01;0101014;Parachi center of 14 dis;Capital;34.59190306;68.95948;
+15;15;Kabul;Kabul;01;0101015;Hasi 3 kherkhana Bibi sara school;Capital;34.57714682;69.1567255;
+16;16;Kabul;Kabul;01;0101016;First Macroyan 16th Nahia Center;Capital;34.53175744;69.2063893;
+17;17;Kabul;Kabul;01;0101017;sary kotal center of 17 Nahia;Capital;34.58512466;69.0867494;
+18;18;Kabul;Kabul;01;0101018;Bakhtaryan , Mohammad Ajan school;Capital;34.61215474;69.2820256;
+19;19;Kabul;Kabul;01;0101033;Haji Sanator Janat Gul Mina High School;Capital
+20;20;Dehsabz;Kabul;01;0105019;Khoaja Chasht Primary School;District;34.64692627;69.2341387;
+21;21;Shakardara;Kabul;01;0106020;Shah Mardan school;District;34.68292937;69.0376435;
+22;22;Paghman;Kabul;01;0102021;Center of Distract of Paghman Parachi;District;34.5911794;68.9579692;
+23;23;Chaharasyab;Kabul;01;0103022;Centeral of Dis Char Asiab Male Char asiab;District;34.39641239;69.1618376;
+24;24;Musayi;Kabul;01;0107023;Dah Kala Musahi School;District;34.34;69.18
+25;25;Bagrami;Kabul;01;0104024;Bazar bagram Girls school;District;34.49612686;69.2765413;
+26;26;Qarabagh;Kabul;01;0114025;Qarabagh Bazar school;District;34.84271536;69.1571507;
+27;27;Kalakan;Kabul;01;0110026;Center of Kalakan Habib ullah shahid school;District;34.78548019;69.1454231;
+28;28;Mirbachakot;Kabul;01;0108027;Meerbacha khan 
+29;29;Guldara;Kabul;01;0111028;Araban School;District;34.74316491;69.045026;
+30;30;Khak e Jabbar;Kabul;01;0109029;Ghazgay school;District;34.36590253;69.4028622;
+31;31;Surobi;Kabul;01;0115030;Shahrak primary School;District;34.59072048;69.7524295;
+32;32;Estalef;Kabul;01;0113031;Center of Distract of Astalif , Astalif School;District;34.83266779;69.0821796;
+33;33;Farza;Kabul;01;0112032;Farza School, Payan Daa;District;34.79460477;69.0616903;
+
+34;1;Mahmood Raqi H;Kapisa;02;0201001;Mahmood Raaqi High school;District
+35;2;Nejrab;Kapisa;02;0205002;Shirwani ( Center of district );District;35.00077333;69.5828239;
+36;3;Kohband;Kapisa;02;0203003;Markaz woleswali( center of Dist);District;35.10801839;69.4253443;
+37;4;Hisa e Duwum;Kapisa;02;0202004;Markaz woleswali( center of Dist);District;35.06827053;69.3233875;
+38;5;Tagab;Kapisa;02;0206005;Masjed Bazar( next to dist center);District;34.85555117;69.6483656;
+39;6;Alasay;Kapisa;02;0207006;Markaz woleswali( center of Dist);District;34.89317205;69.7194127;
+40;7;Hisa e Awal e;Kapisa;02;0204007;Provincial election office;District;35.13459735;69.3063237;
+
+41;1;Charikar;Parwan;03;0301001;Municipality Building, Charikar City;District;35.01373537;69.1675545;
+42;2;Jabalussaraj;Parwan;03;0305002;Jabul Saraj Male High School, District center;District;35.12174734;69.2347258;
+43;3;Shinwari;Parwan;03;0303003;Tafhem el Quran High School,Shenwari District center;District;35.03881778;69.0056541;
+44;4;Bagram;Parwan;03;0302004;Shafiq Shahid High School, Bagrami District;District;34.9617156;69.2271192;
+45;5;Saydkhel;Parwan;03;0304005;Saed Kheil Darul Hefaz,Bazar e Saed kheil;District;35.07033835;69.2505676;
+46;6;Salang;Parwan;03;0306006;Salang Male High School,District Center Baghie Mayd;District;35.22341661;69.2141667;
+47;7;Ghorband;Parwan;03;0307007;Hazart Ali High School, Seya gerd District;District;34.99667247;68.8568379;
+48;8;Koh e Safi;Parwan;03;0308008;Dandar School, Kohe Safi District;District;34.79514904;69.4667654;
+49;9;Shekhali;Parwan;03;0310009;District Building ,Dashte Guzar District Bazzar;District;34.94542815;68.5452152;
+50;10;Surkh e Parsa;Parwan;03;0309010;Bazar Lolange Femal High school ,District Center;District;34.92498911;68.6478931;
+
+51;1;Maydanshahr;Wardak;04;0401001;IEC Provincial office;Province Cent;34.39483379;68.865845;
+52;2;Jalrez;Wardak;04;0403002;Maktab bibi ieshah;District;34.46989801;68.6479378;
+53;3;Nerkh;Wardak;04;0402003;Basi khil maktab kanezat;District;34.37149429;68.7709316;
+54;4;Hesa e Awal e;Wardak;04;0407004;Bazar Dahan siasang;District;34.50630942;68.2368151;
+55;5;Daymirdad;Wardak;04;0406005;Meran;District;34.22193555;68.3060077;
+56;6;Chak;Wardak;04;0404006;Markit bazar pana;District;34.11941408;68.5874477;
+57;7;Saydabad;Wardak;04;0405007;aman khil lesa ili syed abad;District;33.99630239;68.7102345;
+58;8;Markaz e Behs;Wardak;04;0409008;Bazar Markaz;District;34.34478822;67.9066806;
+59;9;Jaghatu;Wardak;04;0408009;Clinic Kalandi;District;33.82138889;68.3977778;
+
+60;1;Pul e Alam;Logar;05;0501001;Omari Faroq High School;Province Cent;34.00700155;69.0156698;
+61;2;Khoshi;Logar;05;0504002;Khoshi school;District;34.01036642;69.2039479;
+62;3;Mohammadagh;Logar;05;0505003;Central of District;District;34.20201166;69.0840875;
+63;4;Barakibarak;Logar;05;0502004;Ghazy Aminullah Khan school;District;33.96621803;68.9429536;
+64;5;Charkh;Logar;05;0503005;Molana Yaqob Charkhy school;District;33.79262138;68.9280866;
+65;6;Kharwar;Logar;05;0506006;Central school of Kharwar;District;33.66324174;68.9099557;
+66;7;Azra;Logar;05;0507007;Babar school;District;34.16596465;69.6331455;
+
+67;1;Jalalabad;Nangarhar;06;0601001;Faculty of Education;Province Cent;34.42270245;70.4356107;
+68;2;Jalalabad;Nangarhar;06;0601002;Tribal Affiars Directorate;Province Cent;34.42270245;70.4356107;
+69;3;Jalalabad;Nangarhar;06;0601003;Joi Haft Teacher Training Institute;Province Cent;34.42270245;70.4356107;
+70;4;Jalalabad;Nangarhar;06;0601004;Nasrat High School, Torkham Hada;Province Cent;34.42490998;70.4661678;
+71;5;Jalalabad;Nangarhar;06;0601005;Bi Bi Hawa High School, Rig Sha Mard Khan;Province Cent;34.43469857;70.4579994;
+72;6;Behsud;Nangarhar;06;0602006;Mohammadi Sahibzada High School, Baland ghar;District;34.45122978;70.5160261;
+73;7;Surkhrod;Nangarhar;06;0603007;Reyast Kanal, dosaraka;District;34.439997;70.3982148;
+74;8;Khogyani;Nangarhar;06;0608008;Malik Yar Hotak school,old Bazzar;District;34.26605732;70.1963709;
+75;9;Chaparhar;Nangarhar;06;0604009;Chaparhar central clinic;District;34.28427684;70.364384;
+76;10;Rodat;Nangarhar;06;0607010;Ahdad Elemantery School, Hesar Shahi;District;34.25665883;70.5693914;
+77;11;Kama;Nangarhar;06;0605011;Clinic Sangar Saraie,Sangtrashi;District;34.41173577;70.6403719;
+78;12;Kuzkunar;Nangarhar;06;0606012;Markez Khewa Clinic;District;34.57149381;70.5830677;
+79;13;Dara e Nur;Nangarhar;06;0612013;Male School, Qalie Shahi;District;34.64720073;70.5922265;
+80;14;Hesarak;Nangarhar;06;0621014;Hesarak central High School;District;34.2893136;69.8059327;
+81;15;Sherzad;Nangarhar;06;0619015;Mama khiel High School;District;34.24694114;69.9689901;
+82;16;Pachieragam;Nangarhar;06;0611016;Animal Clinic, Landi khiel;District;34.1998765;70.2705612;
+83;17;Dehbala;Nangarhar;06;0610017;Gotawal high school;District;34.19051431;70.4766286;
+84;18;Kot;Nangarhar;06;0613018;Kot High school,Jaba village;District;34.19654508;70.6453514;
+85;19;Batikot;Nangarhar;06;0609019;Bati kot School,Shodeyani;District;34.26849783;70.7409407;
+86;20;Goshta;Nangarhar;06;0614020;Hameed Momand School, Goshta;District;34.35600085;70.7939808;
+87;21;Achin;Nangarhar;06;0615021;Kahi High school Sera qala;District;34.12406717;70.7077575;
+88;22;Shinwar;Nangarhar;06;0616022;Al Fateh High School,Sheergar;District;34.19862197;70.7979949;
+89;23;Muhmand Dara;Nangarhar;06;0617023;Emil khan High School, Pass Basawol;District;34.24381854;70.8819251;
+90;24;Lalpur;Nangarhar;06;0618024;Sheer abad High School, Lalpore;District;34.23138889;71.0427778;
+91;25;Nazyan;Nangarhar;06;0620025;Nasrat Jumat, Landi village;District;34.06364;70.80179;
+92;26;Durbaba;Nangarhar;06;0622026;Ziarat gul Masjed;District;34.047289;70.930561;
+
+93;1;Mehtarlam;Laghman;07;0701001;Rokhan High School Mehtarlam;Province Cent;34.661554;70.209464;
+94;2;Badpakh;Laghman;07;0706002;Badpakh Agriculture Building;District;34.63034867;69.8767691;
+95;3;Alishang;Laghman;07;0703003;Meya Abdul Karim high School Alishang;District;34.7901562;70.1037948;
+96;4;Qarghayi;Laghman;07;0702004;Qarghayee Male High School;District;34.54784526;70.2430419;
+97;5;Alingar;Laghman;07;0704005;Eng Sheer Mohammad High School Alingar;District;34.8322137;70.3642407;
+98;6;Dawlatshah;Laghman;07;0705006;Telecomunication office Daulat shah;District;34.95524088;70.0693708;
+
+99;1;Bazarak;Panjsher;08;0801001;Bazark School,Bazark Center;Province Cent;35.31158835;69.5147972;
+100;2;Shutul;Panjsher;08;0803002;Old District building , Markez Dara;District;35.29300792;69.6558589;
+101;3;Rukha;Panjsher;08;0806003;District Councel Building,Mara deh kalan Village;District;35.19122426;69.2769349;
+102;4;Dara;Panjsher;08;0804004;Madrasa,Markez Khenje;District;35.44494614;69.7506319;
+103;5;Dara;Panjsher;08;0808005;Masjed Jamie Sangie khan, Sangi khan Village;District;35.24957691;69.7254878;
+104;6;Khenj (Hes e A;Panjsher;08;0805006;Provincial concel Building,Markez Anaba;District;35.23067234;69.3697982;
+105;7;Onaba(Anawa);Panjsher;08;0807007;School Building,Markez Paryan;District;35.6251347;70.014249;
+106;8;Paryan;Panjsher;08;0802008;40 Bed Clinic, Shast Village;District;35.26015087;69.4634481;
+
+107;1;Pul e khumri;Baghlan;09;0901001;Selo Pulikhumri;Province Cent;35.94656487;68.7068703;
+108;2;Baghlan e Jadid;Baghlan;09;0905002;Opposite of Police center, left Femal School,Sports clu;District;36.17475711;68.7489113;
+109;3;Dahana e Ghor;Baghlan;09;0902003;In the way of Dahnae Ghory Pulikhumry Doshi,District;District;35.91227684;68.4960663;
+110;4;Doshi;Baghlan;09;0903004;Doshi;District;35.61;68.6863889;
+111;5;Nahrin;Baghlan;09;0904005;New City Center, Inside city;District;36.06555556;69.1047222;
+112;6;Tala Wa barfak;Baghlan;09;0911006;Tala Male High school,Tala Bazar;District;35.38110178;68.2145358;
+113;7;Khenjan;Baghlan;09;0906007;Next to Hospital , in the way of Kabul to Pulikhumry, K;District;35.60111998;68.9016681;
+114;8;Andarab;Baghlan;09;0907008;Next to River opposite of Montain, Center City;District;35.63392229;69.2574471;
+115;9;Khwajahejran;Baghlan;09;0909009;Vorchi Village ,Panjsheri District Center;District;35.99569126;69.2458532;
+116;10;Burka;Baghlan;09;0910010;East to Baraka Clinic near to District Center;District;36.22069508;69.1512375;
+117;11;Pul e Hesar;Baghlan;09;0912011;Puli Hisar District Center;District;35.61978273;69.4645073;
+118;12;Dehsalah;Baghlan;09;0908012;Bazar Deh Salah, Deh Salah School Main Road;District;35.68630856;69.3114901;
+119;13;Khost Wa Feren;Baghlan;09;0913013;Doabi Femal school ,Doabi Qarghan,Bazar Doabi;District;36.01674255;69.605191;
+120;14;Guzargah e Nu;Baghlan;09;0914014;Gharoo school, dashte Khasa Village;District;36.20769808;69.5774482;
+121;15;Fereng Wa Gha;Baghlan;09;0915015;Sawq High School;District;36.11640063;69.6422193;
+
+122;1;Bamyan;Bamyan;10;1001001;Bamyan Center Male High school;Province Cent;34.824022;67.84408;
+123;2;Sayghan;Bamyan;10;1003002;Sayghan high School,khudadat khel center;District;35.180377;67.698586;
+124;3;Yakawlang;Bamyan;10;1005003;Nek Masjed Yakawlang district;District;34.73758323;66.9752075;
+125;4;Panjab;Bamyan;10;1006004;Pushte Telegraph Femal school;District;34.39217826;67.0219375;
+126;5;Shibar;Bamyan;10;1002005;District building;District;34.87759573;68.0832447;
+127;6;Kahmard;Bamyan;10;1004006;Roye Sank school;District;35.31499699;67.6204392;
+128;7;Waras;Bamyan;10;1007007;Waras Center Masjed;District;34.20450663;66.8744809;
+
+129;1;Ghazni;Ghazni;11;1101001;Ghazni city, Directorate of women Affairs;Province Cent;33.54431699;68.4219303;
+130;2;Khwajaumari;Ghazni;11;1103002;Toramai High school, near to the Bazzar.;District;33.68939;68.39806;
+131;3;Walimuhamma;Ghazni;11;1102003;khogiani district center, district hospital.;District;33.55440179;68.2972303;
+132;4;Waghaz;Ghazni;11;1104004;Waghaz Center, High school, near to district departme;District;33.43938087;68.2820238;
+133;5;Andar;Ghazni;11;1107005;Miri Bazar, Sultan Shuhabudin High school.;District;33.32052;68.44605;
+134;6;Dehyak;Ghazni;11;1105006;Deh Yak Bazar, District Hospital.;District;33.50185748;68.6112581;
+135;7;Zanakhan;Ghazni;11;1108007;District Center;District;33.66511258;68.5954227;
+136;8;Rashidan;Ghazni;11;1109008;Rashidan District,Health Clinic;District;33.7042201;68.2146127;
+137;9;Jaghatu;Ghazni;11;1106009;Gulbabri Valley, District hospital.;District;33.57472222;68.1905556;
+138;10;Qarabagh;Ghazni;11;1111010;Qarabagh Bazzar, district hospital.;District;33.19241705;68.1044993;
+139;11;Giro;Ghazni;11;1112011;Geero District Center, High school.;District;33.10062883;68.3117429;
+140;12;Nawur;Ghazni;11;1110012;Etifaq high school, Du Abi High school, Nawar bazzar.;District;33.89702427;67.8880547;
+141;13;Jaghuri;Ghazni;11;1114013;Sang Masha, sultani High school, or district guest hous;District;33.14014773;67.4416022;
+142;14;Muqur;Ghazni;11;1115014;Maqur Bazzar, Female High school.;District;32.82327134;67.7684556;
+143;15;Abband;Ghazni;11;1113015;District Center;District;33.0000594;67.9739205;
+144;16;Ajrestan;Ghazni;11;1118016;Ajrestan Bazar, District Hospital;District;33.51694444;67.1972222;
+145;17;Malestan;Ghazni;11;1116017;Muradina bazzar, Male High school,;District;33.29277778;67.1863889;
+146;18;Gelan;Ghazni;11;1117018;Janda Bazar, Agriculture Building.;District;32.7266657;67.6373562;
+147;19;Nawa;Ghazni;11;1119019;District Center;District;32.32071906;67.8881528;
+
+148;1;Gardez;Paktya;13;1301001;Babrak Khan High School;Province Cent;33.60138889;69.2222222;
+149;2;Sayedkaram;Paktya;13;1306002;District Center, Clinic;District;33.69472542;69.3787636;
+150;3;Ahmadaba;Paktya;13;1302003;District Center, Clinic;District;33.68071216;69.3289708;
+151;4;Zurmat;Paktya;13;1303004;District Center, Clinic;District;33.43677954;69.0300742;
+152;5;Shawak;Paktya;13;1304005;District Center, Clinic;District;33.42644997;69.377959;
+153;6;Zadran;Paktya;13;1305006;District Center, Clinic;District;33.36785799;69.4372515;
+154;7;Lija Ahmad Khe;Paktya;13;1308007;District Center, Clinic;District;33.84403763;69.6334402;
+155;8;Alikhel (Jaji);Paktya;13;1307008;District Center, Clinic;District;33.93798467;69.7054093;
+156;9;Janikhel;Paktya;13;1309009;District Center, Clinic;District;33.65888614;69.7766237;
+157;10;Chamkani;Paktya;13;1310010;Dist Center for M / femal school for F;District;33.80463685;69.8125855;
+158;11;Dand wa Patan;Paktya;13;1311011;District Center, Clinic;District;33.8244444;69.9219444;
+159;12;Laja Mangal;Paktya;13;1312012;Disctrict Center, Clinic;District
+160;13;Mirzaka;Paktya;13;1313013;High School and Clinic;District
+
+161;1;Asadabad;Kunar;15;1501001;Women Affairs Directorate and IEC Kunar PO;Province Center
+162;2;Watapur;Kunar;15;1503002;Masjed Qarya , Shamer kut;District;34.9268829;71.091466;
+163;3;Narang;Kunar;15;1504003;Narang wahab Adil High School Ghondu;District;34.74889;71.01214;
+164;4;Sarkani;Kunar;15;1505004;Sarkani Male High School;District;34.78705998;71.1071972;
+165;5;Marawara;Kunar;15;1502005;Khan Ghondi Elemantary school;District;34.88555556;71.1763889;
+166;6;Shigal Wa shelt;Kunar;15;1506006;Shegal washeltan,District building;District;34.96705012;71.2745512;
+167;7;Dara e Pech;Kunar;15;1507007;Manongai high shool, Pech dara;District;34.98533986;70.9035668;
+168;8;Chawkay;Kunar;15;1509008;Jamiat high schol Shaloti;District;34.69972222;70.9275;
+169;9;Khaskunar;Kunar;15;1510009;Barazi high school;District;34.64625349;70.8976858;
+170;10;Dangam;Kunar;15;1512010;Dangam Clinic;District;34.99194444;71.4191667;
+171;11;Barkunar;Kunar;15;1508011;Village Masjed District Building;District;35.03118156;71.3526028;
+172;12;Ghaziabad;Kunar;15;1511012;Bargam Clinic;District;35.1468618;71.3930831;
+173;13;Chapadara;Kunar;15;1513013;Kandi High School Chapa Dara;District;34.95124034;70.7625455;
+174;14;Nurgal;Kunar;15;1514014;Barnorgul Male High school;District;34.61432113;70.7620162;
+175;15;Nari;Kunar;15;1515015;Naray Clinic;District;35.22217;71.5239;
+
+176;1;Nurgeram;Nuristan;16;1604002;District center;District;34.9566848;70.3881742;
+177;2;Porun;Nuristan;16;1601001;IEC Nuristan Provincial Office;Province Cent;35.3299575;70.8969665;
+178;3;Mandol;Nuristan;16;1607003;Mandol PC in distric center;District;35.2839167;70.1725246;
+179;4;Duab;Nuristan;16;1605004;Duab high school in District center;District;35.14914832;70.3019914;
+180;5;Wama;Nuristan;16;1603005;wama clinic near district center;District;35.11324987;70.7435376;
+181;6;Waygal;Nuristan;16;1602006;Meddle schoolWant district center;District;35.19231238;70.9967924;
+182;7;Kamdesh;Nuristan;16;1606007;District center;District;35.42316635;71.3299473;
+183;8;Barg e Matal;Nuristan;16;1608008;District center;District;35.67290525;71.342886;
+
+184;1;Fayzabad;Badakhshan;17;1701001;IEC Badakhshan Provincial Office;Province Cent;37.11221275;70.5633853;
+185;2;Yaftal e Sufla;Badakhshan;17;1704002;District School,Distirct Center;District;37.28263823;70.4152164;
+186;3;Argo;Badakhshan;17;1702003;Khermand Shahid high School,Shahre Wahdat District;District;37.05219232;70.4169784;
+187;4;Arghanjkhwa;Badakhshan;17;1703004;Tagaap School, Tagaap village;District;37.16790131;70.7711179;
+188;5;Kohestan;Badakhshan;17;1708005;Pas Pul School,District Center;District;37.47284748;70.6197273;
+189;6;Raghestan;Badakhshan;17;1714006;Masjed Zeraki,District cneter;District;37.59336632;70.5537629;
+190;7;Yawan;Badakhshan;17;1709007;Zo School,District Center;District;37.54061746;70.4455947;
+191;8;Shahr e Buzorg;Badakhshan;17;1713008;Sedeqi Shaheed High School,District center;District;37.31107212;70.168153;
+192;9;Teshkan;Badakhshan;17;1711009;Bazar Teshkan School,District center;District;36.8901352;70.2679929;
+193;10;Darayem;Badakhshan;17;1707010;Madina High School, District center;District;36.91090663;70.3688286;
+194;11;Khash;Badakhshan;17;1705011;Marof khash school, District center;District;36.98252272;70.7371027;
+195;12;Baharak;Badakhshan;17;1706012;Baharistan male High School ,Center district;District;37.00191069;70.90226;
+196;13;Shuhada;Badakhshan;17;1712013;Sayed Zainudin Shahed High School,District center;District;37.05815087;71.1014904;
+197;14;Shighnan;Badakhshan;17;1719014;Rahmat School,District center;District;37.55717;71.49196;
+198;15;Darwaz e Balla;Badakhshan;17;1727015;Khardak Madrasa, District Center;District;38.4094444;71.0386111;
+199;16;Kofab;Badakhshan;17;1721016;Qala School,District center;District;38.0400871;70.4771439;
+200;17;Khwahan;Badakhshan;17;1720017;Masjed Jamee Sang Aab,Distric center;District;37.884717;70.221788;
+201;18;Keshem;Badakhshan;17;1715018;Nawabad Kandumqul School,District Center;District;36.8046103;70.1242534;
+202;19;Tagab;Badakhshan;17;1717019;Farman Qali Secondery School,District Centere;District;36.58275122;70.2472297;
+203;20;Yamgan;Badakhshan;17;1718020;Masjed Sanawari District Center;District;36.53368034;70.7284112;
+204;21;Jorm;Badakhshan;17;1710021;Ghiasi School,Distirct center;District;36.86654024;70.8318298;
+205;22;Warduj;Badakhshan;17;1716022;Shakeran School District Center;District;36.90677461;71.0659763;
+206;23;Eshkmesh;Badakhshan;17;1723023;Ishkashim High School, District Center;District;36.70879773;71.5741975;
+207;24;Darwaz;Badakhshan;17;1722024;Charbagh Madrasa District Center;District;38.444241;70.803059;
+208;25;Shaki;Badakhshan;17;1724025;Zharf School,District center;District;38.2425;70.5508333;
+209;26;Koran wa Monj;Badakhshan;17;1726026;Pas keran School, District center;District;36.02580151;70.764803;
+210;27;Zebak;Badakhshan;17;1725027;Neswan Zebak,Zebak Center;District;36.53122;71.34322;
+211;28;Wakhan;Badakhshan;17;1728028;Khandood Wakhan District Center;District;36.94877172;72.3138295;
+
+212;1;Taloqan;Takhar;18;1801001;Abu Osman Taluqani High School;Province Cent;36.72966278;69.5479027;
+213;2;Hazarsumuch;Takhar;18;1802002;Hazar smooch high school;District;36.86518187;69.5629038;
+214;3;Baharak;Takhar;18;1803003;Abdulqayoombik high school;District;36.82111111;69.4130556;
+215;4;Bangi;Takhar;18;1804004;Etihad high school;District;36.66492816;69.3418959;
+216;5;Chal;Takhar;18;1805005;khanaqa secondery school;District;36.53057121;69.5505409;
+217;6;Namakab;Takhar;18;1806006;Bikhi kotal;District;36.59439838;69.6410896;
+218;7;Farkhar;Takhar;18;1808007;Samimi shahid high school;District;36.5818308;69.8551824;
+219;8;Kalafgan;Takhar;18;1807008;Abulhasan e kherqani high school;District;36.774088;69.944982;
+220;9;Rostaq;Takhar;18;1810009;Hazrat e omer farooq high school;District;37.14111111;69.7975;
+221;10;Chahab;Takhar;18;1816010;Male high school;District;37.3974662;69.8088203;
+222;11;Yangi Qala;Takhar;18;1817011;Yangi qala high school;District;37.46662471;69.614611;
 223;12;Khwajabahawu;Takhar;18;1814012;Khowaja Bahawoddin Male high school;District;37.3375;69.53
-224;13;Dasht e Qala;Takhar;18;1812013;city boys school;District;37.15441;69.44858
-225;14;Khwajaghar;Takhar;18;1809014;Male high school;District;37.06565664;69.4212544
-226;15;Eshkashem;Takhar;18;1811015;Tariq e Shahid high school;District;36.3825219;69.327485
-227;16;Warsaj;Takhar;18;1813016;Sayed zuhrudin high school;District;36.20305;70.00495
-228;17;Darqad;Takhar;18;1815017;Darqad high school;District;37.38694445;69.45505
-229;1;Kunduz;Kunduz;19;1901001;Kadestar management;Province Cent;36.72394432;68.8683762
-230;2;Kunduz;Kunduz;19;1901002;Electricity Directorate Emam Bondry;Province Cent;36.72394432;68.8683762
-231;3;Emamsaheb;Kunduz;19;1905002;1.( Lasa Zkor Emam Saheb);District;37.17614352;68.9156289
-232;4;Qala e Zal;Kunduz;19;1907003;1.( Lase Aq tapa );District;37.03603489;68.4795048
-233;5;Chardarah;Kunduz;19;1902004;1.( Lase JamiyatChardarah );District;36.69125165;68.7976541
-234;6;Aliabad;Kunduz;19;1903005;1.( Lase Zkor Markazi );District;36.50373223;68.90697
-235;7;Khanabad;Kunduz;19;1904006;1.( Lase Zkor«Khan Abad Hasan Miya Khil );District;36.6841102;69.1199564
-236;8;Dasht e Archi;Kunduz;19;1906007;1.( Lase JahoriyatMarkaz DashtArchi );District;37.03393588;69.2404314
-237;1;Mazar e Sharif;Balkh;21;2101001;Molana Jalaludin Mohammad Balkhi High School;Province Center;;
-238;2;Mazar e Sharif;Balkh;21;2101002;Mazar Gas Inistitute;Province Center;;
-239;3;Nahr e Shahi;Balkh;21;2102003;mohammad yosuf khair khwah high school;District;36.70277778;67.0794444
-240;4;Shortepa;Balkh;21;2112004;Abu Jafar School, Joy wakil;District;37.348249;66.971957
-241;5;Dawlatabad;Balkh;21;2109005;Abu Nasar Faryabi high School, Dawalat Abad Center;District;36.99166667;66.7597222
-242;6;Balkh;Balkh;21;2106006;Maninicipalty guest house building , Disrtict Cente;District;36.75888889;66.8886111
-243;7;Dehdadi;Balkh;21;2103007;Shahed Balkhy School, Markaz Dahdadi;District;36.66277778;66.9936111
-244;8;Charkent;Balkh;21;2104008;Shar shar School, Shar shar Village;District;36.41555556;67.1886111
-245;9;Marmul;Balkh;21;2105009;Abu hesmat High School, Jama Mosque;District;36.54138889;67.3308333
-246;10;Khulm;Balkh;21;2110010;Khulum male high School, Khulum Center;District;36.70437376;67.7277756
-247;11;Kaldar;Balkh;21;2113011;Qaran toqi School, Qaran toqi;District;37.19878578;67.6781714
-248;12;Sharak e Hayra;Balkh;21;2116012;Naser khesrwo female high school, Hairatan;Province Cent ;37.17481986;67.3254163
-249;13;Charbulak;Balkh;21;2111013;Educational Department, Chahar bolak Disrtict Center;District;36.79515431;66.6857192
-250;14;Chemtal;Balkh;21;2108014;District New building, District Center;District;36.66360877;66.7536717
-251;15;Sholgareh;Balkh;21;2107015;Qadim School, Qadim;District;36.33811888;66.8765805
-252;16;Keshendeh;Balkh;21;2114016;Haq Koborok school, Haq Koborok Village;District;36.08030739;66.8368228
-253;17;Zari;Balkh;21;2115017;Abul qasim School, Naqichi Village;District;35.9595616;66.6941185
-254;1;Aybak;Samangan;20;2001001;Samangan Office, Aybak center;Province Cent;36.26736187;68.0143619
-255;2;Hazrat e Sulta;Samangan;20;2002002;past building of police,District center;District;36.45507945;67.8962214
-256;3;Feroznakhchir;Samangan;20;2004003;Building of Cultural Complex, Distrect center;District;36.52812435;67.693097
-257;4;Dara e Suf e P;Samangan;20;2006004;Male Dehi high school, Distric Center (Dehi );District;35.958611;67.267992
-258;5;Dara e Suf e Ba;Samangan;20;2007005;Building of District,Distric Center (Bazar I Sokhta);District;35.90822036;67.2832513
-259;6;Khuram Wa Sar;Samangan;20;2003006;Public Masque,District center;District;35.99667037;68.0575356
-260;7;Ruy e Duab;Samangan;20;2005007;Public Masque of Do wab center,District center;District;35.56511496;67.8194272
-261;1;Sar e Pul;Sar e Pul;22;2201001;Jozjanan Femal High School;Province Cent;36.22028108;65.9299546
-262;2;Sayad;Sar e Pul;22;2202002;Mula Sakhidad Femal School;District;36.14023367;65.8321383
-263;3;Kohestanat;Sar e Pul;22;2203003;Hemat High School Deh Surkh Village;District;35.76667834;65.7717926
-264;4;Sozmaqala;Sar e Pul;22;2204004;Mohammad Amin Shahid high school;District;36.09592931;66.2250358
-265;5;Gosfandi;Sar e Pul;22;2206005;Qutan Mast Male high school;District;35.93926276;66.5194206
-266;6;Balkhab;Sar e Pul;22;2207006;Sayed Jamaludin High school;District;35.5032326;66.5204099
-267;7;Sancharak(sang;Sar e Pul;22;2205007;mohammad sharif samim high school;District;35.94983207;66.4175824
-268;1;Chaghcharan;Ghor;23;2301001;IEC Ghor Provincial Office;Province Cent;34.52130456;65.2587696
-269;2;Charsadra;Ghor;23;2304002;Gul Tapa School District Center;District;35.12916178;65.0171115
-270;3;DoLayna;Ghor;23;2302003;Gardend Halang High School, Dolina District center;District;34.156644;64.783472
-271;4;Dawlatyar;Ghor;23;2303004;Old Daolat yar School District Center;District;34.55388889;65.7852778
-272;5;Shahrak;Ghor;23;2306005;District High School District Center;District;34.10818351;64.3100254
-273;6;Taywarah;Ghor;23;2308006;Pase qala high School District center;District;33.52472222;64.4194444
-274;7;Pasaband;Ghor;23;2305007;District Center of Bazar kuhna Shenkot Fazaye Azad;District;33.69222222;64.8494444
-275;8;Lal Wa Sarjanga;Ghor;23;2307008;Lal wa Sare Jangul Jame Masjed District Center;District;34.49649443;66.2816428
-276;9;Tolak;Ghor;23;2309009;District high school District center;District;33.97138889;63.7194444
-277;10;Saghar;Ghor;23;2310010;Shekh Mohammad Saghary School District center;District;33.69138889;63.8608333
-278;1;Nili;Daykundi;24;2401001;IEC Provincial office;Province Cent;33.72355483;66.1427327
-279;2;Ashtarlay;Daykundi;24;2404002;Shaikhmeran Village(Mosque);District;34.04522083;66.2376162
-280;3;Khadir;Daykundi;24;2405003;Khedir Sofla (Mosque);District;33.92289144;65.9321571
-281;4;kiti;Daykundi;24;2406004;Sarteghan Village (Mosque);District;33.51402613;65.6775784
-282;6;Shahrestan;Daykundi;24;2402006;Ulqan Village (Mosque);District;33.69587276;66.5492263
-283;7;Sang e Takht;Daykundi;24;2408007;Shenia Qala Village(Mosque);District;34.1886093;65.8167895
-284;8;Kajran;Daykundi;24;2409008;Bulagh Shajoi (Mosque);District;33.20630388;65.4690505
-285;9;Miramor;Daykundi;24;2407009;Tgab Village (School);District;33.81171062;66.7846222
-286;10;Gizab;Daykundi;24;2403010;Tamazan Village (Mosque);District;33.64963515;66.0842521
-287;1;Tirinkot;Uruzgan;25;2501001;IEC Uruzgan Provincial Office;Province Cent;32.63226049;65.8803972
-288;2;Chora;Uruzgan;25;2503002;center District High school;District;32.86317758;66.0448695
-289;3;Chora;Uruzgan;25;2506003;center District Faizmohammad School;District;32.73885827;66.2806225
-290;4;Shahid e Hassa;Uruzgan;25;2504004;center District School;District;32.939945;65.564029
-291;5;Dehrawud;Uruzgan;25;2502005;center District School Shernwo;District;32.62421033;65.4563544
-292;6;Khasuruzgan;Uruzgan;25;2505006;center District School Shazman;District;32.9264863;66.6325758
-293;1;Qalat;Zabul;26;2601001;Bibi Khala Laisa & Shiekh Mati High School;Province Cent;32.10413282;66.9052303
-294;2;Arghandab;Zabul;26;2605002;Di afghanan clinic;District;32.44835781;66.8786279
-295;3;Mizan;Zabul;26;2604003;Nawai Alam Gul School Mizan;District;32.17625737;66.5136746
-296;4;Tarnak Wa Jald;Zabul;26;2602004;Zarghoona Ana Laisa Tarnak Wa Jaldak;District;31.8064404;66.326849
-297;5;Shinkay;Zabul;26;2603005;Shah Alam Laisa Shinkai;District;31.98389326;67.336712
-298;6;Shahjoy;Zabul;26;2606006;Baba Hotak Laisa Shajoy;District;32.52005285;67.4136942
-299;7;Kakar;Zabul;26;2611007;District School Kakar;District;32.83846507;67.0770481
-300;8;Daychopan;Zabul;26;2607008;Bai Lugh High School Daychoopan;District;32.62934135;66.7644142
-301;9;Atghar;Zabul;26;2608009;District Center Ataghar;District;31.73459651;67.3583897
-302;10;Shomulzay;Zabul;26;2610010;District Clainic Shomulzai;District;31.90911816;67.6457895
-303;11;Nawbahar;Zabul;26;2609011;District Clainic Nawbahar;District;32.21128539;67.6344963
-304;1;Sharan;Paktika;12;1201001;IEC Provincial Office;Province Cent;33.17154717;68.7867357
-305;2;Matakhan;Paktika;12;1202002;Distrect bazar mosque, matakhan;District;33.24058104;68.8673947
-306;3;Yosufkhel;Paktika;12;1203003;Yosif khil center mosque ,Bazi wani;District;33.06674136;68.6748639
-307;4;Sarrawzah(Sarh;Paktika;12;1205004;Masto khn valige sarozi clinic;District;32.97395242;69.0685507
-308;5;Zarghunshahr;Paktika;12;1207005;Distrect center, bazar mosque;District;32.85177645;68.4564055
-309;6;Yahyakhel;Paktika;12;1204006;Distrect center mohammad yaqub mosque;District;32.9436582;68.6396306
-310;7;Omna;Paktika;12;1206007;Distrect buliding;District;32.89894994;68.7910461
-311;8;Gomal;Paktika;12;1208008;Khairmanzai valige primary ali zay school;District;32.63230194;68.8718539
-312;9;Sarobi;Paktika;12;1210009;Distrect center , Sodwalkhil central high school;District;32.79837004;69.0859035
-313;10;Urgun;Paktika;12;1211010;Distrect center barakat valige Palish school;District;32.9535541;69.1708317
-314;11;Naka;Paktika;12;1213011;District Center;District;33.18975;69.26015
-315;12;Janikhel;Paktika;12;1209012;Distrect center, Jani khil Bazar mosque;District;32.76416768;68.4006236
-316;13;Wazakhah;Paktika;12;1217013;Distrect center, wazi khowa school;District;32.19583333;68.3633333
-317;14;Wormamay;Paktika;12;1218014;Distrect center cheeni primary school;District;32.08999417;68.6765277
-318;15;Bermel;Paktika;12;1214015;Nawai Adae Jamahat, District center;District;32.64351172;69.2577
-319;16;Gyan;Paktika;12;1215016;Distrect center Gayan mosque;District;32.97745255;69.3726434
-320;17;Ziruk;Paktika;12;1212017;Zerok school , khodaki bagh;District;33.15783467;69.307061
-321;18;Dila;Paktika;12;1216018;Distrect center ,Health Clinic;District;32.68818647;68.2421277
-322;19;Turwo (Tarwe);Paktika;12;1219019;Distrect center Terway kely school;District;31.79392757;68.4018619
-323;1;Khost(Matun);Khost;14;1401001;IEC PO warehouse;Province Cent;33.34186902;69.9005502
-324;2;Sabari;Khost;14;1407002;District Center , Khalbisat;District;33.4921632;70.0014456
-325;3;Musakhel;Khost;14;1405003;Musa Khail district central mosq;District;33.54000412;69.7318127
-326;4;Nadirshahkot;Khost;14;1406004;school, almara;District;33.30389208;69.6540789
-327;5;Mandozayi;Khost;14;1402005;mosque, Hasan Muhammad;District;33.30191328;69.7672888
-328;6;Tani;Khost;14;1404006;relegiouse school (madrasah);District;33.2406415;69.8259106
-329;7;Gurbuz;Khost;14;1403007;Shikh Ameer Higha School;District;33.27805556;69.9155556
-330;8;Terezayi;Khost;14;1408008;central garden, Balawat;District;33.41978328;70.1338105
-331;9;Qalandar;Khost;14;1410009;Khalim khan mosque,;District;33.46659681;69.6426948
-332;10;Shamal;Khost;14;1412010;school, do manda;District;33.28081446;69.5960109
-333;11;Spera;Khost;14;1411011;Dandaki Village Mosque;District;33.22181782;69.5393889
-334;12;Bak;Khost;14;1409012;Yaqobaio distirc center;District;33.5296396;70.0245324
-335;13;Jajimaydan;Khost;14;1413013;Mosque, Mughul khail;District;33.6231509;70.1209541
-336;1;Shiberghan;Jawzjan;28;2801001;IEC Juzjan Provincial Office;Province Cent;36.6638572;65.7529822
-337;2;Mingajik;Jawzjan;28;2804002;Charshangho High School;District;37.04138889;66.0075
-338;3;Khwajadukoh;Jawzjan;28;2802003;Khwajadukoh Boys High School;District;36.82340382;65.6147527
-339;4;Qushtepa;Jawzjan;28;2805004;Eduacation Office;District;36.0887813;65.391608
-340;5;Fayzabad;Jawzjan;28;2808005;Shaheed Latifa Girls High School;District;36.82388889;66.4563889
-341;6;Khanaqa;Jawzjan;28;2803006;Esmatullah Shahed High School;District;37.4125;66.0344444
-342;7;Aqcha;Jawzjan;28;2807007;Hotel Shahrdari;District;36.90440209;66.1775159
-343;8;Mardyan;Jawzjan;28;2809008;Mardyan Boys High School;District;36.94850619;66.3224582
-344;9;Qarqin;Jawzjan;28;2810009;Makhdom Quli High School;District;37.413056;66.033894
-345;10;Khamyab;Jawzjan;28;2806010;Khmyab Boys High School;District;37.52578696;65.7369158
-346;11;Darzab;Jawzjan;28;2811011;Darzab Boys High School;District;35.97807056;65.3857548
-347;1;Maymana;Faryab;29;2901001;Municipality Hotel;Province Cent;35.92347235;64.7792183
-348;2;Khwajasabzpos;Faryab;29;2903002;Deh ;;;
-349;3;Pashtunkot;Faryab;29;2902003;Pashtoon Kot District center;District;35.90250543;64.7589542
-350;4;Shirintagab;Faryab;29;2906004;Islam Qala high school;District;36.2260538;64.8639059
-351;5;Almar;Faryab;29;2904005;Bazar Almar School;District;35.84738165;64.5335449
-352;6;Qaysar;Faryab;29;2907006;Nadam Qesary High School;District;35.68940726;64.2934343
-353;7;Kohestan;Faryab;29;2910007;Lawlash Secondary school;District;35.38386319;64.7535663
-354;8;Garziwan;Faryab;29;2908008;Sarchkan Jamee Masjed;District;35.71294252;65.222541
-355;9;Bilcheragh;Faryab;29;2905009;Pule Cheragh Center Madrasa;District;35.84322074;65.23154
-356;10;Dawlatabad;Faryab;29;2909010;Quzebai Qala Femal high school;District;36.41924758;64.8853907
-357;11;Andkhoy;Faryab;29;2913011;Youldoz Andkhoye high School;District;36.945373;65.1236815
-358;12;Qaramqol;Faryab;29;2911012;Qarqul High School;District;36.85367332;65.0816543
-359;13;Khan e Char Ba;Faryab;29;2914013;Khanchar bagh High school;District;37.00222222;65.2205556
-360;14;Qorghan;Faryab;29;2912014;Mohammad Kamel Shahed high School, Qarghan Distr;District;36.91728174;65.0692721
-361;1;Qala e Naw;Badghis;31;3101001;IEC Badghis Provincial Office;Province Cent;34.98622137;63.1299279
+224;13;Dasht e Qala;Takhar;18;1812013;city boys school;District;37.15441;69.44858;
+225;14;Khwajaghar;Takhar;18;1809014;Male high school;District;37.06565664;69.4212544;
+226;15;Eshkashem;Takhar;18;1811015;Tariq e Shahid high school;District;36.3825219;69.327485;
+227;16;Warsaj;Takhar;18;1813016;Sayed zuhrudin high school;District;36.20305;70.00495;
+228;17;Darqad;Takhar;18;1815017;Darqad high school;District;37.38694445;69.45505;
+
+229;1;Kunduz;Kunduz;19;1901001;Kadestar management;Province Cent;36.72394432;68.8683762;
+230;2;Kunduz;Kunduz;19;1901002;Electricity Directorate Emam Bondry;Province Cent;36.72394432;68.8683762;
+231;3;Emamsaheb;Kunduz;19;1905002;1.( Lasa Zkor Emam Saheb);District;37.17614352;68.9156289;
+232;4;Qala e Zal;Kunduz;19;1907003;1.( Lase Aq tapa );District;37.03603489;68.4795048;
+233;5;Chardarah;Kunduz;19;1902004;1.( Lase JamiyatChardarah );District;36.69125165;68.7976541;
+234;6;Aliabad;Kunduz;19;1903005;1.( Lase Zkor Markazi );District;36.50373223;68.9069741;
+235;7;Khanabad;Kunduz;19;1904006;1.( Lase Zkor«Khan Abad Hasan Miya Khil );District;36.6841102;69.1199564;
+236;8;Dasht e Archi;Kunduz;19;1906007;1.( Lase JahoriyatMarkaz DashtArchi );District;37.03393588;69.2404314;
+
+237;1;Mazar e Sharif;Balkh;21;2101001;Molana Jalaludin Mohammad Balkhi High School;Province Center
+238;2;Mazar e Sharif;Balkh;21;2101002;Mazar Gas Inistitute;Province Center
+239;3;Nahr e Shahi;Balkh;21;2102003;mohammad yosuf khair khwah high school;District;36.70277778;67.0794444;
+240;4;Shortepa;Balkh;21;2112004;Abu Jafar School, Joy wakil;District;37.348249;66.971957;
+241;5;Dawlatabad;Balkh;21;2109005;Abu Nasar Faryabi high School, Dawalat Abad Center;District;36.99166667;66.7597222;
+242;6;Balkh;Balkh;21;2106006;Maninicipalty guest house building , Disrtict Cente;District;36.75888889;66.8886111;
+243;7;Dehdadi;Balkh;21;2103007;Shahed Balkhy School, Markaz Dahdadi;District;36.66277778;66.9936111;
+244;8;Charkent;Balkh;21;2104008;Shar shar School, Shar shar Village;District;36.41555556;67.1886111;
+245;9;Marmul;Balkh;21;2105009;Abu hesmat High School, Jama Mosque;District;36.54138889;67.3308333;
+246;10;Khulm;Balkh;21;2110010;Khulum male high School, Khulum Center;District;36.70437376;67.7277756;
+247;11;Kaldar;Balkh;21;2113011;Qaran toqi School, Qaran toqi;District;37.19878578;67.6781714;
+248;12;Sharak e Hayra;Balkh;21;2116012;Naser khesrwo female high school, Hairatan;Province Cent;37.17481986;67.3254163;
+249;13;Charbulak;Balkh;21;2111013;Educational Department, Chahar bolak Disrtict Center;District;36.79515431;66.6857192;
+250;14;Chemtal;Balkh;21;2108014;District New building, District Center;District;36.66360877;66.7536717;
+251;15;Sholgareh;Balkh;21;2107015;Qadim School, Qadim;District;36.33811888;66.8765805;
+252;16;Keshendeh;Balkh;21;2114016;Haq Koborok school, Haq Koborok Village;District;36.08030739;66.8368228;
+253;17;Zari;Balkh;21;2115017;Abul qasim School, Naqichi Village;District;35.9595616;66.6941185;
+
+254;1;Aybak;Samangan;20;2001001;Samangan Office, Aybak center;Province Cent;36.26736187;68.0143619;
+255;2;Hazrat e Sulta;Samangan;20;2002002;past building of police,District center;District;36.45507945;67.8962214;
+256;3;Feroznakhchir;Samangan;20;2004003;Building of Cultural Complex, Distrect center;District;36.52812435;67.693097;
+257;4;Dara e Suf e P;Samangan;20;2006004;Male Dehi high school, Distric Center (Dehi );District;35.958611;67.267992;
+258;5;Dara e Suf e Ba;Samangan;20;2007005;Building of District,Distric Center (Bazar I Sokhta);District;35.90822036;67.2832513;
+259;6;Khuram Wa Sar;Samangan;20;2003006;Public Masque,District center;District;35.99667037;68.0575356;
+260;7;Ruy e Duab;Samangan;20;2005007;Public Masque of Do wab center,District center;District;35.56511496;67.8194272;
+
+261;1;Sar e Pul;Sar e Pul;22;2201001;Jozjanan Femal High School;Province Cent;36.22028108;65.9299546;
+262;2;Sayad;Sar e Pul;22;2202002;Mula Sakhidad Femal School;District;36.14023367;65.8321383;
+263;3;Kohestanat;Sar e Pul;22;2203003;Hemat High School Deh Surkh Village;District;35.76667834;65.7717926;
+264;4;Sozmaqala;Sar e Pul;22;2204004;Mohammad Amin Shahid high school;District;36.09592931;66.2250358;
+265;5;Gosfandi;Sar e Pul;22;2206005;Qutan Mast Male high school;District;35.93926276;66.5194206;
+266;6;Balkhab;Sar e Pul;22;2207006;Sayed Jamaludin High school;District;35.5032326;66.5204099;
+267;7;Sancharak(sang;Sar e Pul;22;2205007;mohammad sharif samim high school;District;35.94983207;66.4175824;
+
+268;1;Chaghcharan;Ghor;23;2301001;IEC Ghor Provincial Office;Province Cent;34.52130456;65.2587696;
+269;2;Charsadra;Ghor;23;2304002;Gul Tapa School District Center;District;35.12916178;65.0171115;
+270;3;DoLayna;Ghor;23;2302003;Gardend Halang High School, Dolina District center;District;34.156644;64.783472;
+271;4;Dawlatyar;Ghor;23;2303004;Old Daolat yar School District Center;District;34.55388889;65.7852778;
+272;5;Shahrak;Ghor;23;2306005;District High School District Center;District;34.10818351;64.3100254;
+273;6;Taywarah;Ghor;23;2308006;Pase qala high School District center;District;33.52472222;64.4194444;
+274;7;Pasaband;Ghor;23;2305007;District Center of Bazar kuhna Shenkot Fazaye Azad;District;33.69222222;64.8494444;
+275;8;Lal Wa Sarjanga;Ghor;23;2307008;Lal wa Sare Jangul Jame Masjed District Center;District;34.49649443;66.2816428;
+276;9;Tolak;Ghor;23;2309009;District high school District center;District;33.97138889;63.7194444;
+277;10;Saghar;Ghor;23;2310010;Shekh Mohammad Saghary School District center;District;33.69138889;63.8608333;
+
+278;1;Nili;Daykundi;24;2401001;IEC Provincial office;Province Cent;33.72355483;66.1427327;
+279;2;Ashtarlay;Daykundi;24;2404002;Shaikhmeran Village(Mosque);District;34.04522083;66.2376162;
+280;3;Khadir;Daykundi;24;2405003;Khedir Sofla (Mosque);District;33.92289144;65.9321571;
+281;4;kiti;Daykundi;24;2406004;Sarteghan Village (Mosque);District;33.51402613;65.6775784;
+282;6;Shahrestan;Daykundi;24;2402006;Ulqan Village (Mosque);District;33.69587276;66.5492263;
+283;7;Sang e Takht;Daykundi;24;2408007;Shenia Qala Village(Mosque);District;34.1886093;65.8167895;
+284;8;Kajran;Daykundi;24;2409008;Bulagh Shajoi (Mosque);District;33.20630388;65.4690505;
+285;9;Miramor;Daykundi;24;2407009;Tgab Village (School);District;33.81171062;66.7846222;
+286;10;Gizab;Daykundi;24;2403010;Tamazan Village (Mosque);District;33.64963515;66.0842521;
+
+287;1;Tirinkot;Uruzgan;25;2501001;IEC Uruzgan Provincial Office;Province Cent;32.63226049;65.8803972;
+288;2;Chora;Uruzgan;25;2503002;center District High school;District;32.86317758;66.0448695;
+289;3;Chora;Uruzgan;25;2506003;center District Faizmohammad School;District;32.73885827;66.2806225;
+290;4;Shahid e Hassa;Uruzgan;25;2504004;center District School;District;32.939945;65.564029;
+291;5;Dehrawud;Uruzgan;25;2502005;center District School Shernwo;District;32.62421033;65.4563544;
+292;6;Khasuruzgan;Uruzgan;25;2505006;center District School Shazman;District;32.9264863;66.6325758;
+
+293;1;Qalat;Zabul;26;2601001;Bibi Khala Laisa & Shiekh Mati High School;Province Cent;32.10413282;66.9052303;
+294;2;Arghandab;Zabul;26;2605002;Di afghanan clinic;District;32.44835781;66.8786279;
+295;3;Mizan;Zabul;26;2604003;Nawai Alam Gul School Mizan;District;32.17625737;66.5136746;
+296;4;Tarnak Wa Jald;Zabul;26;2602004;Zarghoona Ana Laisa Tarnak Wa Jaldak;District;31.8064404;66.326849;
+297;5;Shinkay;Zabul;26;2603005;Shah Alam Laisa Shinkai;District;31.98389326;67.336712;
+298;6;Shahjoy;Zabul;26;2606006;Baba Hotak Laisa Shajoy;District;32.52005285;67.4136942;
+299;7;Kakar;Zabul;26;2611007;District School Kakar;District;32.83846507;67.0770481;
+300;8;Daychopan;Zabul;26;2607008;Bai Lugh High School Daychoopan;District;32.62934135;66.7644142;
+301;9;Atghar;Zabul;26;2608009;District Center Ataghar;District;31.73459651;67.3583897;
+302;10;Shomulzay;Zabul;26;2610010;District Clainic Shomulzai;District;31.90911816;67.6457895;
+303;11;Nawbahar;Zabul;26;2609011;District Clainic Nawbahar;District;32.21128539;67.6344963;
+
+304;1;Sharan;Paktika;12;1201001;IEC Provincial Office;Province Cent;33.17154717;68.7867357;
+305;2;Matakhan;Paktika;12;1202002;Distrect bazar mosque, matakhan;District;33.24058104;68.8673947;
+306;3;Yosufkhel;Paktika;12;1203003;Yosif khil center mosque ,Bazi wani;District;33.06674136;68.6748639;
+307;4;Sarrawzah(Sarh;Paktika;12;1205004;Masto khn valige sarozi clinic;District;32.97395242;69.0685507;
+308;5;Zarghunshahr;Paktika;12;1207005;Distrect center, bazar mosque;District;32.85177645;68.4564055;
+309;6;Yahyakhel;Paktika;12;1204006;Distrect center mohammad yaqub mosque;District;32.9436582;68.6396306;
+310;7;Omna;Paktika;12;1206007;Distrect buliding;District;32.89894994;68.7910461;
+311;8;Gomal;Paktika;12;1208008;Khairmanzai valige primary ali zay school;District;32.63230194;68.8718539;
+312;9;Sarobi;Paktika;12;1210009;Distrect center , Sodwalkhil central high school;District;32.79837004;69.0859035;
+313;10;Urgun;Paktika;12;1211010;Distrect center barakat valige Palish school;District;32.9535541;69.1708317;
+314;11;Naka;Paktika;12;1213011;District Center;District;33.18975;69.26015;
+315;12;Janikhel;Paktika;12;1209012;Distrect center, Jani khil Bazar mosque;District;32.76416768;68.4006236;
+316;13;Wazakhah;Paktika;12;1217013;Distrect center, wazi khowa school;District;32.19583333;68.3633333;
+317;14;Wormamay;Paktika;12;1218014;Distrect center cheeni primary school;District;32.08999417;68.6765277;
+318;15;Bermel;Paktika;12;1214015;Nawai Adae Jamahat, District center;District;32.64351172;69.2577;
+319;16;Gyan;Paktika;12;1215016;Distrect center Gayan mosque;District;32.97745255;69.3726434;
+320;17;Ziruk;Paktika;12;1212017;Zerok school , khodaki bagh;District;33.15783467;69.307061;
+321;18;Dila;Paktika;12;1216018;Distrect center ,Health Clinic;District;32.68818647;68.2421277;
+322;19;Turwo (Tarwe);Paktika;12;1219019;Distrect center Terway kely school;District;31.79392757;68.4018619;
+
+323;1;Khost(Matun);Khost;14;1401001;IEC PO warehouse;Province Cent;33.34186902;69.9005502;
+324;2;Sabari;Khost;14;1407002;District Center , Khalbisat;District;33.4921632;70.0014456;
+325;3;Musakhel;Khost;14;1405003;Musa Khail district central mosq;District;33.54000412;69.7318127;
+326;4;Nadirshahkot;Khost;14;1406004;school, almara;District;33.30389208;69.6540789;
+327;5;Mandozayi;Khost;14;1402005;mosque, Hasan Muhammad;District;33.30191328;69.7672888;
+328;6;Tani;Khost;14;1404006;relegiouse school (madrasah);District;33.2406415;69.8259106;
+329;7;Gurbuz;Khost;14;1403007;Shikh Ameer Higha School;District;33.27805556;69.9155556;
+330;8;Terezayi;Khost;14;1408008;central garden, Balawat;District;33.41978328;70.1338105;
+331;9;Qalandar;Khost;14;1410009;Khalim khan mosque,;District;33.46659681;69.6426948;
+332;10;Shamal;Khost;14;1412010;school, do manda;District;33.28081446;69.5960109;
+333;11;Spera;Khost;14;1411011;Dandaki Village Mosque;District;33.22181782;69.5393889;
+334;12;Bak;Khost;14;1409012;Yaqobaio distirc center;District;33.5296396;70.0245324;
+335;13;Jajimaydan;Khost;14;1413013;Mosque, Mughul khail;District;33.6231509;70.1209541;
+
+336;1;Shiberghan;Jawzjan;28;2801001;IEC Juzjan Provincial Office;Province Cent;36.6638572;65.7529822;
+337;2;Mingajik;Jawzjan;28;2804002;Charshangho High School;District;37.04138889;66.0075;
+338;3;Khwajadukoh;Jawzjan;28;2802003;Khwajadukoh Boys High School;District;36.82340382;65.6147527;
+339;4;Qushtepa;Jawzjan;28;2805004;Eduacation Office;District;36.0887813;65.391608;
+340;5;Fayzabad;Jawzjan;28;2808005;Shaheed Latifa Girls High School;District;36.82388889;66.4563889;
+341;6;Khanaqa;Jawzjan;28;2803006;Esmatullah Shahed High School;District;37.4125;66.0344444;
+342;7;Aqcha;Jawzjan;28;2807007;Hotel Shahrdari;District;36.90440209;66.1775159;
+343;8;Mardyan;Jawzjan;28;2809008;Mardyan Boys High School;District;36.94850619;66.3224582;
+344;9;Qarqin;Jawzjan;28;2810009;Makhdom Quli High School;District;37.413056;66.033894;
+345;10;Khamyab;Jawzjan;28;2806010;Khmyab Boys High School;District;37.52578696;65.7369158;
+346;11;Darzab;Jawzjan;28;2811011;Darzab Boys High School;District;35.97807056;65.3857548;
+
+347;1;Maymana;Faryab;29;2901001;Municipality Hotel;Province Cent;35.92347235;64.7792183;
+348;2;Khwajasabzpos;Faryab;29;2903002;Deh 
+349;3;Pashtunkot;Faryab;29;2902003;Pashtoon Kot District center;District;35.90250543;64.7589542;
+350;4;Shirintagab;Faryab;29;2906004;Islam Qala high school;District;36.2260538;64.8639059;
+351;5;Almar;Faryab;29;2904005;Bazar Almar School;District;35.84738165;64.5335449;
+352;6;Qaysar;Faryab;29;2907006;Nadam Qesary High School;District;35.68940726;64.2934343;
+353;7;Kohestan;Faryab;29;2910007;Lawlash Secondary school;District;35.38386319;64.7535663;
+354;8;Garziwan;Faryab;29;2908008;Sarchkan Jamee Masjed;District;35.71294252;65.222541;
+355;9;Bilcheragh;Faryab;29;2905009;Pule Cheragh Center Madrasa;District;35.84322074;65.23154;
+356;10;Dawlatabad;Faryab;29;2909010;Quzebai Qala Femal high school;District;36.41924758;64.8853907;
+357;11;Andkhoy;Faryab;29;2913011;Youldoz Andkhoye high School;District;36.945373;65.1236815;
+358;12;Qaramqol;Faryab;29;2911012;Qarqul High School;District;36.85367332;65.0816543;
+359;13;Khan e Char Ba;Faryab;29;2914013;Khanchar bagh High school;District;37.00222222;65.2205556;
+360;14;Qorghan;Faryab;29;2912014;Mohammad Kamel Shahed high School, Qarghan Distr;District;36.91728174;65.0692721;
+
+361;1;Qala e Naw;Badghis;31;3101001;IEC Badghis Provincial Office;Province Cent;34.98622137;63.1299279;
 362;2;Muqur;Badghis;31;3103002;Rabat Clinic;District;35.07916667;63.27
-363;3;Abkamari;Badghis;31;3102003;Abkamari center clinic;District;34.92222222;63.0408333
-364;4;Qadis;Badghis;31;3104004;Jameyat School;District;34.802153;63.44151
-365;5;Jawand;Badghis;31;3106005;Char uttaq School;District;35.06297169;64.1520471
-366;6;Balamurghab;Badghis;31;3105006;Merghab Center School;District;35.58083333;63.3286111
-367;7;Ghormach;Badghis;31;3107007;District Center;District;35.73009356;63.7838415
-368;1;Herat;Hirat;32;3201001;Madrasa Aali Fakhrul Madaris,Masjed Park,Saifi High S;Province Cent;34.34303958;62.1957114
-369;2;Hirat;Hirat;32;3201002;Park Mosque;Nahia_02;34.34311996;62.1957714
-370;3;Hirat;Hirat;32;3202003;Safi High School;Province Cent;34.33029122;62.1871431
-371;5;Hirat;Hirat;32;3201005;Fath High School;Province Cent;34.35989439;62.1480823
-372;6;Injil;Hirat;32;3202006;center of Enjeel district mosque.;District;34.35084991;62.0918198
-373;7;Kushk;Hirat;32;3207007;Rubat Sing kushkak center Jame Masjed;District;34.79873294;62.1366556
-374;9;Zindajan;Hirat;32;3205009;Forme Pela wary Qala Regee;District;34.33649543;61.7592769
+363;3;Abkamari;Badghis;31;3102003;Abkamari center clinic;District;34.92222222;63.0408333;
+364;4;Qadis;Badghis;31;3104004;Jameyat School;District;34.802153;63.44151;
+365;5;Jawand;Badghis;31;3106005;Char uttaq School;District;35.06297169;64.1520471;
+366;6;Balamurghab;Badghis;31;3105006;Merghab Center School;District;35.58083333;63.3286111;
+367;7;Ghormach;Badghis;31;3107007;District Center;District;35.73009356;63.7838415;
+
+368;1;Herat;Hirat;32;3201001;Madrasa Aali Fakhrul Madaris,Masjed Park,Saifi High S;Province Cent;34.34303958;62.1957114;
+369;2;Hirat;Hirat;32;3201002;Park Mosque;Nahia_02;34.34311996;62.1957714;
+370;3;Hirat;Hirat;32;3202003;Safi High School;Province Cent;34.33029122;62.1871431;
+371;5;Hirat;Hirat;32;3201005;Fath High School;Province Cent;34.35989439;62.1480823;
+372;6;Injil;Hirat;32;3202006;center of Enjeel district mosque.;District;34.35084991;62.0918198;
+373;7;Kushk;Hirat;32;3207007;Rubat Sing kushkak center Jame Masjed;District;34.79873294;62.1366556;
+374;9;Zindajan;Hirat;32;3205009;Forme Pela wary Qala Regee;District;34.33649543;61.7592769;
 375;10;Guzara;Hirat;32;3203010;Wazir Fateh khan high school;District;34.22777778;62.22
-376;11;Pashtunzarghu;Hirat;32;3206011;Geme Center high school;District;34.2275;62.6905556
-377;12;Karukh;Hirat;32;3204012;Karokh Center high school;District;34.49070399;62.5859403
-378;13;Gulran;Hirat;32;3208013;Qara Bagh high school;District;34.93916667;61.7752778
-379;14;Ghoryan;Hirat;32;3211014;Qaisan Jame Masjed;District;34.34593735;61.5036152
-380;15;Adraskan;Hirat;32;3209015;District Center Hgih School;District;33.643737;62.266894
-381;16;Farsi;Hirat;32;3215016;District Center Femal school;District;33.78625133;63.272475
-382;17;Obe;Hirat;32;3212017;Obah Center high School;District;34.37283866;63.1755097
-383;18;Kushk e Kohna;Hirat;32;3210018;Bazzar Kuhna Masjed;District;34.86153635;62.5575831
-384;19;Kohsan;Hirat;32;3213019;Kahsan High school;District;34.65813042;61.2000115
-385;20;Shindand;Hirat;32;3214020;Markaz Sharwali;District;33.30417696;62.1565989
-386;21;Chisht e Sharif;Hirat;32;3216021;Assadullah Chashmi School;District;34.33611111;63.7380556
-387;1;Farah;Farah;33;3301001;Agriculture High School;Province Cent;32.3735605;62.1232602
-388;2;Bakwa;Farah;33;3308002;Bakwa Center Mosque;District;32.2413832;62.949367
-389;3;Balabuluk;Farah;33;3306003;Gang Abad Agricltuer School;District;32.61968258;62.4574707
-390;4;Khak e Safed;Farah;33;3303004;Deh Naw High School;District;32.65405878;62.1039206
-391;5;Pushtrod;Farah;33;3302005;Cheen High School;District;32.49055556;62.1402778
+376;11;Pashtunzarghu;Hirat;32;3206011;Geme Center high school;District;34.2275;62.6905556;
+377;12;Karukh;Hirat;32;3204012;Karokh Center high school;District;34.49070399;62.5859403;
+378;13;Gulran;Hirat;32;3208013;Qara Bagh high school;District;34.93916667;61.7752778;
+379;14;Ghoryan;Hirat;32;3211014;Qaisan Jame Masjed;District;34.34593735;61.5036152;
+380;15;Adraskan;Hirat;32;3209015;District Center Hgih School;District;33.643737;62.266894;
+381;16;Farsi;Hirat;32;3215016;District Center Femal school;District;33.78625133;63.272475;
+382;17;Obe;Hirat;32;3212017;Obah Center high School;District;34.37283866;63.1755097;
+383;18;Kushk e Kohna;Hirat;32;3210018;Bazzar Kuhna Masjed;District;34.86153635;62.5575831;
+384;19;Kohsan;Hirat;32;3213019;Kahsan High school;District;34.65813042;61.2000115;
+385;20;Shindand;Hirat;32;3214020;Markaz Sharwali;District;33.30417696;62.1565989;
+386;21;Chisht e Sharif;Hirat;32;3216021;Assadullah Chashmi School;District;34.33611111;63.7380556;
+
+387;1;Farah;Farah;33;3301001;Agriculture High School;Province Cent;32.3735605;62.1232602;
+388;2;Bakwa;Farah;33;3308002;Bakwa Center Mosque;District;32.2413832;62.949367;
+389;3;Balabuluk;Farah;33;3306003;Gang Abad Agricltuer School;District;32.61968258;62.4574707;
+390;4;Khak e Safed;Farah;33;3303004;Deh Naw High School;District;32.65405878;62.1039206;
+391;5;Pushtrod;Farah;33;3302005;Cheen High School;District;32.49055556;62.1402778;
 392;6;Qala e Kah;Farah;33;3304006;Female school district center;District;32.18.71;61.30.51
-393;7;Shibkoh;Farah;33;3305007;Keen Elementary School;District;32.13681909;61.6165483
-394;8;Lash e Juwayn;Farah;33;3309008;Ebni Yaman Jaweeni High School;District;31.71195657;61.6207398
-395;9;Gulestan;Farah;33;3310009;Qala Kihna Elementary School;District;32.61666667;63.6691667
-396;10;Purchaman;Farah;33;3311010;Tahat Purchaman High School;District;33.14194444;63.8661111
-397;11;Anardara;Farah;33;3307011;Anar Darah Center School;District;32.76011131;61.6507995
-398;1;Lashkargah;Hilmand;30;3001001;Helmand IEC Provincial Office;Province Cent;31.58292566;64.3608733
-399;2;Nahr e Saraj;Hilmand;30;3004002;Abu Laftah School;District;31.81599127;64.5741467
-400;3;Nad e Ali;Hilmand;30;3002003;District Center Hgih School;District;31.64437886;64.2384182
-401;4;Nawa e Barakz;Hilmand;30;3003004;Khalej high school;District;31.37844933;64.304381
-402;5;Sangin;Hilmand;30;3008005;Jamie masjed;District;32.07193746;64.8375307
-403;6;Musaqalah;Hilmand;30;3009006;District Center Hgih School;District;32.34868299;64.771075
-404;7;Nawzad;Hilmand;30;3007007;Assad Sory High school;District;32.40445722;64.4709456
-405;8;Washer;Hilmand;30;3005008;District Clinic;District;32.24515782;63.8661518
-406;9;Washer;Hilmand;30;3014009;Building Block 4F;District;31.51201188;64.0701702
-407;10;Garmser;Hilmand;30;3006010;District Center School;District;31.13079509;64.1986914
-408;11;Kajaki;Hilmand;30;3010011;District Center School;District;32.3266974;65.0996876
-409;12;Baghran;Hilmand;30;3012012;District Center;District;33.07605198;65.0897879
-410;13;Reg e Khanishi;Hilmand;30;3011013;District Center Hgih School;District;30.55137467;63.7856295
-411;14;Deh e shu;Hilmand;30;3013014;District Center;District;30.43349091;63.3096694
-412;1;Kandahar;Kandahar;27;2701001;Transportation Directorate of Kandahar;Province Cent;31.61015944;65.7581792
-413;2;Kandahar;Kandahar;27;2701002;IEC Kandahar PO;Province Cent;31.61015944;65.7581792
-414;3;Kandahar;Kandahar;27;2701003;Shaheed Azamullah School;Province Cent;31.60187679;65.7778592
-415;4;Kandahar;Kandahar;27;2701004;Arab Qala Clinic, Loi Wiala;Nahia_09;31.63115012;65.7037511
-416;5;Kandahar;Kandahar;27;2701005;Zahershahi School;Nahia_06;31.606961;65.627138
-417;6;Kandahar;Kandahar;27;2701006;Nawi Mearwais Mina School;Nahia_06;31.60882657;65.6865169
-418;7;Kandahar;Kandahar;27;2717007;Karz school;District;31.59817888;65.7332852
-419;8;Arghandab;Kandahar;27;2702008;water irragtion buliding,Langar dorahy;District;31.65944444;65.669444
-420;9;Zheray;Kandahar;27;2705009;Distrect adminstrave buliding;District;31.6221341;65.5271352
-421;10;Panjwayi;Kandahar;27;2704010;Shamsuddin kakar school;District;31.54288046;65.4548809
-422;11;Daman;Kandahar;27;2703011;Nasaji school;District;31.61592544;65.8444653
-423;12;Shahwalikot;Kandahar;27;2706012;Clinic Wayan;District;31.79852827;65.825595
-424;13;Khakrez;Kandahar;27;2707013;Distrect adminstrave bulidin , sha agha;District;31.98267325;65.4746975
-425;14;Maywand;Kandahar;27;2710014;Mohammad ghazi Ayob khan high school , kishk nakho;District;31.62285657;65.0554423
-426;15;Reg;Kandahar;27;2716015;Distrect center;District;29.7333;65.7167
-427;16;Shorabak;Kandahar;27;2714016;Distrect center , Abozay;District;30.12939;65.99569
-428;17;Spinboldak;Kandahar;27;2711017;Ghazi abdulall scool;District;31.00910156;66.394898
-429;18;Arghestan;Kandahar;27;2708018;Khogyani , mohammad neki school.;District;31.55950359;66.5794262
-430;19;Miyanshin;Kandahar;27;2713019;Distrect center;District;32.4133;66.3684
-431;20;Nesh;Kandahar;27;2712020;Distrect center;District;32.42667065;65.6353776
-432;21;Ghorak;Kandahar;27;2709021;District Center;District;32.0836129;65.1570475
-433;22;Maruf;Kandahar;27;2715022;Distrect center;District;31.62146529;67.1711958
-434;23;Takhta Pul;Kandahar;27;2718023;District Center, Shaga;District;;
-435;1;Zaranj;Nimroz;34;3401001;Provincial IEC warehouse next to Police station;Province Cent;30.96163796;61.8607251
-436;2;Kang;Nimroz;34;3402002;Khana ejtemayee Darwishak,50m chawni Sarhadi;District;31.14833333;61.8077778
-437;3;Charburjak;Nimroz;34;3404003;Maktab Jadide Waliswali 100 m Qumandain Amnia W;District;30.27946471;62.0605885
-438;4;Chakhansur;Nimroz;34;3403004;Zainab Female High School,50 to Police Directorate;District;31.17644783;62.0651417
-439;5;Khashrod;Nimroz;34;3405005;Bibi Amina Femail High School,1km to Police station,i;District;31.43920196;62.6287112
-440;6;Khashrod;Nimroz;34;3406006;Del Aram district center;District;32.16288699;63.4286921
+393;7;Shibkoh;Farah;33;3305007;Keen Elementary School;District;32.13681909;61.6165483;
+394;8;Lash e Juwayn;Farah;33;3309008;Ebni Yaman Jaweeni High School;District;31.71195657;61.6207398;
+395;9;Gulestan;Farah;33;3310009;Qala Kihna Elementary School;District;32.61666667;63.6691667;
+396;10;Purchaman;Farah;33;3311010;Tahat Purchaman High School;District;33.14194444;63.8661111;
+397;11;Anardara;Farah;33;3307011;Anar Darah Center School;District;32.76011131;61.6507995;
+
+398;1;Lashkargah;Hilmand;30;3001001;Helmand IEC Provincial Office;Province Cent;31.58292566;64.3608733;
+399;2;Nahr e Saraj;Hilmand;30;3004002;Abu Laftah School;District;31.81599127;64.5741467;
+400;3;Nad e Ali;Hilmand;30;3002003;District Center Hgih School;District;31.64437886;64.2384182;
+401;4;Nawa e Barakz;Hilmand;30;3003004;Khalej high school;District;31.37844933;64.304381;
+402;5;Sangin;Hilmand;30;3008005;Jamie masjed;District;32.07193746;64.8375307;
+403;6;Musaqalah;Hilmand;30;3009006;District Center Hgih School;District;32.34868299;64.771075;
+404;7;Nawzad;Hilmand;30;3007007;Assad Sory High school;District;32.40445722;64.4709456;
+405;8;Washer;Hilmand;30;3005008;District Clinic;District;32.24515782;63.8661518;
+406;9;Washer;Hilmand;30;3014009;Building Block 4F;District;31.51201188;64.0701702;
+407;10;Garmser;Hilmand;30;3006010;District Center School;District;31.13079509;64.1986914;
+408;11;Kajaki;Hilmand;30;3010011;District Center School;District;32.3266974;65.0996876;
+409;12;Baghran;Hilmand;30;3012012;District Center;District;33.07605198;65.0897879;
+410;13;Reg e Khanishi;Hilmand;30;3011013;District Center Hgih School;District;30.55137467;63.7856295;
+411;14;Deh e shu;Hilmand;30;3013014;District Center;District;30.43349091;63.3096694;
+
+412;1;Kandahar;Kandahar;27;2701001;Transportation Directorate of Kandahar;Province Cent;31.61015944;65.7581792;
+413;2;Kandahar;Kandahar;27;2701002;IEC Kandahar PO;Province Cent;31.61015944;65.7581792;
+414;3;Kandahar;Kandahar;27;2701003;Shaheed Azamullah School;Province Cent;31.60187679;65.7778592;
+415;4;Kandahar;Kandahar;27;2701004;Arab Qala Clinic, Loi Wiala;Nahia_09;31.63115012;65.7037511;
+416;5;Kandahar;Kandahar;27;2701005;Zahershahi School;Nahia_06;31.606961;65.627138;
+417;6;Kandahar;Kandahar;27;2701006;Nawi Mearwais Mina School;Nahia_06;31.60882657;65.6865169;
+418;7;Kandahar;Kandahar;27;2717007;Karz school;District;31.59817888;65.7332852;
+419;8;Arghandab;Kandahar;27;2702008;water irragtion buliding,Langar dorahy;District;31.65944444;65.669444;
+420;9;Zheray;Kandahar;27;2705009;Distrect adminstrave buliding;District;31.6221341;65.5271352;
+421;10;Panjwayi;Kandahar;27;2704010;Shamsuddin kakar school;District;31.54288046;65.4548809;
+422;11;Daman;Kandahar;27;2703011;Nasaji school;District;31.61592544;65.8444653;
+423;12;Shahwalikot;Kandahar;27;2706012;Clinic Wayan;District;31.79852827;65.825595;
+424;13;Khakrez;Kandahar;27;2707013;Distrect adminstrave bulidin , sha agha;District;31.98267325;65.4746975;
+425;14;Maywand;Kandahar;27;2710014;Mohammad ghazi Ayob khan high school , kishk nakho;District;31.62285657;65.0554423;
+426;15;Reg;Kandahar;27;2716015;Distrect center;District;29.7333;65.7167;
+427;16;Shorabak;Kandahar;27;2714016;Distrect center , Abozay;District;30.12939;65.99569;
+428;17;Spinboldak;Kandahar;27;2711017;Ghazi abdulall scool;District;31.00910156;66.394898;
+429;18;Arghestan;Kandahar;27;2708018;Khogyani , mohammad neki school.;District;31.55950359;66.5794262;
+430;19;Miyanshin;Kandahar;27;2713019;Distrect center;District;32.4133;66.3684;
+431;20;Nesh;Kandahar;27;2712020;Distrect center;District;32.42667065;65.6353776;
+432;21;Ghorak;Kandahar;27;2709021;District Center;District;32.0836129;65.1570475;
+433;22;Maruf;Kandahar;27;2715022;Distrect center;District;31.62146529;67.1711958;
+434;23;Takhta Pul;Kandahar;27;2718023;District Center, Shaga;District
+
+435;1;Zaranj;Nimroz;34;3401001;Provincial IEC warehouse next to Police station;Province Cent;30.96163796;61.8607251;
+436;2;Kang;Nimroz;34;3402002;Khana ejtemayee Darwishak,50m chawni Sarhadi;District;31.14833333;61.8077778;
+437;3;Charburjak;Nimroz;34;3404003;Maktab Jadide Waliswali 100 m Qumandain Amnia W;District;30.27946471;62.0605885;
+438;4;Chakhansur;Nimroz;34;3403004;Zainab Female High School,50 to Police Directorate;District;31.17644783;62.0651417;
+439;5;Khashrod;Nimroz;34;3405005;Bibi Amina Femail High School,1km to Police station,i;District;31.43920196;62.6287112;
+440;6;Khashrod;Nimroz;34;3406006;Del Aram district center;District;32.16288699;63.4286921;
+
