@@ -1,0 +1,72 @@
+{
+  "bounds": [
+    58.2275,
+    28.7677,
+    75.0146,
+    39.3003
+  ],
+  "center": [
+    66.9287,
+    34.6332,
+    5
+  ],
+  "format": "png8",
+  "interactivity": {
+    "layer": "polling",
+    "template_teaser": "<em>{{{district}}}, {{{province}}}</em> <br>\n\n<b>{{{pc_name}}}</b><br>\n<em>{{{pc_location}}}</em><br>\nTotal Stations: {{{ps_total}}}\n<table>\n<tr>\n  <td>Male Stations</td>\n  <td>Female Stations</td>\n</tr>\n<tr>\n<td> {{ps_male}}</td>\n<td> {{ps_female}}</td>\n</tr>\n</table>",
+    "fields": [
+      "district",
+      "province",
+      "pc_name",
+      "pc_location",
+      "ps_total",
+      "ps_male",
+      "ps_female"
+    ]
+  },
+  "minzoom": 4,
+  "maxzoom": 14,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        60.74937186000005,
+        29.58181044000005,
+        74.00513374000005,
+        38.44329255999999
+      ],
+      "id": "polling",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/natesmith/github/afghanistan-election-data-2014/data/polling/2014_iec_polling_center_locations.geojson",
+        "layer": "OGRGeoJSON"
+      },
+      "layer": null,
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "polling"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "https://a.tiles.mapbox.com/v3/afghan-open.map-hjp22ek6.jsonp",
+  "name": "",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}
