@@ -4,10 +4,10 @@ import os, sys, time
 import simplejson as json
 import csv
 
-data_fileEN = open('../polling-center-locations/iec_polling_centers_en_open_march31.geojson', "rb").read()
+data_fileEN = open('../closed_stations/iec_polling_centers_en_unopened.geojson', "rb").read()
 dataEN = json.loads(data_fileEN)
 
-data_fileDR = open('../polling-center-locations/iec_polling_centers_dr_open_march31.geojson', "rb").read()
+data_fileDR = open('../closed_stations/iec_polling_centers_dr_unopened.geojson', "rb").read()
 dataDR = json.loads(data_fileDR)
 
 csv_read = csv.DictReader(open('excluded_ps.csv', 'rb'), delimiter= ',', quotechar = '"')
