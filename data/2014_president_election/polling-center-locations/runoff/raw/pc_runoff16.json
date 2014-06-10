@@ -1,0 +1,4922 @@
+{
+ "displayFieldName": "Polling_Center_Name",
+ "fieldAliases": {
+  "OBJECTID": "OBJECTID",
+  "ولایت": "ولایت",
+  "Province": "Province",
+  "PC_Code": "PC_Code",
+  "District": "District",
+  "د_مرکز_نوم__نام_مرکز": "د_مرکز_نوم__نام_مرکز",
+  "Polling_Center_Name": "Polling_Center_Name",
+  "د_مرکز_ځای__موقعیت_مرکز": "د_مرکز_ځای__موقعیت_مرکز",
+  "Polling_Center_Location": "Polling_Center_Location",
+  "Map_Accuracy": "Map_Accuracy",
+  "Map_Accuracy_Dari": "Map_Accuracy_Dari",
+  "Status": "Status",
+  "Status_Dari": "Status_Dari",
+  "PS_Male": "PS_Male",
+  "PS_Female": "PS_Female",
+  "PS_Total": "PS_Total"
+ },
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID"
+  },
+  {
+   "name": "ولایت",
+   "type": "esriFieldTypeString",
+   "alias": "ولایت",
+   "length": 255
+  },
+  {
+   "name": "Province",
+   "type": "esriFieldTypeString",
+   "alias": "Province",
+   "length": 255
+  },
+  {
+   "name": "PC_Code",
+   "type": "esriFieldTypeString",
+   "alias": "PC_Code",
+   "length": 255
+  },
+  {
+   "name": "District",
+   "type": "esriFieldTypeString",
+   "alias": "District",
+   "length": 255
+  },
+  {
+   "name": "د_مرکز_نوم__نام_مرکز",
+   "type": "esriFieldTypeString",
+   "alias": "د_مرکز_نوم__نام_مرکز",
+   "length": 255
+  },
+  {
+   "name": "Polling_Center_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Polling_Center_Name",
+   "length": 255
+  },
+  {
+   "name": "د_مرکز_ځای__موقعیت_مرکز",
+   "type": "esriFieldTypeString",
+   "alias": "د_مرکز_ځای__موقعیت_مرکز",
+   "length": 255
+  },
+  {
+   "name": "Polling_Center_Location",
+   "type": "esriFieldTypeString",
+   "alias": "Polling_Center_Location",
+   "length": 255
+  },
+  {
+   "name": "Map_Accuracy",
+   "type": "esriFieldTypeString",
+   "alias": "Map_Accuracy",
+   "length": 10
+  },
+  {
+   "name": "Map_Accuracy_Dari",
+   "type": "esriFieldTypeString",
+   "alias": "Map_Accuracy_Dari",
+   "length": 50
+  },
+  {
+   "name": "Status",
+   "type": "esriFieldTypeString",
+   "alias": "Status",
+   "length": 6
+  },
+  {
+   "name": "Status_Dari",
+   "type": "esriFieldTypeString",
+   "alias": "Status_Dari",
+   "length": 8
+  },
+  {
+   "name": "PS_Male",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "PS_Male"
+  },
+  {
+   "name": "PS_Female",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "PS_Female"
+  },
+  {
+   "name": "PS_Total",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "PS_Total"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 3001,
+    "ولایت": "کاپيسا",
+    "Province": "KAPISA",
+    "PC_Code": "0205064",
+    "District": "NIJRAB",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه محمد ایوب شهید (کوچی)",
+    "Polling_Center_Name": "Mohammad Ayoub Secondary School (Kuchi)",
+    "د_مرکز_ځای__موقعیت_مرکز": "حسین خیل ",
+    "Polling_Center_Location": "Husain Khel",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7757138.4359000437,
+    "y": 4163420.9961201772
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3002,
+    "ولایت": "کاپيسا",
+    "Province": "KAPISA",
+    "PC_Code": "0205062",
+    "District": "NIJRAB",
+    "د_مرکز_نوم__نام_مرکز": "منزل ملک روضا خیل ",
+    "Polling_Center_Name": "Malik Rozakhel House",
+    "د_مرکز_ځای__موقعیت_مرکز": "روضا خیل ",
+    "Polling_Center_Location": "RozaKhel ",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7749268.7913276181,
+    "y": 4169110.0674088821
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3003,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0605149",
+    "District": "KAMA",
+    "د_مرکز_نوم__نام_مرکز": "قلعه اخند جومات",
+    "Polling_Center_Name": "Qala-e- Akhund Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قلعه اخند",
+    "Polling_Center_Location": "Qala-e- Akhund ",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 0,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7856921.6440727301,
+    "y": 4084632.7090348005
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3004,
+    "ولایت": "پروان",
+    "Province": "PARWAN",
+    "PC_Code": "0301006",
+    "District": "CHARIKAR",
+    "د_مرکز_نوم__نام_مرکز": "لیسه میانشاخ",
+    "Polling_Center_Name": "Meyan Shakh High School ",
+    "د_مرکز_ځای__موقعیت_مرکز": "میانشاخ ",
+    "Polling_Center_Location": "Mian Shakh",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 1,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7703014.0979760215,
+    "y": 4161574.8053694069
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3005,
+    "ولایت": "پروان",
+    "Province": "PARWAN",
+    "PC_Code": "0301027",
+    "District": "CHARIKAR",
+    "د_مرکز_نوم__نام_مرکز": "مکتب توب دره",
+    "Polling_Center_Name": "Toop Dara School",
+    "د_مرکز_ځای__موقعیت_مرکز": "توب دره",
+    "Polling_Center_Location": "Toop Dara",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7694997.1131519675,
+    "y": 4161735.8941510096
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3006,
+    "ولایت": "پروان",
+    "Province": "PARWAN",
+    "PC_Code": "0302111",
+    "District": "BAGRAM",
+    "د_مرکز_نوم__نام_مرکز": "لیسه عبدالستار شهید",
+    "Polling_Center_Name": "Abdul Sattar Shaheed High School ",
+    "د_مرکز_ځای__موقعیت_مرکز": "دولت شاهی ",
+    "Polling_Center_Location": "Dowlat Shahi ",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7703188.1771693304,
+    "y": 4158956.675421223
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3007,
+    "ولایت": "پروان",
+    "Province": "PARWAN",
+    "PC_Code": "0304037",
+    "District": "SAYID KHIAL",
+    "د_مرکز_نوم__نام_مرکز": "لیسه امام اعظم آقتاش ",
+    "Polling_Center_Name": "Imam-e-Azaam Uqtash High School, ",
+    "د_مرکز_ځای__موقعیت_مرکز": "آقتاش ",
+    "Polling_Center_Location": "Uqtash",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7710570.3670499176,
+    "y": 4170882.7105986476
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3008,
+    "ولایت": "پروان",
+    "Province": "PARWAN",
+    "PC_Code": "0305057",
+    "District": "JABULUSSARAJ",
+    "د_مرکز_نوم__نام_مرکز": "مسجد جامع دو بندی",
+    "Polling_Center_Name": "Du Bandi Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "دو بندی",
+    "Polling_Center_Location": "Dubandi",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7712040.4400001876,
+    "y": 4181043.1128945723
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3009,
+    "ولایت": "پروان",
+    "Province": "PARWAN",
+    "PC_Code": "0305058",
+    "District": "JABULUSSARAJ",
+    "د_مرکز_نوم__نام_مرکز": "مسجد آشابه ",
+    "Polling_Center_Name": "Aushaba Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "مرکز آشابه ",
+    "Polling_Center_Location": "Ashaba Center ",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7693320.1751919575,
+    "y": 4179549.6367774829
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3010,
+    "ولایت": "پروان",
+    "Province": "PARWAN",
+    "PC_Code": "0309132",
+    "District": "SURKHI PARSA",
+    "د_مرکز_نوم__نام_مرکز": "لیسه نسوان بازار لولنج ",
+    "Polling_Center_Name": "Female high school_Bazar Lolegn",
+    "د_مرکز_ځای__موقعیت_مرکز": "بازار لولنج",
+    "Polling_Center_Location": "Bazar Lolenj",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7641845.6285406426,
+    "y": 4153564.6278257892
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3011,
+    "ولایت": "وردک",
+    "Province": "WARDAK",
+    "PC_Code": "0401001",
+    "District": "MAYDAN SHAHR",
+    "د_مرکز_نوم__نام_مرکز": "تعمیر شاروالی ",
+    "Polling_Center_Name": "Municipality Building",
+    "د_مرکز_ځای__موقعیت_مرکز": "تعمیرشاروالی میدان شهر",
+    "Polling_Center_Location": "Maidan Shahr Municipality Building",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 5,
+    "PS_Female": 2,
+    "PS_Total": 7
+   },
+   "geometry": {
+    "x": 7666107.8406896405,
+    "y": 4081923.190844737
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3012,
+    "ولایت": "وردک",
+    "Province": "WARDAK",
+    "PC_Code": "0404084",
+    "District": "CHAKI WARDAK",
+    "د_مرکز_نوم__نام_مرکز": "مدرسه لنگر",
+    "Polling_Center_Name": "Langar Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "لنگر",
+    "Polling_Center_Location": "Langar",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7645856.1436278149,
+    "y": 4050129.7398552448
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3013,
+    "ولایت": "وردک",
+    "Province": "WARDAK",
+    "PC_Code": "0404105",
+    "District": "CHAKI WARDAK",
+    "د_مرکز_نوم__نام_مرکز": "منزل ملا شفیق",
+    "Polling_Center_Name": "Molla Shafiq House",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه زمان خیل",
+    "Polling_Center_Location": "Zaman Khel Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7642606.4861282669,
+    "y": 4046064.2273687646
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3014,
+    "ولایت": "وردک",
+    "Province": "WARDAK",
+    "PC_Code": "0405127",
+    "District": "SAYYD ABAD",
+    "د_مرکز_نوم__نام_مرکز": "مسجد قریه سلطان خیل ",
+    "Polling_Center_Name": "Sultan Khel Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "سلطان خیل",
+    "Polling_Center_Location": "Sultan Khel",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7640689.2160667963,
+    "y": 4012345.8313597888
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3015,
+    "ولایت": "وردک",
+    "Province": "WARDAK",
+    "PC_Code": "0405128",
+    "District": "SAYYD ABAD",
+    "د_مرکز_نوم__نام_مرکز": "مکتب المار",
+    "Polling_Center_Name": "Almar School",
+    "د_مرکز_ځای__موقعیت_مرکز": "بهادرخیل",
+    "Polling_Center_Location": "Bahadur Khel",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7639853.2879541703,
+    "y": 4016224.6420119256
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3016,
+    "ولایت": "وردک",
+    "Province": "WARDAK",
+    "PC_Code": "0406070",
+    "District": "DAYMIRDAD",
+    "د_مرکز_نوم__نام_مرکز": "کلینیک تنگی سیدان",
+    "Polling_Center_Name": "Tangi Saiedan Clinic",
+    "د_مرکز_ځای__موقعیت_مرکز": "تنگی سیدان",
+    "Polling_Center_Location": "Tangi Saiedan",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7623959.4639789909,
+    "y": 4060738.1109890863
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3017,
+    "ولایت": "وردک",
+    "Province": "WARDAK",
+    "PC_Code": "0409034",
+    "District": "MARKAZ-E-BEHSUD",
+    "د_مرکز_نوم__نام_مرکز": "مسجد درنجوی",
+    "Polling_Center_Name": "DarunJoi Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه درنجوی",
+    "Polling_Center_Location": "Darun Joi Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7558504.3492331356,
+    "y": 4078854.1669928133
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3018,
+    "ولایت": "وردک",
+    "Province": "WARDAK",
+    "PC_Code": "0409055",
+    "District": "MARKAZ-E-BEHSUD",
+    "د_مرکز_نوم__نام_مرکز": "مکتب باد آسیاب",
+    "Polling_Center_Name": "Bad-e-Asyab School",
+    "د_مرکز_ځای__موقعیت_مرکز": "کوته مکتب",
+    "Polling_Center_Location": "Kuta Maktab",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7566550.3316713534,
+    "y": 4078871.7390809134
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3019,
+    "ولایت": "لوگر",
+    "Province": "LOGAR",
+    "PC_Code": "0501014",
+    "District": "PULI ALAM",
+    "د_مرکز_نوم__نام_مرکز": "مکتب چوڼى",
+    "Polling_Center_Name": "Choni School",
+    "د_مرکز_ځای__موقعیت_مرکز": "چوڼى",
+    "Polling_Center_Location": "Choni",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7695545.5386421196,
+    "y": 4012296.2371114343
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3020,
+    "ولایت": "لوگر",
+    "Province": "LOGAR",
+    "PC_Code": "0502036",
+    "District": "BARAKI BARAK",
+    "د_مرکز_نوم__نام_مرکز": "مسجد قلعه بادى ",
+    "Polling_Center_Name": "Qala-e-Badi Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قلعه بادى",
+    "Polling_Center_Location": "Qala-e-Badi",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7678606.4380067401,
+    "y": 4024896.2680424377
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3021,
+    "ولایت": "لوگر",
+    "Province": "LOGAR",
+    "PC_Code": "0505058",
+    "District": "MOHAMMAD AGHA",
+    "د_مرکز_نوم__نام_مرکز": "مکتب اناث و ذکور زرغون شهر",
+    "Polling_Center_Name": "Zarghon Shahr Boys & Girls School",
+    "د_مرکز_ځای__موقعیت_مرکز": "زرغون شهر",
+    "Polling_Center_Location": "Zarghon Shahr",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 3,
+    "PS_Total": 6
+   },
+   "geometry": {
+    "x": 7695448.3155384399,
+    "y": 4044300.1131166965
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3022,
+    "ولایت": "لوگر",
+    "Province": "LOGAR",
+    "PC_Code": "0505059",
+    "District": "MOHAMMAD AGHA",
+    "د_مرکز_نوم__نام_مرکز": "مکتب گماران",
+    "Polling_Center_Name": "Gumaran School",
+    "د_مرکز_ځای__موقعیت_مرکز": "گماران",
+    "Polling_Center_Location": "Gomaran",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7697682.3440977633,
+    "y": 4066886.1241733506
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3023,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0601020",
+    "District": "JALALABAD",
+    "د_مرکز_نوم__نام_مرکز": "د ښځو چارو رياست",
+    "Polling_Center_Name": "Women Affairs Directorate",
+    "د_مرکز_ځای__موقعیت_مرکز": "دریمه ناحیه",
+    "Polling_Center_Location": "D03-Nahia 3",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 7,
+    "PS_Total": 7
+   },
+   "geometry": {
+    "x": 7840587.1101296879,
+    "y": 4087052.8112360239
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3024,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0601041",
+    "District": "JALALABAD",
+    "د_مرکز_نوم__نام_مرکز": "مجبور آباد مکتب",
+    "Polling_Center_Name": "Majboor Abad School",
+    "د_مرکز_ځای__موقعیت_مرکز": "څلورمه ناحیه",
+    "Polling_Center_Location": "D04-Nahia 4",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 5,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7844723.0535625555,
+    "y": 4084314.7082781121
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3025,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0602067",
+    "District": "BEHSUD",
+    "د_مرکز_نوم__نام_مرکز": "هډه  مکتب",
+    "Polling_Center_Name": "Hada School",
+    "د_مرکز_ځای__موقعیت_مرکز": "هډه",
+    "Polling_Center_Location": "Hada",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 0,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7844863.0181186832,
+    "y": 4077668.3401051909
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3026,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0602068",
+    "District": "BEHSUD",
+    "د_مرکز_نوم__نام_مرکز": "نجم القرا کلینيک",
+    "Polling_Center_Name": "Najmul Qura Clinic ",
+    "د_مرکز_ځای__موقعیت_مرکز": "هډه",
+    "Polling_Center_Location": "Hada",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 3,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7844715.5899246596,
+    "y": 4077597.3311911747
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3027,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0603090",
+    "District": "SURKH RUD",
+    "د_مرکز_نوم__نام_مرکز": "بالاباغ کلینيک",
+    "Polling_Center_Name": "Bala Bagh Clinic",
+    "د_مرکز_ځای__موقعیت_مرکز": "بالا باغ",
+    "Polling_Center_Location": "Bala Bagh",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 2,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7817049.5706112236,
+    "y": 4081952.3453306183
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3028,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0603091",
+    "District": "SURKH RUD",
+    "د_مرکز_نوم__نام_مرکز": "چارباغ مکتب",
+    "Polling_Center_Name": "CharBagh School",
+    "د_مرکز_ځای__موقعیت_مرکز": "چهارباغ",
+    "Polling_Center_Location": "CharBagh",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7834902.8046411015,
+    "y": 4087454.7729905993
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3029,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0605184",
+    "District": "KAMA",
+    "د_مرکز_نوم__نام_مرکز": "کوچي کلي ميدان",
+    "Polling_Center_Name": "Kochi Village Maidan",
+    "د_مرکز_ځای__موقعیت_مرکز": "ګج",
+    "Polling_Center_Location": "Gach",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7856378.0765651576,
+    "y": 4090063.3724705577
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3030,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0605185",
+    "District": "KAMA",
+    "د_مرکز_نوم__نام_مرکز": "سپدري جومات",
+    "Polling_Center_Name": "Spadree Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "سپدري",
+    "Polling_Center_Location": "Spadree",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7863798.1573740132,
+    "y": 4088647.6947048977
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3031,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0605183",
+    "District": "KAMA",
+    "د_مرکز_نوم__نام_مرکز": "ډاک کلي میدان",
+    "Polling_Center_Name": "Daag Village Maidan",
+    "د_مرکز_ځای__موقعیت_مرکز": "ډاګ کلي",
+    "Polling_Center_Location": "Dak Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7854117.8411713056,
+    "y": 4087510.2384131327
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3032,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0606207",
+    "District": "KUZ KUNAR",
+    "د_مرکز_نوم__نام_مرکز": "پوري کلي جومات",
+    "Polling_Center_Name": "Poory Village Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "بوډيالۍ پوري کلي",
+    "Polling_Center_Location": "Bodyalai Poory Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 0,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7860977.3916085996,
+    "y": 4110758.0475531146
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3033,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0606208",
+    "District": "KUZ KUNAR",
+    "د_مرکز_نوم__نام_مرکز": "رحمت آباد جومات",
+    "Polling_Center_Name": "Rahmat Abad Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "رحمت آباد",
+    "Polling_Center_Location": "Rahmat Abad",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7859062.7754037865,
+    "y": 4108147.5642205477
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3034,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0607143",
+    "District": "RODAT",
+    "د_مرکز_نوم__نام_مرکز": "کاترغي جومات",
+    "Polling_Center_Name": "Katarghey Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "کاترغى",
+    "Polling_Center_Location": "Katarghey",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 0,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7850731.7794469073,
+    "y": 4068078.1644342467
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3035,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0607144",
+    "District": "RODAT",
+    "د_مرکز_نوم__نام_مرکز": "خالی میدان",
+    "Polling_Center_Name": "Open Space",
+    "د_مرکز_ځای__موقعیت_مرکز": "کاترغى",
+    "Polling_Center_Location": "Katarghey",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 2,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7850694.4729459621,
+    "y": 4068450.4342780635
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3036,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0612217",
+    "District": "DARAH-E-NOOR",
+    "د_مرکز_نوم__نام_مرکز": "برکلی مسجد",
+    "Polling_Center_Name": "Bar kaley Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "ډاګه",
+    "Polling_Center_Location": "Daaga",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7859103.7498819567,
+    "y": 4114414.6694800705
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3037,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0614494",
+    "District": "GOSHTA",
+    "د_مرکز_نوم__نام_مرکز": "حبيب  خان کور",
+    "Polling_Center_Name": "Habib Khan House",
+    "د_مرکز_ځای__موقعیت_مرکز": "دورخيل",
+    "Polling_Center_Location": "Dor Khel",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 2,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7881693.6716596857,
+    "y": 4076057.0670229122
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3038,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0615371",
+    "District": "ACHIN",
+    "د_مرکز_نوم__نام_مرکز": "معروف چينه جامع جومات",
+    "Polling_Center_Name": "Maroof Cheena Jaame Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "معروف چينه",
+    "Polling_Center_Location": "Maroof Cheena",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7871358.1400661208,
+    "y": 4055531.3200066015
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3039,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0616436",
+    "District": "SHINWAR",
+    "د_مرکز_نوم__نام_مرکز": "حضرت بلال مدرسه",
+    "Polling_Center_Name": "Hazrat Bilal Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "شيرګړ",
+    "Polling_Center_Location": "Sher Garh",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 3,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7880946.2592401691,
+    "y": 4054822.0884784833
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3040,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0616437",
+    "District": "SHINWAR",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ٢٨ وياله",
+    "Polling_Center_Name": "28 Viyala School",
+    "د_مرکز_ځای__موقعیت_مرکز": "٢٨ وياله",
+    "Polling_Center_Location": "28 Viyala",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 1,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7886913.2722641639,
+    "y": 4058132.027839683
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3041,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0618502",
+    "District": "LALPOOR",
+    "د_مرکز_نوم__نام_مرکز": "شيرآباد ليسه",
+    "Polling_Center_Name": "Sher Abad High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "لالپور",
+    "Polling_Center_Location": "Lal Poora",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 5,
+    "PS_Female": 2,
+    "PS_Total": 7
+   },
+   "geometry": {
+    "x": 7908481.8288083076,
+    "y": 4059932.9160403535
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3042,
+    "ولایت": "ننگرهار",
+    "Province": "NANGARHAR",
+    "PC_Code": "0620411",
+    "District": "NAZYAN",
+    "د_مرکز_نوم__نام_مرکز": "سروبي مشورتي دفتر",
+    "Polling_Center_Name": "Sarobay Consultancy Office",
+    "د_مرکز_ځای__موقعیت_مرکز": "سروبي",
+    "Polling_Center_Location": "Sarobay",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 3,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7882598.7069122046,
+    "y": 4045900.5175097287
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3043,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1101053",
+    "District": "GHAZNI",
+    "د_مرکز_نوم__نام_مرکز": "مسجد قلعه کوچی",
+    "Polling_Center_Name": "Qala-e-Kochi Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قلعه کوچی",
+    "Polling_Center_Location": "Qala-e-Kuchi",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7610053.2862473689,
+    "y": 3967817.8426645771
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3044,
+    "ولایت": "لغمان",
+    "Province": "LAGHMAN",
+    "PC_Code": "0704067",
+    "District": "ALINGAR",
+    "د_مرکز_نوم__نام_مرکز": "دنيمنائي دکلي جومات",
+    "Polling_Center_Name": "Nimnaye Village Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "نیمنایی نیازی",
+    "Polling_Center_Location": "Nimnaye Niazai",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7827244.525725428,
+    "y": 4131545.6644458398
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3045,
+    "ولایت": "لغمان",
+    "Province": "LAGHMAN",
+    "PC_Code": "0704068",
+    "District": "ALINGAR",
+    "د_مرکز_نوم__نام_مرکز": "د شېخانو لېسه ",
+    "Polling_Center_Name": "Shekhano High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "شیخانو کلی",
+    "Polling_Center_Location": "Shekhano Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7829442.2696967274,
+    "y": 4134140.7572472766
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3046,
+    "ولایت": "لغمان",
+    "Province": "LAGHMAN",
+    "PC_Code": "0705110",
+    "District": "DAWLAT SHAH",
+    "د_مرکز_نوم__نام_مرکز": "د کېل جومات ",
+    "Polling_Center_Name": "Kel Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "کیل",
+    "Polling_Center_Location": "Kel",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 0,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7792553.2513466924,
+    "y": 4163133.593033798
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3047,
+    "ولایت": "لغمان",
+    "Province": "LAGHMAN",
+    "PC_Code": "0705111",
+    "District": "DAWLAT SHAH",
+    "د_مرکز_نوم__نام_مرکز": "د نيل خان جومات ",
+    "Polling_Center_Name": "Nil Khan Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "نیل خان",
+    "Polling_Center_Location": "Nil Khan",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7788167.4292754792,
+    "y": 4166766.5553181171
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3048,
+    "ولایت": "پنجشیر",
+    "Province": "PANJSHIR",
+    "PC_Code": "0801004",
+    "District": "BAZARAK",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسط ملسیه",
+    "Polling_Center_Name": "Malsapa Secondar School",
+    "د_مرکز_ځای__موقعیت_مرکز": "ملسپه",
+    "Polling_Center_Location": "Malsapa",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7742446.3759592697,
+    "y": 4209265.1870652437
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3049,
+    "ولایت": "پنجشیر",
+    "Province": "PANJSHIR",
+    "PC_Code": "0801005",
+    "District": "BAZARAK",
+    "د_مرکز_نوم__نام_مرکز": "مدرسه جامع خانیز",
+    "Polling_Center_Name": "Khan Khez Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "خانیز",
+    "Polling_Center_Location": "Khan khez",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7736545.670389954,
+    "y": 4203805.4656482935
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3050,
+    "ولایت": "پنجشیر",
+    "Province": "PANJSHIR",
+    "PC_Code": "0803060",
+    "District": "DARAH",
+    "د_مرکز_نوم__نام_مرکز": "مکتب تند خو",
+    "Polling_Center_Name": "Tund Kho School",
+    "د_مرکز_ځای__موقعیت_مرکز": "تند خو ",
+    "Polling_Center_Location": "Tund kho",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7751922.3396331407,
+    "y": 4200192.9183081016
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3051,
+    "ولایت": "پنجشیر",
+    "Province": "PANJSHIR",
+    "PC_Code": "0803061",
+    "District": "DARAH",
+    "د_مرکز_نوم__نام_مرکز": "مسجد جامع پوجاوه ",
+    "Polling_Center_Name": "Pojawa Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "پوجاوه ",
+    "Polling_Center_Location": "Pojawa",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7754094.8563814349,
+    "y": 4208636.7984247282
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3052,
+    "ولایت": "پنجشیر",
+    "Province": "PANJSHIR",
+    "PC_Code": "0805037",
+    "District": "UNABA",
+    "د_مرکز_نوم__نام_مرکز": "کلینیک زنانه ",
+    "Polling_Center_Name": "ladies Clinic ",
+    "د_مرکز_ځای__موقعیت_مرکز": "کرگیم ",
+    "Polling_Center_Location": "Kargeem",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7727631.4081687033,
+    "y": 4193811.4086092785
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3053,
+    "ولایت": "پنجشیر",
+    "Province": "PANJSHIR",
+    "PC_Code": "0807074",
+    "District": "PARYAN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسط تل ",
+    "Polling_Center_Name": "Tal Secondary School ",
+    "د_مرکز_ځای__موقعیت_مرکز": "تل",
+    "Polling_Center_Location": "Tal ",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 0,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7777395.066641707,
+    "y": 4240636.2744995058
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3054,
+    "ولایت": "پنجشیر",
+    "Province": "PANJSHIR",
+    "PC_Code": "0807075",
+    "District": "PARYAN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب خواجه عارف",
+    "Polling_Center_Name": "Khwaja Arif School",
+    "د_مرکز_ځای__موقعیت_مرکز": "آریوب",
+    "Polling_Center_Location": "Aryob ",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7786179.9388792217,
+    "y": 4236153.1093973517
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3055,
+    "ولایت": "پنجشیر",
+    "Province": "PANJSHIR",
+    "PC_Code": "0808065",
+    "District": "ABSHAR",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ذکور پرنګان ",
+    "Polling_Center_Name": "Parngan Boys School",
+    "د_مرکز_ځای__موقعیت_مرکز": "پرنگال",
+    "Polling_Center_Location": "Parngan",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 0,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7763942.5225142315,
+    "y": 4195685.154728882
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3056,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0901020",
+    "District": "PUL-E-KHUMRI",
+    "د_مرکز_نوم__نام_مرکز": "کمپ خواجه الوان سرک پلخمری مزار شریف",
+    "Polling_Center_Name": "Khawaja Alvan Camp",
+    "د_مرکز_ځای__موقعیت_مرکز": "خواجه الوان کمپ کهنه",
+    "Polling_Center_Location": "Khwaja Alvan Old Camp",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7631928.6304025874,
+    "y": 4314663.0004242212
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3057,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0901039",
+    "District": "PUL-E-KHUMRI",
+    "د_مرکز_نوم__نام_مرکز": " نزدیک رباطک مکتب قره سای",
+    "Polling_Center_Name": "Qura Sai School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قره سایی پائین",
+    "Polling_Center_Location": "Qura Saiee Payin, near to Rubatak",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7624915.9466473758,
+    "y": 4315560.93351423
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3058,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0902086",
+    "District": "DAHANA-E-GHURI",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه دره تران ",
+    "Polling_Center_Name": "Dara Turan Secondary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "دره تران خواجه پاک",
+    "Polling_Center_Location": "Toran Khawaja Pak Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7608767.6140336022,
+    "y": 4282171.0120087638
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3059,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0903105",
+    "District": "DUSHI",
+    "د_مرکز_نوم__نام_مرکز": " کلینیک چار در",
+    "Polling_Center_Name": "Char Dar Clinic",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه چار در",
+    "Polling_Center_Location": "Char Dar Village ",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7637607.4906982817,
+    "y": 4217867.713028051
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3060,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0904142",
+    "District": "NAHREEN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب  شیندره ",
+    "Polling_Center_Name": "Shindara School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه شین دره",
+    "Polling_Center_Location": "Shindara Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7698244.9628229849,
+    "y": 4308207.6134628803
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3061,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0905053",
+    "District": "BAGLAN-E-JADEED",
+    "د_مرکز_نوم__نام_مرکز": "کلینیک شهرقدیم بغلان",
+    "Polling_Center_Name": "Shair Qadem Baghlan  Clinic",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه علاوالدین",
+    "Polling_Center_Location": "Allawuddin  Village ",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7655710.2195368893,
+    "y": 4330729.9057560861
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3062,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0905072",
+    "District": "BAGLAN-E-JADEED",
+    "د_مرکز_نوم__نام_مرکز": "عظیم شور",
+    "Polling_Center_Name": "Azim Shor",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه ملا قدیر",
+    "Polling_Center_Location": "Molla Qadir Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7630620.2614804693,
+    "y": 4360485.994360052
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3063,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0905073",
+    "District": "BAGLAN-E-JADEED",
+    "د_مرکز_نوم__نام_مرکز": " تعمیر استیشن برق ",
+    "Polling_Center_Name": "Cham Qala",
+    "د_مرکز_ځای__موقعیت_مرکز": "پتن خیل",
+    "Polling_Center_Location": "Patan Khil",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 3,
+    "PS_Total": 7
+   },
+   "geometry": {
+    "x": 7651504.7083240896,
+    "y": 4318160.1805867776
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3064,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0907124",
+    "District": "ANDARAB",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه خوش دره ",
+    "Polling_Center_Name": "Khoshdara Secondary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "مرکز خوشدره",
+    "Polling_Center_Location": "Khoshdara Center",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7693147.1557601988,
+    "y": 4248186.0030265898
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3065,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0909197",
+    "District": "JALGA",
+    "د_مرکز_نوم__نام_مرکز": "مسجد جامع چهادر ",
+    "Polling_Center_Name": "Chardeh Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "چارده",
+    "Polling_Center_Location": "Chardeh",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7707470.5133023188,
+    "y": 4282263.163757585
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3066,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0909198",
+    "District": "JALGA",
+    "د_مرکز_نوم__نام_مرکز": "مدرسه و مسجد جامع وریچی ",
+    "Polling_Center_Name": "Warichi Mosque and Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "وریچی",
+    "Polling_Center_Location": "Warichi",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7709822.3223356865,
+    "y": 4297083.1421693265
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3067,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0911163",
+    "District": "TALA WA BARFAK",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ذکور تاله ",
+    "Polling_Center_Name": "Tala Boys High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "مرکز ولسوالی تاله ",
+    "Polling_Center_Location": "Tala District ",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7593567.8058578074,
+    "y": 4215813.8671801388
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3068,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0913203",
+    "District": "KHOST WA FIRING",
+    "د_مرکز_نوم__نام_مرکز": "مکتب محمد افضل شهید",
+    "Polling_Center_Name": "Mohammad Afzal Shaheed School",
+    "د_مرکز_ځای__موقعیت_مرکز": "چار قشلاق",
+    "Polling_Center_Location": "Char Qeshlaq",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7762128.5012804754,
+    "y": 4305020.7720602602
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3069,
+    "ولایت": "بغلان",
+    "Province": "BAGHLAN",
+    "PC_Code": "0914226",
+    "District": "GOZARGAH-E-NOOR",
+    "د_مرکز_نوم__نام_مرکز": "مسجد  یاهور",
+    "Polling_Center_Name": "Yahoor Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "یاهور",
+    "Polling_Center_Location": "Yahoor",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7741775.9788162522,
+    "y": 4333011.0478050485
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3070,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1001015",
+    "District": "BAMYAN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب  توپ علی",
+    "Polling_Center_Name": "Toop Ali School",
+    "د_مرکز_ځای__موقعیت_مرکز": "توپ علی، چارچشمه قرغنتو",
+    "Polling_Center_Location": "Toop Ali, Char Cheshma Qarghantu",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7504615.9396115169,
+    "y": 4132846.5011731833
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3071,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1001016",
+    "District": "BAMYAN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب پیرداد",
+    "Polling_Center_Name": "Peerdad School",
+    "د_مرکز_ځای__موقعیت_مرکز": "پیرداد شیبرتو",
+    "Polling_Center_Location": "Peerdad Shebarto",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7514393.8518381901,
+    "y": 4136917.6196386665
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3072,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1003037",
+    "District": "SAIGHAN",
+    "د_مرکز_نوم__نام_مرکز": "دفتر شورای کلانتر ها",
+    "Polling_Center_Name": "Kalantarha Council Office",
+    "د_مرکز_ځای__موقعیت_مرکز": "کلانتر ها",
+    "Polling_Center_Location": "Kalantarha",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 0,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7541799.6551627181,
+    "y": 4191853.7224646732
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3073,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1004060",
+    "District": "KAHMARD",
+    "د_مرکز_نوم__نام_مرکز": "مدرسه دو آب",
+    "Polling_Center_Name": "Do Aab Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "دو آب",
+    "Polling_Center_Location": "Do Aab",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7568790.0297323391,
+    "y": 4199295.1333477795
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3074,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1004061",
+    "District": "KAHMARD",
+    "د_مرکز_نوم__نام_مرکز": "مدرسه انداب",
+    "Polling_Center_Name": "Andaab Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "انداب",
+    "Polling_Center_Location": "Andaab",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7555278.4005587436,
+    "y": 4209911.1605218649
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3075,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1005083",
+    "District": "YAKAWLANG",
+    "د_مرکز_نوم__نام_مرکز": "لیسه نسوان انده",
+    "Polling_Center_Name": "Anda Girls High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "انده",
+    "Polling_Center_Location": "Anda",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7454793.4042598344,
+    "y": 4111770.6102656648
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3076,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1007122",
+    "District": "WARAS",
+    "د_مرکز_نوم__نام_مرکز": "مسجد جو قول",
+    "Polling_Center_Name": "Jawqol Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "جو قول",
+    "Polling_Center_Location": "Jawqol",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7474225.7520207986,
+    "y": 4057653.5163326785
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3077,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1007123",
+    "District": "WARAS",
+    "د_مرکز_نوم__نام_مرکز": "مسجد خرابه قول",
+    "Polling_Center_Name": "Kharaba Qol Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "خرابه قول",
+    "Polling_Center_Location": "Kharaba Qol",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7439820.6577889919,
+    "y": 4064587.7824870422
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3078,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1007144",
+    "District": "WARAS",
+    "د_مرکز_نوم__نام_مرکز": "مسجد دیرندر",
+    "Polling_Center_Name": "Derandar Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "دیرندر",
+    "Polling_Center_Location": "Derandar",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7474405.7901464514,
+    "y": 4049746.3230647147
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3079,
+    "ولایت": "باميان",
+    "Province": "BAMYAN",
+    "PC_Code": "1007145",
+    "District": "WARAS",
+    "د_مرکز_نوم__نام_مرکز": "مسجد غورزیلو",
+    "Polling_Center_Name": "Ghorzelaw Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "غور زلاب",
+    "Polling_Center_Location": "Ghor Zalaab",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7486624.3443601467,
+    "y": 4043954.1743587777
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3080,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1101005",
+    "District": "GHAZNI",
+    "د_مرکز_نوم__نام_مرکز": "لیسه نسوان حیدر آباد بالا",
+    "Polling_Center_Name": "Haider Abad Bala Girls School",
+    "د_مرکز_ځای__موقعیت_مرکز": "نزدیک سرک اول قلعه قدم خان",
+    "Polling_Center_Location": "Near to First Road of Qala e Qadam Khan",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 5,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7613947.432391651,
+    "y": 3966851.0404366776
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3081,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1101026",
+    "District": "GHAZNI",
+    "د_مرکز_نوم__نام_مرکز": "مسجد امام زمان",
+    "Polling_Center_Name": "Aman Zaman Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه نوآباد",
+    "Polling_Center_Location": "Nawabad Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 5,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7615079.7564408779,
+    "y": 3972514.2738475874
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3082,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1101027",
+    "District": "GHAZNI",
+    "د_مرکز_نوم__نام_مرکز": "لیسه سنائی",
+    "Polling_Center_Name": "Sanayee High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه قلعه ریس",
+    "Polling_Center_Location": "Qala-e-Raees",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 0,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7616240.0161163248,
+    "y": 3970591.9802588597
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3083,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1101048",
+    "District": "GHAZNI",
+    "د_مرکز_نوم__نام_مرکز": "مسجد زرگر",
+    "Polling_Center_Name": "Zargar Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه زرگر ",
+    "Polling_Center_Location": "Zargar Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7611358.2623740435,
+    "y": 3960689.2996946424
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3084,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1106106",
+    "District": "JAGHATU",
+    "د_مرکز_نوم__نام_مرکز": "مکتب نو قول اصیل",
+    "Polling_Center_Name": "Qoul Asil New School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه قباق",
+    "Polling_Center_Location": "Qabaq Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 0,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7571528.9457270876,
+    "y": 3964835.0372704566
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3085,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1104127",
+    "District": "WAGHAZ",
+    "د_مرکز_نوم__نام_مرکز": "مسجد قلعه محمد خان",
+    "Polling_Center_Name": "Qala-e-Mohammad Khan Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قلعه محمد خان",
+    "Polling_Center_Location": "Qala-e-Mohammad Khan",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7597311.9667993635,
+    "y": 3956714.590428099
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3086,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1107238",
+    "District": "ANDAR",
+    "د_مرکز_نوم__نام_مرکز": "مسجد قریه سرفراز پایین",
+    "Polling_Center_Name": "Sarferaz Payen Village Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه سرفراز پایین",
+    "Polling_Center_Location": "Qala-e-Sarferaz Payen",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 2,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7625086.4658433758,
+    "y": 3945767.9849931002
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3087,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1111176",
+    "District": "QARA BAGH",
+    "د_مرکز_نوم__نام_مرکز": "مدرسه محمدیه",
+    "Polling_Center_Name": "Mohammadia Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه قلیاقل",
+    "Polling_Center_Location": "Qalia Qul Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 0,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7568366.5470122695,
+    "y": 3946139.9042153433
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3088,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1110272",
+    "District": "NAWUR",
+    "د_مرکز_نوم__نام_مرکز": "مدرسه اهل بیت",
+    "Polling_Center_Name": "Ahl-e-Bayt Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه سرټوپ ",
+    "Polling_Center_Location": "Sartoop Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7518147.624104578,
+    "y": 4040537.3305959553
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3089,
+    "ولایت": "پکتيکا",
+    "Province": "PAKTIKA",
+    "PC_Code": "1201011",
+    "District": "SHARAN",
+    "د_مرکز_نوم__نام_مرکز": "جومات دلاو",
+    "Polling_Center_Name": "Dulow Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "دلاو",
+    "Polling_Center_Location": "Dulow",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 0,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7658378.6122965105,
+    "y": 3920950.939203687
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3090,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1114324",
+    "District": "JAGHURI",
+    "د_مرکز_نوم__نام_مرکز": "لیسه عالی بابه",
+    "Polling_Center_Name": "Baba High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه بابه ",
+    "Polling_Center_Location": "Baba Village ",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 2,
+    "PS_Total": 6
+   },
+   "geometry": {
+    "x": 7489939.9965066127,
+    "y": 3900227.7479980364
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3091,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1114344",
+    "District": "JAGHURI",
+    "د_مرکز_نوم__نام_مرکز": "مکتب قریه سه پای خدایداد",
+    "Polling_Center_Name": "3 Pay-e-Khudaydad Village  High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه سه پای خدایداد",
+    "Polling_Center_Location": "3 Pay-e-Khudaydad Village ",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7521928.9056435265,
+    "y": 3920984.4402776882
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3092,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1115366",
+    "District": "MUQUR",
+    "د_مرکز_نوم__نام_مرکز": "مسجد قریه لړم",
+    "Polling_Center_Name": "Laram Village Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه لړم",
+    "Polling_Center_Location": "Laram Village ",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7556501.3230887465,
+    "y": 3884384.3921882957
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3093,
+    "ولایت": "غزنى",
+    "Province": "GHAZNI",
+    "PC_Code": "1116309",
+    "District": "MALISTAN",
+    "د_مرکز_نوم__نام_مرکز": "مسجد میراحمد محبت",
+    "Polling_Center_Name": "Mir Ahmad Mohabat Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه محبت لعلچک ",
+    "Polling_Center_Location": "Mohabat Lalchak Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7484339.8802791275,
+    "y": 3938833.7897369191
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3094,
+    "ولایت": "پکتيکا",
+    "Province": "PAKTIKA",
+    "PC_Code": "1201001",
+    "District": "SHARAN",
+    "د_مرکز_نوم__نام_مرکز": "علی بابا  لیسه",
+    "Polling_Center_Name": "Ali Baba High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "شرنه",
+    "Polling_Center_Location": "Sharana",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 7,
+    "PS_Female": 0,
+    "PS_Total": 7
+   },
+   "geometry": {
+    "x": 7657372.3920796476,
+    "y": 3918633.7497276813
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3095,
+    "ولایت": "پکتيکا",
+    "Province": "PAKTIKA",
+    "PC_Code": "1203043",
+    "District": "YOSUF KHEL",
+    "د_مرکز_نوم__نام_مرکز": "جومات میست",
+    "Polling_Center_Name": "Mest Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "میست سګی",
+    "Polling_Center_Location": "Mest Sagi",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 0,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7631884.0369277708,
+    "y": 3890599.7431085706
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3096,
+    "ولایت": "پکتيکا",
+    "Province": "PAKTIKA",
+    "PC_Code": "1203044",
+    "District": "YOSUF KHEL",
+    "د_مرکز_نوم__نام_مرکز": "میلمستون رمضان",
+    "Polling_Center_Name": "Ramazan Guest House",
+    "د_مرکز_ځای__موقعیت_مرکز": "میست",
+    "Polling_Center_Location": "Mest",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 3,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7631888.1969371364,
+    "y": 3890600.16237735
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3097,
+    "ولایت": "پکتيکا",
+    "Province": "PAKTIKA",
+    "PC_Code": "1211169",
+    "District": "URGOON",
+    "د_مرکز_نوم__نام_مرکز": "باباصاحب شیخان ښوونځی",
+    "Polling_Center_Name": "Baba Sahib Shaikhan School",
+    "د_مرکز_ځای__موقعیت_مرکز": "شیخیا ارگون",
+    "Polling_Center_Location": "Shaikhia Argon",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 0,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7697245.9817126133,
+    "y": 3880492.3750419468
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3098,
+    "ولایت": "پکتيکا",
+    "Province": "PAKTIKA",
+    "PC_Code": "1215268",
+    "District": "GIYAN",
+    "د_مرکز_نوم__نام_مرکز": "شازار میلمستون",
+    "Polling_Center_Name": "Shazar Guest House",
+    "د_مرکز_ځای__موقعیت_مرکز": "کمال کلی",
+    "Polling_Center_Location": "Kamal Village ",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 0,
+    "PS_Female": 3,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7723792.5878113545,
+    "y": 3885766.6154567748
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3099,
+    "ولایت": "پکتيا",
+    "Province": "PAKTYA",
+    "PC_Code": "1301203",
+    "District": "GARDEZ",
+    "د_مرکز_نوم__نام_مرکز": "دټنډانو مكتب",
+    "Polling_Center_Name": "Tandano School",
+    "د_مرکز_ځای__موقعیت_مرکز": "ټنډان",
+    "Polling_Center_Location": "Tandan",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7698157.1874044947,
+    "y": 3995123.9419934899
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3100,
+    "ولایت": "پکتيا",
+    "Province": "PAKTYA",
+    "PC_Code": "1305119",
+    "District": "WUZA ZADRAN",
+    "د_مرکز_نوم__نام_مرکز": "موتی میر خاجان دکان",
+    "Polling_Center_Name": "Moti Mir Khan Jan Shop",
+    "د_مرکز_ځای__موقعیت_مرکز": "موتی",
+    "Polling_Center_Location": "Moti",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 0,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7728675.7731222846,
+    "y": 3937889.7501225397
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3101,
+    "ولایت": "پکتيا",
+    "Province": "PAKTYA",
+    "PC_Code": "1305206",
+    "District": "WUZA ZADRAN",
+    "د_مرکز_نوم__نام_مرکز": "غورکی خوله مدرسه",
+    "Polling_Center_Name": "Ghorkai Khola Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "غورکی خوله، ګرده څیړی",
+    "Polling_Center_Location": "Ghorkai Khola, Garda Seri",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7733533.4061572999,
+    "y": 3944277.7215688974
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3102,
+    "ولایت": "پکتيا",
+    "Province": "PAKTYA",
+    "PC_Code": "1308136",
+    "District": "LAJA AHMAD KHEL",
+    "د_مرکز_نوم__نام_مرکز": "د موشکی مسجد",
+    "Polling_Center_Name": "Moshaki Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "موشکه، احمدخیل",
+    "Polling_Center_Location": "Moshaka, Ahmad Khel",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 0,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7752384.1719177812,
+    "y": 4004959.4709953591
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3103,
+    "ولایت": "پکتيا",
+    "Province": "PAKTYA",
+    "PC_Code": "1307074",
+    "District": "JAJI ARYOB",
+    "د_مرکز_نوم__نام_مرکز": "د احمد خیلو مکتب",
+    "Polling_Center_Name": "Ahmad Khel School",
+    "د_مرکز_ځای__موقعیت_مرکز": "غونزی احمد خیل",
+    "Polling_Center_Location": "Ghonzai Ahmad Khel",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 1,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7765403.5340579562,
+    "y": 4023339.3469497114
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3104,
+    "ولایت": "پکتيا",
+    "Province": "PAKTYA",
+    "PC_Code": "1310156",
+    "District": "SAMKANI",
+    "د_مرکز_نوم__نام_مرکز": "د ولسوالی کلینیک",
+    "Polling_Center_Name": "District Clinic",
+    "د_مرکز_ځای__موقعیت_مرکز": "د ولسوالی مرکز، شهرنو",
+    "Polling_Center_Location": "Chamkani District Center, Shahr-e-Naw",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 5,
+    "PS_Female": 0,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7771736.5410773978,
+    "y": 4002542.0849183351
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3105,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1401009",
+    "District": "KHOST",
+    "د_مرکز_نوم__نام_مرکز": " د بوده خان جومات شمل مرديخېل",
+    "Polling_Center_Name": "Boda Khan Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "شمل مرديخيل",
+    "Polling_Center_Location": "Shamal Mardi Khel",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7781114.8063133657,
+    "y": 3936765.2783806324
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3106,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1401030",
+    "District": "KHOST",
+    "د_مرکز_نوم__نام_مرکز": "جومات او د حنيف هجره لکڼ ټانک ټانک کلى",
+    "Polling_Center_Name": "Mosque and Hanif Hojra",
+    "د_مرکز_ځای__موقعیت_مرکز": " لکڼ ټانګ ټانګ کلى",
+    "Polling_Center_Location": "Lakan Tang  Tang Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7801928.5488050431,
+    "y": 3946854.2182909697
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3107,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1402082",
+    "District": "MANDUZAY",
+    "د_مرکز_نوم__نام_مرکز": "د حيدرخيلو محمد صديق روهي ليسه",
+    "Polling_Center_Name": "Mohammad Sedeq HighSchool",
+    "د_مرکز_ځای__موقعیت_مرکز": "حيدرخيل",
+    "Polling_Center_Location": "Haider Khel",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 1,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7774912.5796580948,
+    "y": 3938459.7825494707
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3108,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1403153",
+    "District": "GURBUZ",
+    "د_مرکز_نوم__نام_مرکز": "د بوري خيلو جومات",
+    "Polling_Center_Name": "Bori Khelo Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": " بورو خيل",
+    "Polling_Center_Location": "Boro Khel",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7784043.8425287306,
+    "y": 3926643.6483090445
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3109,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1405072",
+    "District": "MUSA KHEL",
+    "د_مرکز_نوم__نام_مرکز": "د موسى خيل ولسوالۍ مرکزي جومات",
+    "Polling_Center_Name": "Musa Khel District Central Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "دوه منده",
+    "Polling_Center_Location": "Dwa Manda",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7762809.3446445093,
+    "y": 3967377.8572823256
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3110,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1407065",
+    "District": "SABARI",
+    "د_مرکز_نوم__نام_مرکز": " زمبرجوات",
+    "Polling_Center_Name": "Zambar Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": " زمبر",
+    "Polling_Center_Location": "Zambar",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 5,
+    "PS_Female": 3,
+    "PS_Total": 8
+   },
+   "geometry": {
+    "x": 7778853.8373240754,
+    "y": 3970819.7421053201
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3111,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1407066",
+    "District": "SABARI",
+    "د_مرکز_نوم__نام_مرکز": "جومات کاريز کلى",
+    "Polling_Center_Name": "Kariz Village Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "کاريز کلى",
+    "Polling_Center_Location": "Kariz Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 3,
+    "PS_Total": 7
+   },
+   "geometry": {
+    "x": 7787369.5379196592,
+    "y": 3963166.4773068205
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3112,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1411127",
+    "District": "SPERA",
+    "د_مرکز_نوم__نام_مرکز": " سپيره کلى ښوونځى",
+    "Polling_Center_Name": "Spera Village School ",
+    "د_مرکز_ځای__موقعیت_مرکز": " سپيره کلى",
+    "Polling_Center_Location": "Spera Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 7,
+    "PS_Female": 0,
+    "PS_Total": 7
+   },
+   "geometry": {
+    "x": 7738247.598462455,
+    "y": 3922045.4887170121
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3113,
+    "ولایت": "کنړ ",
+    "Province": "KUNAR",
+    "PC_Code": "1515106",
+    "District": "NARI",
+    "د_مرکز_نوم__نام_مرکز": "لیسه ناری",
+    "Polling_Center_Name": "Naray High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "ناری",
+    "Polling_Center_Location": "Naray",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7962244.3138219491,
+    "y": 4194170.3373606578
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3114,
+    "ولایت": "کنړ ",
+    "Province": "KUNAR",
+    "PC_Code": "1515107",
+    "District": "NARI",
+    "د_مرکز_نوم__نام_مرکز": "کلینیک",
+    "Polling_Center_Name": "Naray Clinic",
+    "د_مرکز_ځای__موقعیت_مرکز": "ناری",
+    "Polling_Center_Location": "Naray",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7962247.6211240217,
+    "y": 4194415.0768605247
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3115,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1413101",
+    "District": "JAJI MAIDAN",
+    "د_مرکز_نوم__نام_مرکز": "د الګاډې ليسه ",
+    "Polling_Center_Name": "Algada High School ",
+    "د_مرکز_ځای__موقعیت_مرکز": "الګاډه ",
+    "Polling_Center_Location": "Algada",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7793101.309482526,
+    "y": 3981321.3809792846
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3116,
+    "ولایت": "خوست",
+    "Province": "KHOST",
+    "PC_Code": "1413102",
+    "District": "JAJI MAIDAN",
+    "د_مرکز_نوم__نام_مرکز": "د داڼي ښوونځی",
+    "Polling_Center_Name": "Dani School ",
+    "د_مرکز_ځای__موقعیت_مرکز": "داني خيل",
+    "Polling_Center_Location": "Dani Khel",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7802261.7736819796,
+    "y": 3975247.7169457972
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3117,
+    "ولایت": "کنړ ",
+    "Province": "KUNAR",
+    "PC_Code": "1503013",
+    "District": "WATAPOOR",
+    "د_مرکز_نوم__نام_مرکز": "لیسه قمچی",
+    "Polling_Center_Name": "Qamchi High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قمچی",
+    "Polling_Center_Location": "Qamchi",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7916008.929949224,
+    "y": 4153327.6531300843
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3118,
+    "ولایت": "کنړ ",
+    "Province": "KUNAR",
+    "PC_Code": "1509091",
+    "District": "SAWKAI",
+    "د_مرکز_نوم__نام_مرکز": "مسجد قریه",
+    "Polling_Center_Name": "Kalmani Village Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "کلمانی",
+    "Polling_Center_Location": "Kalmani",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7894654.597746361,
+    "y": 4121193.47575216
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3119,
+    "ولایت": "کنړ ",
+    "Province": "KUNAR",
+    "PC_Code": "1509092",
+    "District": "SAWKAI",
+    "د_مرکز_نوم__نام_مرکز": "مکتب فیض الله",
+    "Polling_Center_Name": "Faizullah School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قندهارو کلی",
+    "Polling_Center_Location": "Kandaharo Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7892984.8053844608,
+    "y": 4121193.47575216
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3120,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2107248",
+    "District": "SHOLGARA",
+    "د_مرکز_نوم__نام_مرکز": "مکتب پل برق",
+    "Polling_Center_Name": "Pul Barq School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه پل برق",
+    "Polling_Center_Location": "Pul Barq Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7448047.6345872805,
+    "y": 4331182.3506134525
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3121,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1701010",
+    "District": "FAIZ ABAD",
+    "د_مرکز_نوم__نام_مرکز": "لیسه نسوان الجهاد ",
+    "Polling_Center_Name": "Aljehad Girls High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "دشت قرغ",
+    "Polling_Center_Location": "Dasht Qorogh",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 1,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7852897.7149869129,
+    "y": 4453144.3116651103
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3122,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1702045",
+    "District": "ARGO",
+    "د_مرکز_نوم__نام_مرکز": "مکتب یرنشه ",
+    "Polling_Center_Name": "Yarnasha School",
+    "د_مرکز_ځای__موقعیت_مرکز": "یرنشه",
+    "Polling_Center_Location": "Yarnasha",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7848530.1648969166,
+    "y": 4446820.3834881783
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3123,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1702046",
+    "District": "ARGO",
+    "د_مرکز_نوم__نام_مرکز": "مکتب برلاس وخیان ",
+    "Polling_Center_Name": "Barlaas-o-Khyan School",
+    "د_مرکز_ځای__موقعیت_مرکز": "برلاس وخیان ",
+    "Polling_Center_Location": "Barlaas-o-khyan",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7850597.7607987486,
+    "y": 4436618.121970728
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3124,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1706102",
+    "District": "BAHARAK",
+    "د_مرکز_نوم__نام_مرکز": "لیسه بهارستان ",
+    "Polling_Center_Name": "Baharestan High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "بهارستان",
+    "Polling_Center_Location": "Baharestan",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7892803.474839516,
+    "y": 4439373.1161424965
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3125,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1706103",
+    "District": "BAHARAK",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ملنگ اب ",
+    "Polling_Center_Name": "Malang Aab School",
+    "د_مرکز_ځای__موقعیت_مرکز": "ملنگ اب ",
+    "Polling_Center_Location": "Malang Aab",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7897147.6689871512,
+    "y": 4439915.8390034065
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3126,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1708120",
+    "District": "KOHISTAN",
+    "د_مرکز_نوم__نام_مرکز": "لیسه پس پل",
+    "Polling_Center_Name": "Pas Pul High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "پس پل",
+    "Polling_Center_Location": "Pas Pul",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7861352.0774298683,
+    "y": 4505222.17423255
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3127,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1708121",
+    "District": "KOHISTAN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب لخش ",
+    "Polling_Center_Name": "Lakhsh School",
+    "د_مرکز_ځای__موقعیت_مرکز": "لخش",
+    "Polling_Center_Location": "Lakhsh",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7866616.0722472817,
+    "y": 4500132.8331873938
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3128,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1712118",
+    "District": "SHUHADA",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ایزرو",
+    "Polling_Center_Name": "Ezro School",
+    "د_مرکز_ځای__موقعیت_مرکز": "ایزرو",
+    "Polling_Center_Location": "Ezro",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7927977.1511184089,
+    "y": 4446249.9697674215
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3129,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1714236",
+    "District": "RAGHISTAN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب علیا خم ",
+    "Polling_Center_Name": "Ulya Khum School",
+    "د_مرکز_ځای__موقعیت_مرکز": "علیا خم",
+    "Polling_Center_Location": "Ulya Khum",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7844718.4964765646,
+    "y": 4523762.2015552074
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3130,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1716097",
+    "District": "WARDOOJ",
+    "د_مرکز_نوم__نام_مرکز": "لیسه باشند ",
+    "Polling_Center_Name": "Bashand High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "باشند",
+    "Polling_Center_Location": "Bashand",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7910800.0516381077,
+    "y": 4416103.2296668589
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3131,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1718260",
+    "District": "YAMGAN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب آب اشنام ",
+    "Polling_Center_Name": "Aab Ashnam School",
+    "د_مرکز_ځای__موقعیت_مرکز": "سناوری ",
+    "Polling_Center_Location": "Sanawari",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7873450.7205144688,
+    "y": 4374305.63604635
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3132,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1719213",
+    "District": "SHIGHNAN",
+    "د_مرکز_نوم__نام_مرکز": "لیسه رحمت ",
+    "Polling_Center_Name": "Rahmat High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "بهشار",
+    "Polling_Center_Location": "Bahshaar",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7954944.2020283155,
+    "y": 4516992.4071687758
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3133,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1721251",
+    "District": "KUFAB",
+    "د_مرکز_نوم__نام_مرکز": "مکتب پای مزار ",
+    "Polling_Center_Name": "Pay Mazar School",
+    "د_مرکز_ځای__موقعیت_مرکز": "پای مزار ",
+    "Polling_Center_Location": "Pay Mazar",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7874280.3479439206,
+    "y": 4571375.016090706
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3134,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1724282",
+    "District": "SHIKI",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ابتدائیه سنگ لیچ",
+    "Polling_Center_Name": "Sang Lech Primary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "سنگ لیچ",
+    "Polling_Center_Location": "Sang Lech",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7863676.4172656834,
+    "y": 4613142.6832463369
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3135,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1728208",
+    "District": "WAKHAN",
+    "د_مرکز_نوم__نام_مرکز": "بوزای گمباد",
+    "Polling_Center_Name": "Bozay Gombaad",
+    "د_مرکز_ځای__موقعیت_مرکز": "پامیر",
+    "Polling_Center_Location": "Pamir",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 8238213.8040249161,
+    "y": 4458325.082162261
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3136,
+    "ولایت": "بدخشان",
+    "Province": "BADAKHSHAN",
+    "PC_Code": "1728209",
+    "District": "WAKHAN",
+    "د_مرکز_نوم__نام_مرکز": "لنگر",
+    "Polling_Center_Name": "Langar",
+    "د_مرکز_ځای__موقعیت_مرکز": " پامیر",
+    "Polling_Center_Location": "Pamir",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 8008536.6788024232,
+    "y": 4403353.0027181208
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3137,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1802036",
+    "District": "HAZAR SUMUCH",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ابتدائیه اچه",
+    "Polling_Center_Name": "Aacha Primary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "اچه",
+    "Polling_Center_Location": "Aacha",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7742360.4506707117,
+    "y": 4432188.618724741
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3138,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1805080",
+    "District": "CHAL",
+    "د_مرکز_نوم__نام_مرکز": "مسجد خواجه بنا",
+    "Polling_Center_Name": "Khwaja Bana Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "خواجه بنا",
+    "Polling_Center_Location": "Khwaja Bana",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7749285.6061367057,
+    "y": 4362474.4850965366
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3139,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1805193",
+    "District": "CHAL",
+    "د_مرکز_نوم__نام_مرکز": "مسجد جامع صیاد ",
+    "Polling_Center_Name": "Sayaad Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "صیاد",
+    "Polling_Center_Location": "Sayaad",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7756373.0887973532,
+    "y": 4367441.546492964
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3140,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1808092",
+    "District": "FARKHAR",
+    "د_مرکز_نوم__نام_مرکز": "لیسه محمد نبی شهید",
+    "Polling_Center_Name": "Mohammad Nabi Shaheed High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "خفدره",
+    "Polling_Center_Location": "Khufdara",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7778175.5732326508,
+    "y": 4374208.6113537997
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3141,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1810106",
+    "District": "RUSTAQ",
+    "د_مرکز_نوم__نام_مرکز": "مکتب حضرت ابی ابن کعب",
+    "Polling_Center_Name": "Hazrat Obai Ibn Kaab School",
+    "د_مرکز_ځای__موقعیت_مرکز": "یکه توت نوآباد",
+    "Polling_Center_Location": "Yaka Toot Nawabad",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7762561.2791780271,
+    "y": 4470956.1305711716
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3142,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1810128",
+    "District": "RUSTAQ",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه دشتک علیا",
+    "Polling_Center_Name": "Dashtak Ulya Secondary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "دشتک علیا",
+    "Polling_Center_Location": "Dashtak Ulya",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7791792.0787249133,
+    "y": 4466205.3166352361
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3143,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1812171",
+    "District": "DASHT-E-QALA",
+    "د_مرکز_نوم__نام_مرکز": "لیسه باغ بایان",
+    "Polling_Center_Name": "Bagh Bayan High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "باغ بایان",
+    "Polling_Center_Location": "Bagh Bayan",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7734948.8535202518,
+    "y": 4466809.4211933389
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3144,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1812172",
+    "District": "DASHT-E-QALA",
+    "د_مرکز_نوم__نام_مرکز": "مسجد غاز تیپه",
+    "Polling_Center_Name": "Ghaz Tipa Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "غاز تیپه",
+    "Polling_Center_Location": "Ghaz Tipa",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7733928.11612859,
+    "y": 4467340.8822015449
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3145,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1814199",
+    "District": "KHWAJA BAHAWUDIN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ابتدائیه عروق قشلاق ",
+    "Polling_Center_Name": "Aroq Qashlaq Primary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "عرق قشلاق",
+    "Polling_Center_Location": "Aroq Qashlaq",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7747128.5739295706,
+    "y": 4492656.5371265858
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3146,
+    "ولایت": "تخار",
+    "Province": "TAKHAR",
+    "PC_Code": "1816145",
+    "District": "CHAH AB",
+    "د_مرکز_نوم__نام_مرکز": "مسجد مرکزی انجیز",
+    "Polling_Center_Name": "Enjeez Central Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "مرکزی انجیز",
+    "Polling_Center_Location": "Markazi Enjeez",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7787116.9161464237,
+    "y": 4518112.0998232216
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3147,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1901012",
+    "District": "KUNDUZ",
+    "د_مرکز_نوم__نام_مرکز": "ریاست امور زنان",
+    "Polling_Center_Name": "Women Affairs Department",
+    "د_مرکز_ځای__موقعیت_مرکز": "ناحیه دوم",
+    "Polling_Center_Location": "D02 - Nahia 2",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 4,
+    "PS_Total": 7
+   },
+   "geometry": {
+    "x": 7665786.1496251449,
+    "y": 4399678.4863487929
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3148,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1901034",
+    "District": "KUNDUZ",
+    "د_مرکز_نوم__نام_مرکز": "لیسه باغ میری",
+    "Polling_Center_Name": "Bagh Meri High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "باغ میری  پایین",
+    "Polling_Center_Location": "Bagh Meri Payeen",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7675065.2937601283,
+    "y": 4395745.3317525685
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3149,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1901035",
+    "District": "KUNDUZ",
+    "د_مرکز_نوم__نام_مرکز": "لیسه وکیل قره",
+    "Polling_Center_Name": "Wakil Qara High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "وکیل قره",
+    "Polling_Center_Location": "Wakil Qara",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7645604.4769758098,
+    "y": 4415274.1178703681
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3150,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1901056",
+    "District": "KUNDUZ",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه دمشاخ",
+    "Polling_Center_Name": "Damshaakh Secondary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "دمشاخ آلچین",
+    "Polling_Center_Location": "Damshaakh Aalchin",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7662443.0238283463,
+    "y": 4410580.218909353
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3151,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1903130",
+    "District": "ALI ABAD",
+    "د_مرکز_نوم__نام_مرکز": "لیسه میرشیخ",
+    "Polling_Center_Name": "Mir Shekh High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه میرشیخ",
+    "Polling_Center_Location": "Mir Shekh Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7666793.9973329715,
+    "y": 4380906.2555169538
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3152,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1904147",
+    "District": "KHAN ABAD",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ابتدائیه سویدن",
+    "Polling_Center_Name": "Swedan Primary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه آدم خان",
+    "Polling_Center_Location": "Adam Khan Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7685527.3210306652,
+    "y": 4391728.213785708
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3153,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1904148",
+    "District": "KHAN ABAD",
+    "د_مرکز_نوم__نام_مرکز": "مسجد سویکه",
+    "Polling_Center_Name": "Sweka Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه سویکه",
+    "Polling_Center_Location": "Sweka Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7700405.4993676804,
+    "y": 4384317.8010201976
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3154,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1904167",
+    "District": "KHAN ABAD",
+    "د_مرکز_نوم__نام_مرکز": "مسجد باسوس",
+    "Polling_Center_Name": "Basoos Mosaque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه باسوس",
+    "Polling_Center_Location": "Basoos Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7690221.4223941267,
+    "y": 4399047.1090544909
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3155,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1904168",
+    "District": "KHAN ABAD",
+    "د_مرکز_نوم__نام_مرکز": "مکتب پرچه دشت",
+    "Polling_Center_Name": "Parcha Dasht School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه پرچه دشت",
+    "Polling_Center_Location": "Parcha Dasht Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7681095.8045348711,
+    "y": 4410461.1143569648
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3156,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1905082",
+    "District": "HAZRAT-E-IMAM SAHIB",
+    "د_مرکز_نوم__نام_مرکز": "مکتب نمبر ۱ امام صاحب",
+    "Polling_Center_Name": "Imam Sahib Number 1 School",
+    "د_مرکز_ځای__موقعیت_مرکز": "ناحیه چهارم",
+    "Polling_Center_Location": "D04 - Nahia 4",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7672619.4019459262,
+    "y": 4464481.6191399023
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3157,
+    "ولایت": "کندز",
+    "Province": "KUNDUZ",
+    "PC_Code": "1906214",
+    "District": "DASHT-E-ARCHI",
+    "د_مرکز_نوم__نام_مرکز": "مسجد آمر صادق",
+    "Polling_Center_Name": "Aamer Sadeq Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه آمر صادق",
+    "Polling_Center_Location": "Aamer Sadeq Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7696444.0605912283,
+    "y": 4446737.1062989384
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3158,
+    "ولایت": "سمنگان",
+    "Province": "SAMANGAN",
+    "PC_Code": "2001002",
+    "District": "AYBAK",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه قوچ نهال",
+    "Polling_Center_Name": "Qoch Nehal Secondary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه قوچ نهال",
+    "Polling_Center_Location": "Qoch Nehal Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7565387.1487460732,
+    "y": 4337134.7557557374
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3159,
+    "ولایت": "سمنگان",
+    "Province": "SAMANGAN",
+    "PC_Code": "2002020",
+    "District": "HAZRAT-E-SULTAN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه نسوان کلچه ",
+    "Polling_Center_Name": "Kulcha Girls Secondary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه کلچه",
+    "Polling_Center_Location": "Kulcha Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7578482.8404346891,
+    "y": 4369395.2263016552
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3160,
+    "ولایت": "سمنگان",
+    "Province": "SAMANGAN",
+    "PC_Code": "2003086",
+    "District": "KHURAM WA SARBAGH",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه قینر",
+    "Polling_Center_Name": "Qenar Secondary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه قینر",
+    "Polling_Center_Location": "Qenar Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7584211.4627691545,
+    "y": 4271785.6606247202
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3161,
+    "ولایت": "سمنگان",
+    "Province": "SAMANGAN",
+    "PC_Code": "2006049",
+    "District": "DARA-E-SOOF-E-PAYIN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه بیانان",
+    "Polling_Center_Name": "Bayanan Secondary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه بیانان",
+    "Polling_Center_Location": "Bayanan Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7501019.4551064484,
+    "y": 4291327.2277085781
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3162,
+    "ولایت": "سمنگان",
+    "Province": "SAMANGAN",
+    "PC_Code": "2007034",
+    "District": "DARA-E-SOOF-E-BALA",
+    "د_مرکز_نوم__نام_مرکز": "مکتب دهن شوراب ",
+    "Polling_Center_Name": "Dahan Shorab School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه دهن شوراب",
+    "Polling_Center_Location": "Dahan Shorab Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7489683.9371875003,
+    "y": 4280312.7283208966
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3163,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2101005",
+    "District": "MAZAR-E-SHARIF",
+    "د_مرکز_نوم__نام_مرکز": "ریاست زراعت ",
+    "Polling_Center_Name": "Agriculture Department ",
+    "د_مرکز_ځای__موقعیت_مرکز": "ناحیه دوم مزار شاروالی ",
+    "Polling_Center_Location": "D02 - Nahia 2",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 6,
+    "PS_Female": 4,
+    "PS_Total": 10
+   },
+   "geometry": {
+    "x": 7467737.8450431079,
+    "y": 4399231.9900570735
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3164,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2101025",
+    "District": "MAZAR-E-SHARIF",
+    "د_مرکز_نوم__نام_مرکز": "مکتب شیخ شهاب",
+    "Polling_Center_Name": "Shaikh Shahab School",
+    "د_مرکز_ځای__موقعیت_مرکز": "ناحیه ششم مزار شاروالی ",
+    "Polling_Center_Location": "D06 - Nahia 6",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 5,
+    "PS_Female": 5,
+    "PS_Total": 10
+   },
+   "geometry": {
+    "x": 7473358.5720743276,
+    "y": 4397629.6801336333
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3165,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2101043",
+    "District": "MAZAR-E-SHARIF",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ی\u064Fلمرب ازبکیه ",
+    "Polling_Center_Name": "Yolmareb Uzbekya School",
+    "د_مرکز_ځای__موقعیت_مرکز": "ناحیه پنجم مزار شاروالی ",
+    "Polling_Center_Location": "D05 - Nahia 5",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 3,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7469337.9369322397,
+    "y": 4395826.7652814239
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3166,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2101044",
+    "District": "MAZAR-E-SHARIF",
+    "د_مرکز_نوم__نام_مرکز": "سیلو",
+    "Polling_Center_Name": "Cilo",
+    "د_مرکز_ځای__موقعیت_مرکز": "سیلو ، ناحیه اول مزار شاروالی ",
+    "Polling_Center_Location": "D01 - Nahia 1 Cilo",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 2,
+    "PS_Total": 6
+   },
+   "geometry": {
+    "x": 7471618.8710722029,
+    "y": 4394654.7631537914
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3167,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2103054",
+    "District": "DEHDADI",
+    "د_مرکز_نوم__نام_مرکز": "کلینیک شیرآباد",
+    "Polling_Center_Name": "Sher Abad Clinic",
+    "د_مرکز_ځای__موقعیت_مرکز": "دهدادی شیرآباد علیا",
+    "Polling_Center_Location": "Dehdadi Sher Abad Ulya",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7462507.3473736793,
+    "y": 4396914.7338394225
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3168,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2104286",
+    "District": "CHAR KENT",
+    "د_مرکز_نوم__نام_مرکز": "مکتب خواجه بندی",
+    "Polling_Center_Name": "Khwaja Bandi School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه خواجه بندی",
+    "Polling_Center_Location": "Khwaja Bandi Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7490804.2865991071,
+    "y": 4350437.9772610888
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3169,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2105071",
+    "District": "MARMUL",
+    "د_مرکز_نوم__نام_مرکز": "کلینیک پسته قلیچ ",
+    "Polling_Center_Name": "Pasta Qaleech Clinic",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه پسته قلیچ",
+    "Polling_Center_Location": "Pasta Qaleech Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7492928.9081364907,
+    "y": 4375601.4923720211
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3170,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2106164",
+    "District": "BALKH",
+    "د_مرکز_نوم__نام_مرکز": "مکتب دهرازی",
+    "Polling_Center_Name": "Dehrazi School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه دهرازی",
+    "Polling_Center_Location": "Dehrazi Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7443836.4516464211,
+    "y": 4400932.1420271546
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3171,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2106165",
+    "District": "BALKH",
+    "د_مرکز_نوم__نام_مرکز": "مکتب دیره گی",
+    "Polling_Center_Name": "Deragi School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه هیواد",
+    "Polling_Center_Location": "Hewad Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7452891.217989374,
+    "y": 4404591.7214522511
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3172,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2107246",
+    "District": "SHOLGARA",
+    "د_مرکز_نوم__نام_مرکز": "لیسه باغ پهلوان",
+    "Polling_Center_Name": "Bagh Pahlawan High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "باغ پهلوان",
+    "Polling_Center_Location": "Bagh Pahlawan",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7448088.2072020955,
+    "y": 4361826.185526222
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3173,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2107247",
+    "District": "SHOLGARA",
+    "د_مرکز_نوم__نام_مرکز": "مکتب استر کوت",
+    "Polling_Center_Name": "Astar Kot School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه استرکوت",
+    "Polling_Center_Location": "Astar Kot Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7448793.6688715182,
+    "y": 4368434.8844515681
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3174,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2107270",
+    "District": "SHOLGARA",
+    "د_مرکز_نوم__نام_مرکز": "منزل خیر محمد",
+    "Polling_Center_Name": "Khair Mohammad Private House",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه خواجه سکندر",
+    "Polling_Center_Location": "Khwaja Sikandar Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7448724.891237326,
+    "y": 4347562.3831737861
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3175,
+    "ولایت": "زابل",
+    "Province": "ZABUL",
+    "PC_Code": "2607022",
+    "District": "DAICHOPAN",
+    "د_مرکز_نوم__نام_مرکز": "مسجد دايچوپان",
+    "Polling_Center_Name": "Daichopan Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "دايچوپان",
+    "Polling_Center_Location": "Daichopan",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 5,
+    "PS_Female": 0,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7432394.4377102219,
+    "y": 3846600.8275749236
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3176,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2108230",
+    "District": "CHIMTAL",
+    "د_مرکز_نوم__نام_مرکز": "تعمیر جدید ولسوالی",
+    "Polling_Center_Name": "District New Building",
+    "د_مرکز_ځای__موقعیت_مرکز": "مرکز ولسوالی",
+    "Polling_Center_Location": "District Compound",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7430984.7444517538,
+    "y": 4392321.3377947658
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3177,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2109131",
+    "District": "DAWLAT ABAD",
+    "د_مرکز_نوم__نام_مرکز": "مکتب بیدو",
+    "Polling_Center_Name": "Bedo School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه بیدو",
+    "Polling_Center_Location": "Bedo Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7430977.621117536,
+    "y": 4431216.8089764267
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3178,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2110081",
+    "District": "KHULM",
+    "د_مرکز_نوم__نام_مرکز": "لیسه پوهاند عبدالروف خلمی ",
+    "Polling_Center_Name": "Pohand Abdul Rawoof Khulmi High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "سیرت ",
+    "Polling_Center_Location": "Seerat",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7534884.0186263956,
+    "y": 4395789.2614417002
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3179,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2111182",
+    "District": "CHAR BOLAK",
+    "د_مرکز_نوم__نام_مرکز": "مکتب سالار تپه",
+    "Polling_Center_Name": "Salar Tapa School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه سالار تپه",
+    "Polling_Center_Location": "Salar Tapa Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7395310.2061615549,
+    "y": 4405509.4751980826
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3180,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2111203",
+    "District": "CHAR BOLAK",
+    "د_مرکز_نوم__نام_مرکز": "تعمیر شورای انکشافی",
+    "Polling_Center_Name": "Shoray Inkeshafi Building",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه ژنگوره معاون زمان",
+    "Polling_Center_Location": "Zhangora Maawen Zaman Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7427888.0288006067,
+    "y": 4407952.0572000071
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3181,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2113103",
+    "District": "KALDAR",
+    "د_مرکز_نوم__نام_مرکز": "مکتب متوسطه قریه کهنه کلدار",
+    "Polling_Center_Name": "Kuhna Kaldar Village Secondary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه کهنه کلدار",
+    "Polling_Center_Location": "Kuhna Kaldar Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7544000.9513389729,
+    "y": 4462819.0506486744
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3182,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2115303",
+    "District": "ZARI",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ابو القاسم",
+    "Polling_Center_Name": "Abul Qasim School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه ناقیچی",
+    "Polling_Center_Location": "Naqichi Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7424355.3058734797,
+    "y": 4295058.5348675251
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3183,
+    "ولایت": "بلخ",
+    "Province": "BALKH",
+    "PC_Code": "2115304",
+    "District": "ZARI",
+    "د_مرکز_نوم__نام_مرکز": "مکتب خواجه احمد سیوی ",
+    "Polling_Center_Name": "Khwaja Ahmad Siwi School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه میرزایی",
+    "Polling_Center_Location": "Mirzayee Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7427442.2075983174,
+    "y": 4295972.4480550587
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3184,
+    "ولایت": "سرپل",
+    "Province": "SAR-E-PUL",
+    "PC_Code": "2201005",
+    "District": "SAR-E-PUL",
+    "د_مرکز_نوم__نام_مرکز": "مسجد  جامع القانی",
+    "Polling_Center_Name": "Alqani Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه القانی کلان ",
+    "Polling_Center_Location": "Alqani Kalan Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 3,
+    "PS_Total": 6
+   },
+   "geometry": {
+    "x": 7338127.0913820341,
+    "y": 4330841.3583590016
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3185,
+    "ولایت": "سرپل",
+    "Province": "SAR-E-PUL",
+    "PC_Code": "2201006",
+    "District": "SAR-E-PUL",
+    "د_مرکز_نوم__نام_مرکز": "لیسه قراغو",
+    "Polling_Center_Name": "Qaragho High School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه قراغو",
+    "Polling_Center_Location": "Qaragho Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7335428.0957811996,
+    "y": 4336404.2301060557
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3186,
+    "ولایت": "سرپل",
+    "Province": "SAR-E-PUL",
+    "PC_Code": "2202059",
+    "District": "SAYAD",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ابتدائیه",
+    "Polling_Center_Name": "Primary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه بلندغور",
+    "Polling_Center_Location": "Beland Ghor Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7327434.475805074,
+    "y": 4314331.9883434102
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3187,
+    "ولایت": "سرپل",
+    "Province": "SAR-E-PUL",
+    "PC_Code": "2202060",
+    "District": "SAYAD",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ابتدائیه",
+    "Polling_Center_Name": "Primary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه هجده بلا",
+    "Polling_Center_Location": "Hajda Bala Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7306698.8617848121,
+    "y": 4308797.5992158949
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3188,
+    "ولایت": "سرپل",
+    "Province": "SAR-E-PUL",
+    "PC_Code": "2205101",
+    "District": "SANG CHARAK",
+    "د_مرکز_نوم__نام_مرکز": "مدرسه قریه قشلاق کهنه",
+    "Polling_Center_Name": "Qashlaq Kuhna Village Madrassa",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه قشلاق کهنه",
+    "Polling_Center_Location": "Qashlaq Kuhna Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 1,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7392580.1245929152,
+    "y": 4261421.457795307
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3189,
+    "ولایت": "سرپل",
+    "Province": "SAR-E-PUL",
+    "PC_Code": "2207092",
+    "District": "BALKHAB",
+    "د_مرکز_نوم__نام_مرکز": "مکتب قریه اوش",
+    "Polling_Center_Name": "Qarya Osh School",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه اوش",
+    "Polling_Center_Location": "Osh Village",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7413589.154867284,
+    "y": 4232004.5257632211
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3190,
+    "ولایت": "غور",
+    "Province": "GHOR",
+    "PC_Code": "2301014",
+    "District": "CHIGHCHERAN",
+    "د_مرکز_نوم__نام_مرکز": "مکتب آهنگران",
+    "Polling_Center_Name": "Ahengaran School",
+    "د_مرکز_ځای__موقعیت_مرکز": " آهنگران",
+    "Polling_Center_Location": "Ahengaran",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 4,
+    "PS_Female": 3,
+    "PS_Total": 7
+   },
+   "geometry": {
+    "x": 7242403.7785094418,
+    "y": 4092193.9503068775
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3191,
+    "ولایت": "غور",
+    "Province": "GHOR",
+    "PC_Code": "2301015",
+    "District": "CHIGHCHERAN",
+    "د_مرکز_نوم__نام_مرکز": "مسجد امروتک",
+    "Polling_Center_Name": "Amrotak Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": " امروتک",
+    "Polling_Center_Location": "Amrotak",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7234159.2110052183,
+    "y": 4087196.8732911348
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3192,
+    "ولایت": "غور",
+    "Province": "GHOR",
+    "PC_Code": "2305126",
+    "District": "PASABAND",
+    "د_مرکز_نوم__نام_مرکز": "خیمه بازار خشک آبه",
+    "Polling_Center_Name": "Khushka Aab Bazar Tent",
+    "د_مرکز_ځای__موقعیت_مرکز": "قریه خشک آبه",
+    "Polling_Center_Location": "Khushka Aba",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7235070.9955584556,
+    "y": 3973057.3027637452
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3193,
+    "ولایت": "غور",
+    "Province": "GHOR",
+    "PC_Code": "2306084",
+    "District": "SHAHRAK",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ابتدائیه جلگه مزار",
+    "Polling_Center_Name": "Jalga Mazar Primary School",
+    "د_مرکز_ځای__موقعیت_مرکز": " جلگه مزار",
+    "Polling_Center_Location": "Jalga Mazar",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7163374.4507722631,
+    "y": 4100526.2543565929
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3194,
+    "ولایت": "غور",
+    "Province": "GHOR",
+    "PC_Code": "2307145",
+    "District": "LAL WA SARJANGAL",
+    "د_مرکز_نوم__نام_مرکز": "مسجد جامع لال",
+    "Polling_Center_Name": "Laal Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "دهن سقاوه",
+    "Polling_Center_Location": "Dahan Saqawa",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7378450.4473800398,
+    "y": 4096161.8020905554
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3195,
+    "ولایت": "غور",
+    "Province": "GHOR",
+    "PC_Code": "2307165",
+    "District": "LAL WA SARJANGAL",
+    "د_مرکز_نوم__نام_مرکز": "مکتب قلعه کشک",
+    "Polling_Center_Name": "Qala-e-Koshk School",
+    "د_مرکز_ځای__موقعیت_مرکز": " قلعه کشک",
+    "Polling_Center_Location": "Qala-e-Koshk",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7377894.7928021587,
+    "y": 4107279.8107656091
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3196,
+    "ولایت": "غور",
+    "Province": "GHOR",
+    "PC_Code": "2309183",
+    "District": "TULAK",
+    "د_مرکز_نوم__نام_مرکز": "مکتب ابتدائیه کاه ده رو",
+    "Polling_Center_Name": "Kaah Dehro Primary School",
+    "د_مرکز_ځای__موقعیت_مرکز": "کاه ده رو",
+    "Polling_Center_Location": "Kaah Dehro",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 1,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7092977.2270826064,
+    "y": 4018099.5410661399
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3197,
+    "ولایت": "غور",
+    "Province": "GHOR",
+    "PC_Code": "2310206",
+    "District": "SAGHAR",
+    "د_مرکز_نوم__نام_مرکز": "زیرتنگی قریه زال",
+    "Polling_Center_Name": "Zer Tangi Qarya Zaal",
+    "د_مرکز_ځای__موقعیت_مرکز": " قریه زال",
+    "Polling_Center_Location": "Zaal Village",
+    "Map_Accuracy": "Village",
+    "Map_Accuracy_Dari": "قریه",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 1,
+    "PS_Total": 2
+   },
+   "geometry": {
+    "x": 7079942.5963610783,
+    "y": 3963031.8119187951
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3198,
+    "ولایت": "دایکندی",
+    "Province": "DAYKUNDI",
+    "PC_Code": "2402021",
+    "District": "SHAHRISTAN",
+    "د_مرکز_نوم__نام_مرکز": "مسجد چپراسک",
+    "Polling_Center_Name": "Chaprasak Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "چپراسک",
+    "Polling_Center_Location": "Chaprasak",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 1,
+    "PS_Female": 2,
+    "PS_Total": 3
+   },
+   "geometry": {
+    "x": 7427291.2494632415,
+    "y": 3999575.4904439971
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3199,
+    "ولایت": "دایکندی",
+    "Province": "DAYKUNDI",
+    "PC_Code": "2402022",
+    "District": "SHAHRISTAN",
+    "د_مرکز_نوم__نام_مرکز": "مسجد غوجگرد",
+    "Polling_Center_Name": "Ghojgard Mosque",
+    "د_مرکز_ځای__موقعیت_مرکز": "غوجگرد",
+    "Polling_Center_Location": "Ghojgard",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 3,
+    "PS_Female": 2,
+    "PS_Total": 5
+   },
+   "geometry": {
+    "x": 7399978.837625511,
+    "y": 3994957.8651950061
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3200,
+    "ولایت": "دایکندی",
+    "Province": "DAYKUNDI",
+    "PC_Code": "2404044",
+    "District": "ISHTERLAI",
+    "د_مرکز_نوم__نام_مرکز": "خیمه بازار قریه  ده عروس",
+    "Polling_Center_Name": "Deh Aroos Village Bazar Tent",
+    "د_مرکز_ځای__موقعیت_مرکز": "ده عروس خوشک",
+    "Polling_Center_Location": "Deh Aroos Khushk",
+    "Map_Accuracy": "Building",
+    "Map_Accuracy_Dari": "تعمیر",
+    "Status": null,
+    "Status_Dari": null,
+    "PS_Male": 2,
+    "PS_Female": 2,
+    "PS_Total": 4
+   },
+   "geometry": {
+    "x": 7377537.3826526552,
+    "y": 4015119.7669784725
+   }
+  }
+ ]
+}
