@@ -4,9 +4,7 @@ import os, sys, time
 import simplejson as json
 from osgeo import gdal,osr
 
-# Transform from Minna / Nigeria Mid Belt to WGS84
-#   http://spatialreference.org/ref/sr-org/6928/
-#   WGS83 EPSG = 4326
+# Transform coordinates
 
 inSRS = 3857
 outSRS = 4326
@@ -29,6 +27,8 @@ def transformTo(x, y, inSRS, outSRS):
 	count = count + 1
 
 	return transformed
+
+# Parse data
 
 def parseEN(data):
 	global row 
